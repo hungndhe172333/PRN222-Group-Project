@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "14_GroupProject_PRN222_SE1810/1.0.0": {
+        "runtime": {
+          "14_GroupProject_PRN222_SE1810.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "14_GroupProject_PRN222_SE1810/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

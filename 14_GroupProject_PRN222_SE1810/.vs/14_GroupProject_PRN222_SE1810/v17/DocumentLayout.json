@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_groupproject_prn222_se1810\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_groupproject_prn222_se1810\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_groupproject_prn222_se1810\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_groupproject_prn222_se1810\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF90024-536D-4750-A4BE-019AE1B19290}|14_GroupProject_PRN222_SE1810.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:17:51.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T07:08:32.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
-              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Pages\\Index.cshtml",
-              "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Login.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_GroupProject_PRN222_SE1810\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Pages\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-02T02:40:33.156Z",
+              "WhenOpened": "2025-02-02T07:08:31.588Z",
               "EditorCaption": ""
             }
           ]
