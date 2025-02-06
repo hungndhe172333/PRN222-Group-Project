@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\14_GroupProject_PRN222_SE1810.props" />
-</Project>
