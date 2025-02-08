@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_prn222_se1810\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_prn222_se1810\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_prn222_se1810\\models\\prn222context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|solutionrelative:models\\prn222context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_prn222_se1810\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\14_prn222_se1810\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F87F95D-C903-4BDD-8DEE-E425CD7BED64}|14_PRN222_SE1810.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Prn222Context.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Models\\Prn222Context.cs",
+              "RelativeDocumentMoniker": "Models\\Prn222Context.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Models\\Prn222Context.cs",
+              "RelativeToolTip": "Models\\Prn222Context.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAnwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:27:32.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:55:17.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-06T01:55:15.073Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:38:59.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T13:26:42.277Z",
               "EditorCaption": ""
             }
           ]
