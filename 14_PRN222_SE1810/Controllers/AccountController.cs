@@ -22,7 +22,7 @@ namespace _14_PRN222_SE1810.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(string email, string password)
+        public IActionResult Login(string email, string password, bool rememberMe)
         {
             var user = _context.Users.FirstOrDefault(u => u.UserEmail == email && u.UserPass == password);
 
@@ -42,8 +42,13 @@ namespace _14_PRN222_SE1810.Controllers
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-            //cookie sẽ bị xóa khi đóng trình duyệt (false )
-            var authProperties = new AuthenticationProperties { IsPersistent = false };
+            var authProperties = new AuthenticationProperties
+            {
+                IsPersistent = rememberMe, // Nếu chọn "Remember Me", cookie sẽ lưu lâu hơn
+
+                //true = 7 ngày; false = 1 giờ
+                ExpiresUtc = rememberMe ? DateTime.UtcNow.AddDays(7) : DateTime.UtcNow.AddMinutes(120)
+            };
 
             HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
 
