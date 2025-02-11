@@ -22,6 +22,7 @@ namespace _14_PRN222_SE1810.Controllers
 
         //Đăng ký
         // Lưu tạm thông tin user để xác thực OTP
+        //ádf
         private static Dictionary<string, (User User, string OTP, DateTime Expiry)> otpStorage = new();
         private static Dictionary<string, (string OTP, DateTime Expiry)> otpForgotPassStorage = new();
 
