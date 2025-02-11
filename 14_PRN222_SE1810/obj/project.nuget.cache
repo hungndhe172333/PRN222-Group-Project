@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "u0Wh/KAGnaYUYkhyISGLgmaA8QN0L5cl+EZiYHawUpm8kGMem2jm5xociCPEwyo0jSkomIZRfInXJvCPC3j4wQ==",
+  "dgSpecHash": "9dYOtK5imFIvfBLWf9JPoKVINPUV8Yh9sVpikp7Bg8iW8Qsx5NlrgE/GexRfYF+zPex56jl8YOuwJ6gHw2wL2w==",
   "success": true,
   "projectFilePath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\14_PRN222_SE1810\\14_PRN222_SE1810.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.12\\microsoft.aspnetcore.authentication.google.8.0.12.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
