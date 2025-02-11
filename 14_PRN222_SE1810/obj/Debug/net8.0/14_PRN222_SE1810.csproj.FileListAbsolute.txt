@@ -173,3 +173,5 @@ D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810\obj\
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810\obj\Debug\net8.0\14_PRN222_SE1810.pdb
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810\obj\Debug\net8.0\14_PRN222_SE1810.genruntimeconfig.cache
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810\obj\Debug\net8.0\ref\14_PRN222_SE1810.dll
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll

@@ -8,6 +8,7 @@ using _14_PRN222_SE1810.Models;
 using System.Net.Mail;
 using System.Net;
 using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.Facebook;
 
 namespace _14_PRN222_SE1810.Controllers
 {
@@ -274,6 +275,55 @@ namespace _14_PRN222_SE1810.Controllers
                     IsStoreStaff = "False"
                 };
 
+                _context.Users.Add(user);
+                _context.SaveChanges();
+            }
+
+            // Đăng nhập user vào hệ thống
+            var userClaims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Email, user.UserEmail),
+            new Claim("FullName", user.UserName),
+        };
+
+            var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties { IsPersistent = true };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        //Login Facebook
+        [HttpGet]
+        public IActionResult FacebookLogin()
+        {
+            var properties = new AuthenticationProperties { RedirectUri = Url.Action("FacebookResponse") };
+            return Challenge(properties, FacebookDefaults.AuthenticationScheme);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> FacebookResponse()
+        {
+            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            if (!result.Succeeded)
+                return RedirectToAction("Login");
+
+            var claims = result.Principal.Identities.FirstOrDefault()?.Claims.Select(c => new
+            {
+                c.Type,
+                c.Value
+            });
+
+            string email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+            string fullName = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+
+            // Kiểm tra email có trong DB không?
+            var user = _context.Users.FirstOrDefault(u => u.UserEmail == email);
+            if (user == null)
+            {
+                user = new User { UserEmail = email, UserName = fullName };
                 _context.Users.Add(user);
                 _context.SaveChanges();
             }

@@ -13,7 +13,7 @@ builder.Services.AddDbContext<Prn222Context>(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-// Cấu hình Authentication (Cookie + Google OAuth)
+// Cấu hình Authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -28,6 +28,10 @@ builder.Services.AddAuthentication(options =>
 {
     googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
     googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+}).AddFacebook(facebookOptions =>
+{
+    facebookOptions.AppId = builder.Configuration["Authentication:Facebook:AppId"];
+    facebookOptions.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
 });
 
 var app = builder.Build();
