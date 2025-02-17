@@ -22,7 +22,6 @@ namespace _14_PRN222_SE1810.Controllers
 
         //Đăng ký
         // Lưu tạm thông tin user để xác thực OTP
-        //ádf
         private static Dictionary<string, (User User, string OTP, DateTime Expiry)> otpStorage = new();
         private static Dictionary<string, (string OTP, DateTime Expiry)> otpForgotPassStorage = new();
 
@@ -270,7 +269,7 @@ namespace _14_PRN222_SE1810.Controllers
                 {
                     UserEmail = email,
                     UserName = fullName ?? "Google User",
-                    UserPass = null, // Vì đăng nhập bằng Google
+                    UserPass = "abc@123",
                     IsAdmin = "False",
                     Banned = false,
                     IsStoreStaff = "False"
@@ -319,12 +318,18 @@ namespace _14_PRN222_SE1810.Controllers
 
             string email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
             string fullName = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
-
             // Kiểm tra email có trong DB không?
             var user = _context.Users.FirstOrDefault(u => u.UserEmail == email);
             if (user == null)
             {
-                user = new User { UserEmail = email, UserName = fullName };
+                user = new User { 
+                    UserEmail = email, 
+                    UserPass = "abc@123",
+                    UserName = fullName,
+                    IsAdmin = "False",
+                    Banned = false,
+                    IsStoreStaff = "False"
+                };
                 _context.Users.Add(user);
                 _context.SaveChanges();
             }

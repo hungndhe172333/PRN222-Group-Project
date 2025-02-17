@@ -27,7 +27,7 @@
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <p>Xin chào, @User.Identity.Name!</p>
+                            <p>Xin chào, @User.Identity.Name !</p>
                             <li class="nav-item">
                                 <a asp-action="Logout" asp-controller="Account" class="btn btn-danger">Đăng xuất</a>
                             </li>

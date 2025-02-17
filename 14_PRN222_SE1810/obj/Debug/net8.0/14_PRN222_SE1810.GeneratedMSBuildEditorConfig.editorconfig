@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\14_PRN222_SE1810
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Studing/Sp25/PRN222/Project PRN222/PRN222-Group-Project/14_PRN222_SE1810/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Studing/Sp25/PRN222/Project PRN222/PRN222-Group-Project/14_PRN222_SE1810/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Studing/Sp25/PRN222/Project PRN222/PRN222-Group-Project/14_PRN222_SE1810/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Studing/Sp25/PRN222/Project PRN222/PRN222-Group-Project/14_PRN222_SE1810/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Studing/Sp25/PRN222/Project PRN222/PRN222-Group-Project/14_PRN222_SE1810/Views/Account/VerifyOtp.cshtml]
