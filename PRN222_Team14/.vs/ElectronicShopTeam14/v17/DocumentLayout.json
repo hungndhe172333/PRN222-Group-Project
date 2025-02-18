@@ -1,0 +1,998 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\wwwroot\\assets\\js\\hs.core.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:wwwroot\\assets\\js\\hs.core.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\service\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:service\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\userprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\forgotpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\wwwroot\\images\\product-thumbnail-4.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:wwwroot\\images\\product-thumbnail-4.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\electronicshopteam14context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\electronicshopteam14context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\data\\electronicshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:data\\electronicshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Prn222\\PRN222 templete\\transvelo.github.io\\electro-html\\2.0\\html\\home\\home-v7.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\shared\\admin\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\shared\\admin\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\electronicshopteam14.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:electronicshopteam14.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\warranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\wwwroot\\img\\logo.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:wwwroot\\img\\logo.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\shared\\admin\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\shared\\admin\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\shared\\admin\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\shared\\admin\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\migrations\\addpasswordresetcolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:migrations\\addpasswordresetcolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\vendor\\jquery\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:vendor\\jquery\\jquery.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\technicalspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\technicalspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\shipping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\repairrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\repairrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\productsaleoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\productsaleoff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\productbundle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\productbundle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\productactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\productactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\electronicshopteam14\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Brand.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Brand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:18:00.998Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T22:26:44.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "Models\\Bill.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Bill.cs",
+              "RelativeToolTip": "Models\\Bill.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T22:23:49.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "home-v7.html",
+              "DocumentMoniker": "D:\\Prn222\\PRN222 templete\\transvelo.github.io\\electro-html\\2.0\\html\\home\\home-v7.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Prn222\\PRN222 templete\\transvelo.github.io\\electro-html\\2.0\\html\\home\\home-v7.html",
+              "ToolTip": "D:\\Prn222\\PRN222 templete\\transvelo.github.io\\electro-html\\2.0\\html\\home\\home-v7.html",
+              "RelativeToolTip": "..\\..\\..\\..\\Prn222\\PRN222 templete\\transvelo.github.io\\electro-html\\2.0\\html\\home\\home-v7.html",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFoAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-15T21:44:35.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAiwGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T21:08:16.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePasswordViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "Models\\ChangePasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T21:07:52.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Account\\Profile.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAiwKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T21:07:33.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserProfileViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\UserProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfileViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\UserProfileViewModel.cs",
+              "RelativeToolTip": "Models\\UserProfileViewModel.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T21:06:18.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T18:40:45.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "logo.jpg - Bitmap [1149x845, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\wwwroot\\img\\logo.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\img\\logo.jpg",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\wwwroot\\img\\logo.jpg - Bitmap [1149x845, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\img\\logo.jpg - Bitmap [1149x845, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-10T18:42:36.362Z",
+              "EditorCaption": " - Bitmap [1149x845, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABoRAAAAAAAAAAAAAGwRAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:52:03.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAQBAAAAAAAAAAAUwHUBAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:50:27.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\History.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\History.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\History.cshtml",
+              "RelativeToolTip": "Views\\Home\\History.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T22:27:22.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Detail.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Home\\Detail.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAWwBYAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T22:27:44.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "product-thumbnail-4.jpg - Bitmap [403x403, 24 bit, JPG]",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\wwwroot\\images\\product-thumbnail-4.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\product-thumbnail-4.jpg",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\wwwroot\\images\\product-thumbnail-4.jpg - Bitmap [403x403, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\images\\product-thumbnail-4.jpg - Bitmap [403x403, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-02-16T19:16:01.195Z",
+              "EditorCaption": " - Bitmap [403x403, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hs.core.js",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\wwwroot\\assets\\js\\hs.core.js",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\js\\hs.core.js",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\wwwroot\\assets\\js\\hs.core.js",
+              "RelativeToolTip": "wwwroot\\assets\\js\\hs.core.js",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-16T20:24:53.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T18:37:36.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T18:32:42.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\Admin\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Admin\\_Sidebar.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\Admin\\_Sidebar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Admin\\_Sidebar.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwCsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T22:59:25.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\Admin\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Admin\\_Layout.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\Admin\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Admin\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T22:58:45.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashBoardController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "Controllers\\DashBoardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T22:56:03.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DashBoard.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Admin\\DashBoard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\DashBoard.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Admin\\DashBoard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\DashBoard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T22:47:29.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ResetPasswordViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "Models\\ResetPasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:45:59.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Service\\EmailService.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\EmailService.cs",
+              "RelativeToolTip": "Service\\EmailService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T20:37:27.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddPasswordResetColumns.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Migrations\\AddPasswordResetColumns.cs",
+              "RelativeDocumentMoniker": "Migrations\\AddPasswordResetColumns.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Migrations\\AddPasswordResetColumns.cs",
+              "RelativeToolTip": "Migrations\\AddPasswordResetColumns.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:17:22.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Service\\IEmailService.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\IEmailService.cs",
+              "RelativeToolTip": "Service\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:23:24.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForgotPasswordViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ForgotPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ForgotPasswordViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ForgotPasswordViewModel.cs",
+              "RelativeToolTip": "Models\\ForgotPasswordViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T17:18:27.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T17:16:53.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAIMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T17:01:26.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowCAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:59:27.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ElectronicShopTeam14.csproj",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
+              "RelativeDocumentMoniker": "ElectronicShopTeam14.csproj",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
+              "RelativeToolTip": "ElectronicShopTeam14.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJ8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-09T13:11:34.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "jquery.min.js",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\vendor\\jquery\\jquery.min.js",
+              "RelativeDocumentMoniker": "vendor\\jquery\\jquery.min.js",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\vendor\\jquery\\jquery.min.js",
+              "RelativeToolTip": "vendor\\jquery\\jquery.min.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-09T13:13:18.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Service\\UserRepository.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\UserRepository.cs",
+              "RelativeToolTip": "Service\\UserRepository.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAIwHIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:43:42.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Service\\IUserRepository.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Service\\IUserRepository.cs",
+              "RelativeToolTip": "Service\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:42:47.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ElectronicShopTeam14Context.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ElectronicShopTeam14Context.cs",
+              "RelativeDocumentMoniker": "Models\\ElectronicShopTeam14Context.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ElectronicShopTeam14Context.cs",
+              "RelativeToolTip": "Models\\ElectronicShopTeam14Context.cs",
+              "ViewState": "AQIAAEYCAAAAAAAAAAAcwGACAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T12:15:10.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "libman.json",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\libman.json",
+              "RelativeDocumentMoniker": "libman.json",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\libman.json",
+              "RelativeToolTip": "libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-09T11:45:13.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_LoginLayout.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\Admin\\_LoginLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Admin\\_LoginLayout.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\Admin\\_LoginLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Admin\\_LoginLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T11:41:38.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowC0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T16:27:18.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Models\\DashboardViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T16:26:15.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Models\\Report.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Report.cs",
+              "RelativeToolTip": "Models\\Report.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:22:05.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Warranty.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Warranty.cs",
+              "RelativeDocumentMoniker": "Models\\Warranty.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Warranty.cs",
+              "RelativeToolTip": "Models\\Warranty.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:21:27.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TransactionHistory.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\TransactionHistory.cs",
+              "RelativeDocumentMoniker": "Models\\TransactionHistory.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\TransactionHistory.cs",
+              "RelativeToolTip": "Models\\TransactionHistory.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:21:18.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "TechnicalSpecification.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\TechnicalSpecification.cs",
+              "RelativeDocumentMoniker": "Models\\TechnicalSpecification.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\TechnicalSpecification.cs",
+              "RelativeToolTip": "Models\\TechnicalSpecification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:21:07.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Shipping.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Shipping.cs",
+              "RelativeDocumentMoniker": "Models\\Shipping.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\Shipping.cs",
+              "RelativeToolTip": "Models\\Shipping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:20:57.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ProductSaleOff.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductSaleOff.cs",
+              "RelativeDocumentMoniker": "Models\\ProductSaleOff.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductSaleOff.cs",
+              "RelativeToolTip": "Models\\ProductSaleOff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:20:12.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductBundle.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductBundle.cs",
+              "RelativeDocumentMoniker": "Models\\ProductBundle.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductBundle.cs",
+              "RelativeToolTip": "Models\\ProductBundle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:19:32.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductColor.cs",
+              "RelativeDocumentMoniker": "Models\\ProductColor.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductColor.cs",
+              "RelativeToolTip": "Models\\ProductColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:18:08.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "About.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\About.cs",
+              "RelativeDocumentMoniker": "Models\\About.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\About.cs",
+              "RelativeToolTip": "Models\\About.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:18:03.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductActive.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductActive.cs",
+              "RelativeDocumentMoniker": "Models\\ProductActive.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\ProductActive.cs",
+              "RelativeToolTip": "Models\\ProductActive.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:17:57.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:54:49.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:52:30.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:52:04.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:51:55.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:51:49.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T07:49:30.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAgwHcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-05T07:48:19.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:56:49.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ElectronicShopContext.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Data\\ElectronicShopContext.cs",
+              "RelativeDocumentMoniker": "Data\\ElectronicShopContext.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Data\\ElectronicShopContext.cs",
+              "RelativeToolTip": "Data\\ElectronicShopContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:56:19.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RepairRequest.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\RepairRequest.cs",
+              "RelativeDocumentMoniker": "Models\\RepairRequest.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\RepairRequest.cs",
+              "RelativeToolTip": "Models\\RepairRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:52:26.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:52:16.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T05:20:56.626Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
