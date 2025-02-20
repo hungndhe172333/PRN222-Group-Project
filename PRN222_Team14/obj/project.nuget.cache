@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a/LnobeMwG4z9A7j/4FstT9TEEo0mh+rHVqxgEBlykVq4J/hBK0Il3usPxuunb8p7RFK3Mn1S6a0HUdPyf3ZKg==",
+  "dgSpecHash": "aT/hE/OUaD+5i9lT1xvAKPrGzzNAo+zE4QxySo5xHfS0OClol/pVgHNkGSKwOg8uxMuD4/PtroSKC/f/63yqLQ==",
   "success": true,
-  "projectFilePath": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
+  "projectFilePath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\ElectronicShopTeam14.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

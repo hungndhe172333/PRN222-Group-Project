@@ -6444,11 +6444,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
+      "projectUniqueName": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\ElectronicShopTeam14.csproj",
       "projectName": "ElectronicShopTeam14",
-      "projectPath": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
+      "projectPath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\ElectronicShopTeam14.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\obj\\",
+      "outputPath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
