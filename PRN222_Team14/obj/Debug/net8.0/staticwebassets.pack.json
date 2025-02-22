@@ -1,1307 +1,1355 @@
 {
   "Files": [
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ElectronicShopTeam14.bundle.scp.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ElectronicShopTeam14.bundle.scp.css",
       "PackagePath": "staticwebassets\\ElectronicShopTeam14.bundle.scp.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\css\\font-electro.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\css\\font-electro.css",
       "PackagePath": "staticwebassets\\assets\\css\\font-electro.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\css\\theme.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\css\\theme.css",
       "PackagePath": "staticwebassets\\assets\\css\\theme.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img10.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img10.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img10.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img11.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img11.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img11.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img12.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img12.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img12.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img13.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img13.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img13.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img14.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img14.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img14.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img15.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img15.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img15.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img16.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img16.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img16.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img5.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img5.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img5.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img6.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img6.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img6.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img7.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img7.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img7.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img8.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img8.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img8.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img9.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X100\\img9.png",
       "PackagePath": "staticwebassets\\assets\\img\\100X100\\img9.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X60\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X60\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X60\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X60\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X60\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X60\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X60\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X60\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img5.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\100X60\\img5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\100X60\\img5.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1024X1024\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1024X1024\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1024X1024\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1024X1024\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1400X143\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1400X143\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\1400X143\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1400X206\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1400X206\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1400X206\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1400X420\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1400X420\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1400X420\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\140X140\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\140X140\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\140X140\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\140X140\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\140X140\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\140X140\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\140X140\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\140X140\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\140X140\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img5.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img5.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img6.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img6.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img7.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img7.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img8.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\150X140\\img8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\150X140\\img8.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\190X150\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\190X150\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\190X150\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\190X150\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\190X150\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\190X150\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\190X150\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\190X150\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img6.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img6.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img7.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img7.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img8.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X1080\\img8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img8.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X422\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X422\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X422\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X422\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X422\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X422\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X714\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920X714\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\1920X714\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920x600\\img1.html",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\1920x600\\img1.html",
       "PackagePath": "staticwebassets\\assets\\img\\1920x600\\img1.html"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X276\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X276\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\200X276\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X276\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X276\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\200X276\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X60\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\200X60\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X60\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\200X60\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X60\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\200X60\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X60\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\200X60\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img5.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X60\\img5.png",
       "PackagePath": "staticwebassets\\assets\\img\\200X60\\img5.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img6.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\200X60\\img6.png",
       "PackagePath": "staticwebassets\\assets\\img\\200X60\\img6.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img5.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img5.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img6.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img6.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img7.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img7.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img8.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X200\\img8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X200\\img8.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X305\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X305\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X305\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X305\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\212X305\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\212X305\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\246X176\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\246X176\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\246X176\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\246X176\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\246X176\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\246X176\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\246X176\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\246X176\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\246X176\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\270X180\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\270X180\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\270X180\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\270X428\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\270X428\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\270X428\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img10.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img10.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img10.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img11.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img11.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img5.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img5.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img6.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img6.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img7.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img7.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img8.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img8.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img9.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X275\\img9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X275\\img9.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img10.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img10.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img10.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img11.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img11.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img11.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img12.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img12.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img12.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img13.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img13.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img13.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img14.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img14.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img14.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img15.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img15.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img15.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img16.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img16.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img16.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img17.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img17.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img17.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img18.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img18.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img18.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img19.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img19.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img19.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img20.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img20.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img20.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img21.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img21.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img21.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img5.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img5.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img6.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img6.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img7.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img7.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img7.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img8.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img8.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img9.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\300X300\\img9.png",
       "PackagePath": "staticwebassets\\assets\\img\\300X300\\img9.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\320X300\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\320X300\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\320X300\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\330X360\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\330X360\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\330X360\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\360X616\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\360X616\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\360X616\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\360X616\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\360X616\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\360X616\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\370X608\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\370X608\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\370X608\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\374X386\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\374X386\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\374X386\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\380X350\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\380X350\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\380X350\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\380X350\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\380X350\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\380X350\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\390X270\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\390X270\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\390X270\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\390X370\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\390X370\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\390X370\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\400X400\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\400X400\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\400X400\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\400X400\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\400X400\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\400X400\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\400X400\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\400X400\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img5.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\400X400\\img5.png",
       "PackagePath": "staticwebassets\\assets\\img\\400X400\\img5.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\416X420\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\416X420\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\416X420\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\416X420\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\416X420\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\416X420\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\416X420\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\416X420\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\416X420\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\446X262\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\446X262\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\446X262\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\446X262\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\446X262\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\446X262\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\446X262\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\446X262\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\468X417\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\468X417\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\468X417\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X300\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X300\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\500X300\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X300\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X300\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\500X300\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X300\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X300\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\500X300\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X380\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X380\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X380\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X380\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X380\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X380\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X380\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X380\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X380\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img5.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img5.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img5.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img6.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img6.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img6.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img7.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\500X400\\img7.png",
       "PackagePath": "staticwebassets\\assets\\img\\500X400\\img7.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\536X150\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\536X150\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\536X150\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\536X150\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\536X150\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\536X150\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\564X520\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\564X520\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\564X520\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\564X520\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\564X520\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\564X520\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\665X616\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\665X616\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\665X616\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\690X150\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\690X150\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\690X150\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\690X150\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\690X150\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\690X150\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img1.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\724X360\\img1.png",
       "PackagePath": "staticwebassets\\assets\\img\\724X360\\img1.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img2.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\724X360\\img2.png",
       "PackagePath": "staticwebassets\\assets\\img\\724X360\\img2.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img3.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\724X360\\img3.png",
       "PackagePath": "staticwebassets\\assets\\img\\724X360\\img3.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img4.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\724X360\\img4.png",
       "PackagePath": "staticwebassets\\assets\\img\\724X360\\img4.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img1.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img1.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img2.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img2.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img3.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img3.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img4.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img4.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img5.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img5.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img6.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img6.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img6.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img7.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img7.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img7.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img8.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img8.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img9.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\75X75\\img9.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\75X75\\img9.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\img\\ElectronicShopLogo.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\ElectronicShopLogo.png",
       "PackagePath": "staticwebassets\\assets\\img\\ElectronicShopLogo.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.countdown.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (1).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (1).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (1).png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (1).png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (10).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (10).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (2).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (2).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (2).png",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (2).png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (3).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (3).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (4).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (4).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (5).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (5).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (6).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (6).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (7).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (7).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (8).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (8).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\img\\Products\\Headphone\\HP (9).jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Products\\Headphone\\HP (9).jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.countdown.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.countdown.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.fancybox.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.fancybox.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.fancybox.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.focus-state.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.focus-state.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.focus-state.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.go-to.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.go-to.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.go-to.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.hamburgers.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.hamburgers.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.hamburgers.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.header.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.header.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.header.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.malihu-scrollbar.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.malihu-scrollbar.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.malihu-scrollbar.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.onscroll-animation.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.onscroll-animation.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.onscroll-animation.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.quantity-counter.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.quantity-counter.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.quantity-counter.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.range-slider.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.range-slider.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.range-slider.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.scroll-nav.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.scroll-nav.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.scroll-nav.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.selectpicker.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.selectpicker.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.selectpicker.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.show-animation.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.show-animation.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.show-animation.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.slick-carousel.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.slick-carousel.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.slick-carousel.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.svg-injector.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.svg-injector.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.svg-injector.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.unfold.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.unfold.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.unfold.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.validation.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\hs.validation.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\hs.validation.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\jquery.hsmenu.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\jquery.hsmenu.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\jquery.hsmenu.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\jquery.hsmenu.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\components\\jquery.hsmenu.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\components\\jquery.hsmenu.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\js\\hs.core.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\js\\hs.core.js",
       "PackagePath": "staticwebassets\\assets\\js\\hs.core.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\animate.css\\animate.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\animate.css\\animate.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\animate.css\\animate.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\appear.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\appear.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\appear.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\bootstrap\\bootstrap.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\bootstrap\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\fancybox\\jquery.fancybox.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\fancybox\\jquery.fancybox.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\fancybox\\jquery.fancybox.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\fancybox\\jquery.fancybox.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\fancybox\\jquery.fancybox.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\fancybox\\jquery.fancybox.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\font-awesome\\css\\fontawesome-all.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\font-awesome\\css\\fontawesome-all.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\css\\fontawesome-all.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\ion-rangeslider\\css\\ion.rangeSlider.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\ion-rangeslider\\css\\ion.rangeSlider.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\ion-rangeslider\\css\\ion.rangeSlider.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery-migrate\\dist\\jquery-migrate.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\jquery-migrate\\dist\\jquery-migrate.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery-migrate\\dist\\jquery-migrate.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery.countdown.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\jquery.countdown.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery.countdown.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png",
       "PackagePath": "staticwebassets\\assets\\vendor\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\popper.js\\dist\\umd\\popper.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\popper.js\\dist\\umd\\popper.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\popper.js\\dist\\umd\\popper.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\slick-carousel\\slick\\slick.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\slick-carousel\\slick\\slick.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\slick-carousel\\slick\\slick.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\slick-carousel\\slick\\slick.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\slick-carousel\\slick\\slick.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\slick-carousel\\slick\\slick.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\svg-injector\\dist\\svg-injector.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\svg-injector\\dist\\svg-injector.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\svg-injector\\dist\\svg-injector.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\typed.js\\lib\\typed.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\assets\\vendor\\typed.js\\lib\\typed.min.js",
       "PackagePath": "staticwebassets\\assets\\vendor\\typed.js\\lib\\typed.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\css\\sb-admin-2.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\css\\sb-admin-2.min.css",
       "PackagePath": "staticwebassets\\css\\sb-admin-2.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\css\\site.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\favicon.ico",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\img\\logo.jpg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\img\\logo.jpg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\js\\site.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\all.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\brands.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\regular.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\solid.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\all.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\brands.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\regular.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\solid.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\css\\sb-admin-2.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\css\\sb-admin-2.css",
       "PackagePath": "staticwebassets\\sbadmin\\css\\sb-admin-2.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\css\\sb-admin-2.min.css",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\css\\sb-admin-2.min.css",
       "PackagePath": "staticwebassets\\sbadmin\\css\\sb-admin-2.min.css"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\js\\demo\\chart-area-demo.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\js\\demo\\chart-area-demo.js",
       "PackagePath": "staticwebassets\\sbadmin\\js\\demo\\chart-area-demo.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\js\\demo\\chart-bar-demo.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\js\\demo\\chart-bar-demo.js",
       "PackagePath": "staticwebassets\\sbadmin\\js\\demo\\chart-bar-demo.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\js\\demo\\chart-pie-demo.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\js\\demo\\chart-pie-demo.js",
       "PackagePath": "staticwebassets\\sbadmin\\js\\demo\\chart-pie-demo.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\js\\demo\\datatables-demo.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\js\\demo\\datatables-demo.js",
       "PackagePath": "staticwebassets\\sbadmin\\js\\demo\\datatables-demo.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\js\\sb-admin-2.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\js\\sb-admin-2.js",
       "PackagePath": "staticwebassets\\sbadmin\\js\\sb-admin-2.js"
     },
     {
-      "Id": "C:\\Full Project C#\\ElectronicShopTeam14\\wwwroot\\sbadmin\\js\\sb-admin-2.min.js",
+      "Id": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\wwwroot\\sbadmin\\js\\sb-admin-2.min.js",
       "PackagePath": "staticwebassets\\sbadmin\\js\\sb-admin-2.min.js"
     },
     {
