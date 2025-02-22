@@ -10,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ElectronicShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ElectronicShopTeam14DB")));
 
+
+
 // Add authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
