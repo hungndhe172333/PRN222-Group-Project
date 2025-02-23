@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aT/hE/OUaD+5i9lT1xvAKPrGzzNAo+zE4QxySo5xHfS0OClol/pVgHNkGSKwOg8uxMuD4/PtroSKC/f/63yqLQ==",
+  "dgSpecHash": "29F13XT3UAKNUIxgnPLGspXBZR1tufg3n1XgvRVxYBYiLNXUfKHD9vBYye2TKhbWxLaT58HHQ4fWILwbpcjWhg==",
   "success": true,
   "projectFilePath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\ElectronicShopTeam14.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.3.0\\microsoft.aspnetcore.authentication.cookies.2.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.3.0\\microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\8.0.12\\microsoft.aspnetcore.authentication.facebook.8.0.12.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\8.0.12\\microsoft.aspnetcore.authentication.google.8.0.12.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.3.0\\microsoft.aspnetcore.authorization.policy.2.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.6\\microsoft.aspnetcore.cryptography.internal.8.0.6.nupkg.sha512",

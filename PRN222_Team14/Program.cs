@@ -1,5 +1,5 @@
-using ElectronicShopTeam14.Models;
-
+﻿using ElectronicShopTeam14.Models;
+using Microsoft.AspNetCore.Authentication.Google;
 using ElectronicShopTeam14.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -10,8 +10,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ElectronicShopContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ElectronicShopTeam14DB")));
 
+// Add MVC services
+builder.Services.AddControllersWithViews();
+
 // Add authentication
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme; // Google là scheme mặc định khi đăng nhập
+})
     .AddCookie(options =>
     {
         options.LoginPath = "/Account/Login";
@@ -19,6 +26,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.AccessDeniedPath = "/Account/AccessDenied";
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
         options.SlidingExpiration = true;
+    })
+    .AddGoogle(googleOptions =>
+    {
+        googleOptions.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+        googleOptions.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+    })
+    .AddFacebook(facebookOptions =>
+    {
+        facebookOptions.AppId = builder.Configuration["Authentication:Facebook:AppId"];
+        facebookOptions.AppSecret = builder.Configuration["Authentication:Facebook:AppSecret"];
     });
 
 
@@ -30,9 +47,6 @@ builder.Services.AddAuthorization();
 
 // Register services
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-
-// Add MVC services
-builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 

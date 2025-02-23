@@ -185,6 +185,15 @@ C:\Full Project C#\ElectronicShopTeam14\bin\Debug\net8.0\Microsoft.Extensions.We
 C:\Full Project C#\ElectronicShopTeam14\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Full Project C#\ElectronicShopTeam14\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Full Project C#\ElectronicShopTeam14\bin\Debug\net8.0\vendor\fontawesome-free\package.json
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.csproj.AssemblyReference.cache
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.AssemblyInfoInputs.cache
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.AssemblyInfo.cs
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.csproj.CoreCompileInputs.cache
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.MvcApplicationPartsAssemblyInfo.cache
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.RazorAssemblyInfo.cache
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.RazorAssemblyInfo.cs
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.sourcelink.json
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\appsettings.Development.json
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\appsettings.json
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\libman.json
@@ -198,6 +207,8 @@ D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Deb
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Azure.Core.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Azure.Identity.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Humanizer.dll
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Google.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -348,15 +359,6 @@ D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Deb
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.csproj.AssemblyReference.cache
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.GeneratedMSBuildEditorConfig.editorconfig
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.AssemblyInfoInputs.cache
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.AssemblyInfo.cs
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.csproj.CoreCompileInputs.cache
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.MvcApplicationPartsAssemblyInfo.cache
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.RazorAssemblyInfo.cache
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.RazorAssemblyInfo.cs
-D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\ElectronicShopTeam14.sourcelink.json
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\staticwebassets.build.json
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\staticwebassets.development.json
 D:\Studing\Sp25\PRN222\Project PRN222\PRN222-Group-Project\PRN222_Team14\obj\Debug\net8.0\staticwebassets\msbuild.ElectronicShopTeam14.Microsoft.AspNetCore.StaticWebAssets.props
