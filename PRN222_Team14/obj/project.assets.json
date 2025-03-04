@@ -6439,19 +6439,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ZZ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
+      "projectUniqueName": "C:\\Users\\ZZ\\PRN222-Group-Project\\PRN222_Team14\\ElectronicShopTeam14.csproj",
       "projectName": "ElectronicShopTeam14",
-      "projectPath": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\obj\\",
+      "projectPath": "C:\\Users\\ZZ\\PRN222-Group-Project\\PRN222_Team14\\ElectronicShopTeam14.csproj",
+      "packagesPath": "C:\\Users\\ZZ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ZZ\\PRN222-Group-Project\\PRN222_Team14\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ZZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
