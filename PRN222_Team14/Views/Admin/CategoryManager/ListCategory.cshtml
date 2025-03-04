@@ -1,4 +1,6 @@
-﻿@{
+﻿@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<ElectronicShopTeam14.Models.CategoryViewModel>
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -8,32 +10,26 @@
 <head>
      <!-- Title Meta -->
      <meta charset="utf-8" />
-     <title>Dashboard | Larkon - Responsive Admin Dashboard Template</title>
+     <title>Categories List | Larkon - Responsive Admin Dashboard Template</title>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="A fully responsive premium admin dashboard template" />
      <meta name="author" content="Techzaa" />
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
      <!-- App favicon -->
-     <link rel="shortcut icon" href="Admin/assets/images/favicon.ico">
+     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
      <!-- Vendor css (Require in all Page) -->
-     <link href="Admin/assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
 
      <!-- Icons css (Require in all Page) -->
-     <link href="Admin/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
 
      <!-- App css (Require in all Page) -->
-     <link href="Admin/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
 
      <!-- Theme Config js (Require in all Page) -->
-     <script src="Admin/assets/js/config.js"></script>
-     <style>
-         .logo-box svg path {
-    fill: #FFD700 !important;
-}
-
-     </style>
+     <script src="assets/js/config.js"></script>
 </head>
 
 <body>
@@ -55,7 +51,7 @@
 
                               <!-- Menu Toggle Button -->
                               <div class="topbar-item">
-                                   <h4 class="fw-bold topbar-button pe-none text-uppercase mb-0">Welcome!</h4>
+                                   <h4 class="fw-bold topbar-button pe-none text-uppercase mb-0">Categories List</h4>
                               </div>
                          </div>
 
@@ -92,7 +88,7 @@
                                              <a href="javascript:void(0);" class="dropdown-item py-3 border-bottom text-wrap">
                                                   <div class="d-flex">
                                                        <div class="flex-shrink-0">
-                                                            <img src="Admin/assets/images/users/avatar-1.jpg" class="img-fluid me-2 avatar-sm rounded-circle" alt="avatar-1" />
+                                                            <img src="assets/images/users/avatar-1.jpg" class="img-fluid me-2 avatar-sm rounded-circle" alt="avatar-1" />
                                                        </div>
                                                        <div class="flex-grow-1">
                                                             <p class="mb-0"><span class="fw-medium">Josephine Thompson </span>commented on admin panel <span>" Wow 😍! this admin looks good and awesome design"</span></p>
@@ -121,7 +117,7 @@
                                              <a href="javascript:void(0);" class="dropdown-item py-3 border-bottom">
                                                   <div class="d-flex">
                                                        <div class="flex-shrink-0">
-                                                            <img src="Admin/assets/images/users/avatar-3.jpg" class="img-fluid me-2 avatar-sm rounded-circle" alt="avatar-3" />
+                                                            <img src="assets/images/users/avatar-3.jpg" class="img-fluid me-2 avatar-sm rounded-circle" alt="avatar-3" />
                                                        </div>
                                                        <div class="flex-grow-1">
                                                             <p class="mb-0 fw-semibold">Jacob Gines</p>
@@ -149,7 +145,7 @@
                                              <a href="javascript:void(0);" class="dropdown-item py-3 border-bottom">
                                                   <div class="d-flex">
                                                        <div class="flex-shrink-0">
-                                                            <img src="Admin/assets/images/users/avatar-5.jpg" class="img-fluid me-2 avatar-sm rounded-circle" alt="avatar-5" />
+                                                            <img src="assets/images/users/avatar-5.jpg" class="img-fluid me-2 avatar-sm rounded-circle" alt="avatar-5" />
                                                        </div>
                                                        <div class="flex-grow-1">
                                                             <p class="mb-0 fw-semibold">Shawn Bunch</p>
@@ -184,7 +180,7 @@
                               <div class="dropdown topbar-item">
                                    <a type="button" class="topbar-button" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <span class="d-flex align-items-center">
-                                             <img class="rounded-circle" width="32" src="Admin/assets/images/users/avatar-1.jpg" alt="avatar-3">
+                                             <img class="rounded-circle" width="32" src="assets/images/users/avatar-1.jpg" alt="avatar-3">
                                         </span>
                                    </a>
                                    <div class="dropdown-menu dropdown-menu-end">
@@ -209,8 +205,8 @@
 
                                         <div class="dropdown-divider my-1"></div>
 
-                                        <a class="dropdown-item text-danger" href="@Url.Action("Index","Home")">
-                                             <i class="bx bx-log-out fs-18 align-middle me-1"></i><span class="align-middle">Trở về tranh chủ</span>
+                                        <a class="dropdown-item text-danger" href="auth-signin.html">
+                                             <i class="bx bx-log-out fs-18 align-middle me-1"></i><span class="align-middle">Logout</span>
                                         </a>
                                    </div>
                               </div>
@@ -298,24 +294,24 @@
                                    </div>
                                    <div class="position-relative ps-4">
                                         <div class="mb-4">
-                                             <span class="position-absolute start-0 translate-middle-x bg-success bg-gradient d-inline-flex align-items-center justify-content-center rounded-circle text-light fs-20"><img src="Admin/assets/images/users/avatar-7.jpg" alt="avatar-5" class="avatar-sm rounded-circle"></span>
+                                             <span class="position-absolute start-0 translate-middle-x bg-success bg-gradient d-inline-flex align-items-center justify-content-center rounded-circle text-light fs-20"><img src="assets/images/users/avatar-7.jpg" alt="avatar-5" class="avatar-sm rounded-circle"></span>
                                              <div class="ms-2">
                                                   <h5 class="mb-0 text-dark fw-semibold fs-15 lh-base">Alex Smith Attached Photos
                                                   </h5>
                                                   <div class="row g-2 mt-2">
                                                        <div class="col-lg-4">
                                                             <a href="#!">
-                                                                 <img src="Admin/assets/images/small/img-6.jpg" alt="" class="img-fluid rounded">
+                                                                 <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid rounded">
                                                             </a>
                                                        </div>
                                                        <div class="col-lg-4">
                                                             <a href="#!">
-                                                                 <img src="Admin/assets/images/small/img-3.jpg" alt="" class="img-fluid rounded">
+                                                                 <img src="assets/images/small/img-3.jpg" alt="" class="img-fluid rounded">
                                                             </a>
                                                        </div>
                                                        <div class="col-lg-4">
                                                             <a href="#!">
-                                                                 <img src="Admin/assets/images/small/img-4.jpg" alt="" class="img-fluid rounded">
+                                                                 <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid rounded">
                                                             </a>
                                                        </div>
                                                   </div>
@@ -325,7 +321,7 @@
                                    </div>
                                    <div class="position-relative ps-4">
                                         <div class="mb-4">
-                                             <span class="position-absolute start-0 translate-middle-x bg-success bg-gradient d-inline-flex align-items-center justify-content-center rounded-circle text-light fs-20"><img src="Admin/assets/images/users/avatar-6.jpg" alt="avatar-5" class="avatar-sm rounded-circle"></span>
+                                             <span class="position-absolute start-0 translate-middle-x bg-success bg-gradient d-inline-flex align-items-center justify-content-center rounded-circle text-light fs-20"><img src="assets/images/users/avatar-6.jpg" alt="avatar-5" class="avatar-sm rounded-circle"></span>
                                              <div class="ms-2">
                                                   <h5 class="mb-0 text-dark fw-semibold fs-15 lh-base">Rebecca J. added a new team member
                                                   </h5>
@@ -468,85 +464,13 @@
                <!-- Sidebar Logo -->
                <div class="logo-box">
                     <a href="index.html" class="logo-dark">
-                           <svg version="1.1" x="0px" y="0px" width="120px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
-                                            <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
-                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
-                                                C30.263,0.995,29.876,1.181,29.79,1.5c-0.148,0.548,0,1.568,0,2.427v36.459c0.265,0.221,0.506,0.465,0.725,0.734h6.187
-                                                c0.2-0.25,0.423-0.477,0.669-0.678V1.387C37.124,1.185,36.9,0.959,36.701,0.71H30.514z M117.517,12.731
-                                                c-0.232-0.189-0.439-0.64-0.781-0.734c-0.754-0.209-2.039,0-3.121,0h-3.176V4.435c-0.232-0.189-0.439-0.639-0.781-0.733
-                                                c-0.719-0.2-1.969,0-3.01,0h-3.01c-0.238,0.273-0.625,0.431-0.725,0.847c-0.203,0.852,0,2.399,0,3.725
-                                                c0,1.393,0.045,2.748-0.055,3.725h-6.41c-0.184,0.237-0.629,0.434-0.725,0.791c-0.178,0.654,0,1.813,0,2.765v2.766
-                                                c0.232,0.188,0.439,0.64,0.779,0.733c0.777,0.216,2.109,0,3.234,0c1.154,0,2.291-0.045,3.176,0.057v21.277
-                                                c0.232,0.189,0.439,0.639,0.781,0.734c0.719,0.199,1.969,0,3.01,0h3.01c1.008-0.451,0.725-1.889,0.725-3.443
-                                                c-0.002-6.164-0.047-12.867,0.055-18.625h6.299c0.182-0.236,0.627-0.434,0.725-0.79c0.176-0.653,0-1.813,0-2.765V12.731z
-                                                M135.851,18.262c0.201-0.746,0-2.029,0-3.104v-3.104c-0.287-0.245-0.434-0.637-0.781-0.733c-0.824-0.229-1.992-0.044-2.898,0
-                                                c-2.158,0.104-4.506,0.675-5.74,1.411c-0.146-0.362-0.451-0.853-0.893-0.96c-0.693-0.169-1.859,0-2.842,0h-2.842
-                                                c-0.258,0.319-0.625,0.42-0.725,0.79c-0.223,0.82,0,2.338,0,3.443c0,8.109-0.002,16.635,0,24.381
-                                                c0.232,0.189,0.439,0.639,0.779,0.734c0.707,0.195,1.93,0,2.955,0h3.01c0.918-0.463,0.725-1.352,0.725-2.822V36.21
-                                                c-0.002-3.902-0.242-9.117,0-12.473c0.297-4.142,3.836-4.877,8.527-4.686C135.312,18.816,135.757,18.606,135.851,18.262z
-                                                M14.796,11.376c-5.472,0.262-9.443,3.178-11.76,7.056c-2.435,4.075-2.789,10.62-0.501,15.126c2.043,4.023,5.91,7.115,10.701,7.9
-                                                c6.051,0.992,10.992-1.219,14.324-3.838c-0.687-1.1-1.419-2.664-2.118-3.951c-0.398-0.734-0.652-1.486-1.616-1.467
-                                                c-1.942,0.787-4.272,2.262-7.134,2.145c-3.791-0.154-6.659-1.842-7.524-4.91h19.452c0.146-2.793,0.22-5.338-0.279-7.563
-                                                C26.961,15.728,22.503,11.008,14.796,11.376z M9,23.284c0.921-2.508,3.033-4.514,6.298-4.627c3.083-0.107,4.994,1.976,5.685,4.627
-                                                C17.119,23.38,12.865,23.38,9,23.284z M52.418,11.376c-5.551,0.266-9.395,3.142-11.76,7.056
-                                                c-2.476,4.097-2.829,10.493-0.557,15.069c1.997,4.021,5.895,7.156,10.646,7.957c6.068,1.023,11-1.227,14.379-3.781
-                                                c-0.479-0.896-0.875-1.742-1.393-2.709c-0.312-0.582-1.024-2.234-1.561-2.539c-0.912-0.52-1.428,0.135-2.23,0.508
-                                                c-0.564,0.262-1.223,0.523-1.672,0.676c-4.768,1.621-10.372,0.268-11.537-4.176h19.451c0.668-5.443-0.419-9.953-2.73-13.037
-                                                C61.197,13.388,57.774,11.12,52.418,11.376z M46.622,23.343c0.708-2.553,3.161-4.578,6.242-4.686
-                                                c3.08-0.107,5.08,1.953,5.686,4.686H46.622z M160.371,15.497c-2.455-2.453-6.143-4.291-10.869-4.064
-                                                c-2.268,0.109-4.297,0.65-6.02,1.524c-1.719,0.873-3.092,1.957-4.234,3.217c-2.287,2.519-4.164,6.004-3.902,11.007
-                                                c0.248,4.736,1.979,7.813,4.627,10.326c2.568,2.439,6.148,4.254,10.867,4.064c4.457-0.18,7.889-2.115,10.199-4.684
-                                                c2.469-2.746,4.012-5.971,3.959-11.063C164.949,21.134,162.732,17.854,160.371,15.497z M149.558,33.952
-                                                c-3.246-0.221-5.701-2.615-6.41-5.418c-0.174-0.689-0.26-1.25-0.4-2.166c-0.035-0.234,0.072-0.523-0.045-0.77
-                                                c0.682-3.698,2.912-6.257,6.799-6.547c2.543-0.189,4.258,0.735,5.52,1.863c1.322,1.182,2.303,2.715,2.451,4.967
-                                                C157.789,30.669,154.185,34.267,149.558,33.952z M88.812,29.55c-1.232,2.363-2.9,4.307-6.13,4.402
-                                                c-4.729,0.141-8.038-3.16-8.025-7.563c0.004-1.412,0.324-2.65,0.947-3.726c1.197-2.061,3.507-3.688,6.633-3.612
-                                                c3.222,0.079,4.966,1.708,6.632,3.668c1.328-1.059,2.529-1.948,3.9-2.99c0.416-0.315,1.076-0.688,1.227-1.072
-                                                c0.404-1.031-0.365-1.502-0.891-2.088c-2.543-2.835-6.66-5.377-11.704-5.137c-6.02,0.288-10.218,3.697-12.484,7.846
-                                                c-1.293,2.365-1.951,5.158-1.729,8.408c0.209,3.053,1.191,5.496,2.619,7.508c2.842,4.004,7.385,6.973,13.656,6.377
-                                                c5.976-0.568,9.574-3.936,11.816-8.354c-0.141-0.271-0.221-0.604-0.336-0.902C92.929,31.364,90.843,30.485,88.812,29.55z">
-                                            </path>
+                         <img src="assets/images/logo-sm.png" class="logo-sm" alt="logo sm">
+                         <img src="assets/images/logo-dark.png" class="logo-lg" alt="logo dark">
                     </a>
 
                     <a href="index.html" class="logo-light">
-                          <svg version="1.1" x="0px" y="0px" width="120px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
-                                            <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
-                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
-                                                C30.263,0.995,29.876,1.181,29.79,1.5c-0.148,0.548,0,1.568,0,2.427v36.459c0.265,0.221,0.506,0.465,0.725,0.734h6.187
-                                                c0.2-0.25,0.423-0.477,0.669-0.678V1.387C37.124,1.185,36.9,0.959,36.701,0.71H30.514z M117.517,12.731
-                                                c-0.232-0.189-0.439-0.64-0.781-0.734c-0.754-0.209-2.039,0-3.121,0h-3.176V4.435c-0.232-0.189-0.439-0.639-0.781-0.733
-                                                c-0.719-0.2-1.969,0-3.01,0h-3.01c-0.238,0.273-0.625,0.431-0.725,0.847c-0.203,0.852,0,2.399,0,3.725
-                                                c0,1.393,0.045,2.748-0.055,3.725h-6.41c-0.184,0.237-0.629,0.434-0.725,0.791c-0.178,0.654,0,1.813,0,2.765v2.766
-                                                c0.232,0.188,0.439,0.64,0.779,0.733c0.777,0.216,2.109,0,3.234,0c1.154,0,2.291-0.045,3.176,0.057v21.277
-                                                c0.232,0.189,0.439,0.639,0.781,0.734c0.719,0.199,1.969,0,3.01,0h3.01c1.008-0.451,0.725-1.889,0.725-3.443
-                                                c-0.002-6.164-0.047-12.867,0.055-18.625h6.299c0.182-0.236,0.627-0.434,0.725-0.79c0.176-0.653,0-1.813,0-2.765V12.731z
-                                                M135.851,18.262c0.201-0.746,0-2.029,0-3.104v-3.104c-0.287-0.245-0.434-0.637-0.781-0.733c-0.824-0.229-1.992-0.044-2.898,0
-                                                c-2.158,0.104-4.506,0.675-5.74,1.411c-0.146-0.362-0.451-0.853-0.893-0.96c-0.693-0.169-1.859,0-2.842,0h-2.842
-                                                c-0.258,0.319-0.625,0.42-0.725,0.79c-0.223,0.82,0,2.338,0,3.443c0,8.109-0.002,16.635,0,24.381
-                                                c0.232,0.189,0.439,0.639,0.779,0.734c0.707,0.195,1.93,0,2.955,0h3.01c0.918-0.463,0.725-1.352,0.725-2.822V36.21
-                                                c-0.002-3.902-0.242-9.117,0-12.473c0.297-4.142,3.836-4.877,8.527-4.686C135.312,18.816,135.757,18.606,135.851,18.262z
-                                                M14.796,11.376c-5.472,0.262-9.443,3.178-11.76,7.056c-2.435,4.075-2.789,10.62-0.501,15.126c2.043,4.023,5.91,7.115,10.701,7.9
-                                                c6.051,0.992,10.992-1.219,14.324-3.838c-0.687-1.1-1.419-2.664-2.118-3.951c-0.398-0.734-0.652-1.486-1.616-1.467
-                                                c-1.942,0.787-4.272,2.262-7.134,2.145c-3.791-0.154-6.659-1.842-7.524-4.91h19.452c0.146-2.793,0.22-5.338-0.279-7.563
-                                                C26.961,15.728,22.503,11.008,14.796,11.376z M9,23.284c0.921-2.508,3.033-4.514,6.298-4.627c3.083-0.107,4.994,1.976,5.685,4.627
-                                                C17.119,23.38,12.865,23.38,9,23.284z M52.418,11.376c-5.551,0.266-9.395,3.142-11.76,7.056
-                                                c-2.476,4.097-2.829,10.493-0.557,15.069c1.997,4.021,5.895,7.156,10.646,7.957c6.068,1.023,11-1.227,14.379-3.781
-                                                c-0.479-0.896-0.875-1.742-1.393-2.709c-0.312-0.582-1.024-2.234-1.561-2.539c-0.912-0.52-1.428,0.135-2.23,0.508
-                                                c-0.564,0.262-1.223,0.523-1.672,0.676c-4.768,1.621-10.372,0.268-11.537-4.176h19.451c0.668-5.443-0.419-9.953-2.73-13.037
-                                                C61.197,13.388,57.774,11.12,52.418,11.376z M46.622,23.343c0.708-2.553,3.161-4.578,6.242-4.686
-                                                c3.08-0.107,5.08,1.953,5.686,4.686H46.622z M160.371,15.497c-2.455-2.453-6.143-4.291-10.869-4.064
-                                                c-2.268,0.109-4.297,0.65-6.02,1.524c-1.719,0.873-3.092,1.957-4.234,3.217c-2.287,2.519-4.164,6.004-3.902,11.007
-                                                c0.248,4.736,1.979,7.813,4.627,10.326c2.568,2.439,6.148,4.254,10.867,4.064c4.457-0.18,7.889-2.115,10.199-4.684
-                                                c2.469-2.746,4.012-5.971,3.959-11.063C164.949,21.134,162.732,17.854,160.371,15.497z M149.558,33.952
-                                                c-3.246-0.221-5.701-2.615-6.41-5.418c-0.174-0.689-0.26-1.25-0.4-2.166c-0.035-0.234,0.072-0.523-0.045-0.77
-                                                c0.682-3.698,2.912-6.257,6.799-6.547c2.543-0.189,4.258,0.735,5.52,1.863c1.322,1.182,2.303,2.715,2.451,4.967
-                                                C157.789,30.669,154.185,34.267,149.558,33.952z M88.812,29.55c-1.232,2.363-2.9,4.307-6.13,4.402
-                                                c-4.729,0.141-8.038-3.16-8.025-7.563c0.004-1.412,0.324-2.65,0.947-3.726c1.197-2.061,3.507-3.688,6.633-3.612
-                                                c3.222,0.079,4.966,1.708,6.632,3.668c1.328-1.059,2.529-1.948,3.9-2.99c0.416-0.315,1.076-0.688,1.227-1.072
-                                                c0.404-1.031-0.365-1.502-0.891-2.088c-2.543-2.835-6.66-5.377-11.704-5.137c-6.02,0.288-10.218,3.697-12.484,7.846
-                                                c-1.293,2.365-1.951,5.158-1.729,8.408c0.209,3.053,1.191,5.496,2.619,7.508c2.842,4.004,7.385,6.973,13.656,6.377
-                                                c5.976-0.568,9.574-3.936,11.816-8.354c-0.141-0.271-0.221-0.604-0.336-0.902C92.929,31.364,90.843,30.485,88.812,29.55z">
-                                            </path>
+                         <img src="assets/images/logo-sm.png" class="logo-sm" alt="logo sm">
+                         <img src="assets/images/logo-light.png" class="logo-lg" alt="logo light">
                     </a>
                </div>
 
@@ -574,7 +498,7 @@
                                    <span class="nav-icon">
                                         <iconify-icon icon="solar:t-shirt-bold-duotone"></iconify-icon>
                                    </span>
-                                   <span class="nav-text"> Sản phẩm </span>
+                                   <span class="nav-text"> Products </span>
                               </a>
                               <div class="collapse" id="sidebarProducts">
                                    <ul class="nav sub-navbar-nav">
@@ -606,7 +530,7 @@
                               </a>
                               <div class="collapse" id="sidebarCategory">
                                    <ul class="nav sub-navbar-nav">
-                                        <li class="sub-nav-item">
+                                       <li class="sub-nav-item">
                                              <a class="sub-nav-link" href="@Url.Action("ListCategory","Admin")">Danh mục </a>
                                         </li>                         
                                         <li class="sub-nav-item">
@@ -644,13 +568,13 @@
                                    <span class="nav-icon">
                                         <iconify-icon icon="solar:bag-smile-bold-duotone"></iconify-icon>
                                    </span>
-                                   <span class="nav-text"> Đơn hàng </span>
+                                   <span class="nav-text"> Orders </span>
                               </a>
                               <div class="collapse" id="sidebarOrders">
                                    <ul class="nav sub-navbar-nav">
 
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="@Url.Action("ListBill","Admin")">Danh sách đơn hàng</a>
+                                             <a class="sub-nav-link" href="@Url.Action("ListBill","Admin")">List</a>
                                         </li>
                                         <li class="sub-nav-item">
                                              <a class="sub-nav-link" href="order-detail.html">Details</a>
@@ -776,11 +700,11 @@
                          </li>
 
                          <li class="nav-item">
-                              <a class="nav-link" href="@Url.Action("Permission","Admin")">
+                              <a class="nav-link" href="pages-permissions.html">
                                    <span class="nav-icon">
                                         <iconify-icon icon="solar:checklist-minimalistic-bold-duotone"></iconify-icon>
                                    </span>
-                                   <span class="nav-text"> Phân quyền </span>
+                                   <span class="nav-text"> Permissions </span>
                               </a>
                          </li>
 
@@ -789,16 +713,16 @@
                                    <span class="nav-icon">
                                         <iconify-icon icon="solar:users-group-two-rounded-bold-duotone"></iconify-icon>
                                    </span>
-                                   <span class="nav-text"> Khách hàng </span>
+                                   <span class="nav-text"> Customers </span>
                               </a>
                               <div class="collapse" id="sidebarCustomers">
                                    <ul class="nav sub-navbar-nav">
 
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="@Url.Action("ListCustomer","Admin")">Danh sách khách hàng </a>
+                                             <a class="sub-nav-link" href="customer-list.html">List</a>
                                         </li>
                                         <li class="sub-nav-item">
-                                             <a class="sub-nav-link" href="@Url.Action("DetailCustomer","Admin")">Danh sách khách hàng chi tiết</a>
+                                             <a class="sub-nav-link" href="customer-detail.html">Details</a>
                                         </li>
                                    </ul>
                               </div>
@@ -1327,515 +1251,132 @@
           <div class="page-content">
 
                <!-- Start Container Fluid -->
-               <div class="container-fluid">
-
-                    <!-- Start here.... -->
-                    <div class="row">
-                         <div class="col-xxl-5">
-                              <div class="row">
-                                   <div class="col-12">
-                                        <div class="alert alert-primary text-truncate mb-3" role="alert">
-                                             We regret to inform you that our server is currently experiencing technical difficulties.
-                                        </div>
-                                   </div>
-
-                                   <div class="col-md-6">
-                                        <div class="card overflow-hidden">
-                                             <div class="card-body">
-                                                  <div class="row">
-                                                       <div class="col-6">
-                                                            <div class="avatar-md bg-soft-primary rounded">
-                                                                 <iconify-icon icon="solar:cart-5-bold-duotone" class="avatar-title fs-32 text-primary"></iconify-icon>
-                                                            </div>
-                                                       </div> <!-- end col -->
-                                                       <div class="col-6 text-end">
-                                                            <p class="text-muted mb-0 text-truncate">Total Orders</p>
-                                                            <h3 class="text-dark mt-1 mb-0">13, 647</h3>
-                                                       </div> <!-- end col -->
-                                                  </div> <!-- end row-->
-                                             </div> <!-- end card body -->
-                                             <div class="card-footer py-2 bg-light bg-opacity-50">
-                                                  <div class="d-flex align-items-center justify-content-between">
-                                                       <div>
-                                                            <span class="text-success"> <i class="bx bxs-up-arrow fs-12"></i> 2.3%</span>
-                                                            <span class="text-muted ms-1 fs-12">Last Week</span>
-                                                       </div>
-                                                       <a href="#!" class="text-reset fw-semibold fs-12">View More</a>
-                                                  </div>
-                                             </div> <!-- end card body -->
-                                        </div> <!-- end card -->
-                                   </div> <!-- end col -->
-                                   <div class="col-md-6">
-                                        <div class="card overflow-hidden">
-                                             <div class="card-body">
-                                                  <div class="row">
-                                                       <div class="col-6">
-                                                            <div class="avatar-md bg-soft-primary rounded">
-                                                                 <i class="bx bx-award avatar-title fs-24 text-primary"></i>
-                                                            </div>
-                                                       </div> <!-- end col -->
-                                                       <div class="col-6 text-end">
-                                                            <p class="text-muted mb-0 text-truncate">New Leads</p>
-                                                            <h3 class="text-dark mt-1 mb-0">9, 526</h3>
-                                                       </div> <!-- end col -->
-                                                  </div> <!-- end row-->
-                                             </div> <!-- end card body -->
-                                             <div class="card-footer py-2 bg-light bg-opacity-50">
-                                                  <div class="d-flex align-items-center justify-content-between">
-                                                       <div>
-                                                            <span class="text-success"> <i class="bx bxs-up-arrow fs-12"></i> 8.1%</span>
-                                                            <span class="text-muted ms-1 fs-12">Last Month</span>
-                                                       </div>
-                                                       <a href="#!" class="text-reset fw-semibold fs-12">View More</a>
-                                                  </div>
-                                             </div> <!-- end card body -->
-                                        </div> <!-- end card -->
-                                   </div> <!-- end col -->
-                                   <div class="col-md-6">
-                                        <div class="card overflow-hidden">
-                                             <div class="card-body">
-                                                  <div class="row">
-                                                       <div class="col-6">
-                                                            <div class="avatar-md bg-soft-primary rounded">
-                                                                 <i class="bx bxs-backpack avatar-title fs-24 text-primary"></i>
-                                                            </div>
-                                                       </div> <!-- end col -->
-                                                       <div class="col-6 text-end">
-                                                            <p class="text-muted mb-0 text-truncate">Deals</p>
-                                                            <h3 class="text-dark mt-1 mb-0">976</h3>
-                                                       </div> <!-- end col -->
-                                                  </div> <!-- end row-->
-                                             </div> <!-- end card body -->
-                                             <div class="card-footer py-2 bg-light bg-opacity-50">
-                                                  <div class="d-flex align-items-center justify-content-between">
-                                                       <div>
-                                                            <span class="text-danger"> <i class="bx bxs-down-arrow fs-12"></i> 0.3%</span>
-                                                            <span class="text-muted ms-1 fs-12">Last Month</span>
-                                                       </div>
-                                                       <a href="#!" class="text-reset fw-semibold fs-12">View More</a>
-                                                  </div>
-                                             </div> <!-- end card body -->
-                                        </div> <!-- end card -->
-                                   </div> <!-- end col -->
-                                   <div class="col-md-6">
-                                        <div class="card overflow-hidden">
-                                             <div class="card-body">
-                                                  <div class="row">
-                                                       <div class="col-6">
-                                                            <div class="avatar-md bg-soft-primary rounded">
-                                                                 <i class="bx bx-dollar-circle avatar-title text-primary fs-24"></i>
-                                                            </div>
-                                                       </div> <!-- end col -->
-                                                       <div class="col-6 text-end">
-                                                            <p class="text-muted mb-0 text-truncate">Booked Revenue</p>
-                                                            <h3 class="text-dark mt-1 mb-0">$123.6k</h3>
-                                                       </div> <!-- end col -->
-                                                  </div> <!-- end row-->
-                                             </div> <!-- end card body -->
-                                             <div class="card-footer py-2 bg-light bg-opacity-50">
-                                                  <div class="d-flex align-items-center justify-content-between">
-                                                       <div>
-                                                            <span class="text-danger"> <i class="bx bxs-down-arrow fs-12"></i> 10.6%</span>
-                                                            <span class="text-muted ms-1 fs-12">Last Month</span>
-                                                       </div>
-                                                       <a href="#!" class="text-reset fw-semibold fs-12">View More</a>
-                                                  </div>
-                                             </div> <!-- end card body -->
-                                        </div> <!-- end card -->
-                                   </div> <!-- end col -->
-                              </div> <!-- end row -->
-                         </div> <!-- end col -->
-
-                         <div class="col-xxl-7">
-                              <div class="card">
-                                   <div class="card-body">
-                                        <div class="d-flex justify-content-between align-items-center">
-                                             <h4 class="card-title">Performance</h4>
-                                             <div>
-                                                  <button type="button" class="btn btn-sm btn-outline-light">ALL</button>
-                                                  <button type="button" class="btn btn-sm btn-outline-light">1M</button>
-                                                  <button type="button" class="btn btn-sm btn-outline-light">6M</button>
-                                                  <button type="button" class="btn btn-sm btn-outline-light active">1Y</button>
-                                             </div>
-                                        </div> <!-- end card-title-->
-
-                                        <div dir="ltr">
-                                             <div id="dash-performance-chart" class="apex-charts"></div>
-                                        </div>
-                                   </div> <!-- end card body -->
-                              </div> <!-- end card -->
-                         </div> <!-- end col -->
-                    </div> <!-- end row -->
+               <div class="container-xxl">
 
                     <div class="row">
-                         <div class="col-lg-4">
+                         <div class="col-md-6 col-xl-3">
                               <div class="card">
-                                   <div class="card-body">
-                                        <h5 class="card-title">Conversions</h5>
-                                        <div id="conversions" class="apex-charts mb-2 mt-n2"></div>
-                                        <div class="row text-center">
-                                             <div class="col-6">
-                                                  <p class="text-muted mb-2">This Week</p>
-                                                  <h3 class="text-dark mb-3">23.5k</h3>
-                                             </div> <!-- end col -->
-                                             <div class="col-6">
-                                                  <p class="text-muted mb-2">Last Week</p>
-                                                  <h3 class="text-dark mb-3">41.05k</h3>
-                                             </div> <!-- end col -->
-                                        </div> <!-- end row -->
-                                        <div class="text-center">
-                                             <button type="button" class="btn btn-light shadow-none w-100">View Details</button>
-                                        </div> <!-- end row -->
+                                   <div class="card-body text-center">
+                                        <div class="rounded bg-secondary-subtle d-flex align-items-center justify-content-center mx-auto">
+                                             <img src="assets/images/product/p-1.png" alt="" class="avatar-xl">
+                                        </div>
+                                        <h4 class="mt-3 mb-0">Fashion Categories</h4>
                                    </div>
                               </div>
-                         </div> <!-- end left chart card -->
-
-                         <div class="col-lg-4">
-                              <div class="card">
-                                   <div class="card-body">
-                                        <h5 class="card-title">Sessions by Country</h5>
-                                        <div id="world-map-markers" style="height: 316px">
-                                        </div>
-                                        <div class="row text-center">
-                                             <div class="col-6">
-                                                  <p class="text-muted mb-2">This Week</p>
-                                                  <h3 class="text-dark mb-3">23.5k</h3>
-                                             </div> <!-- end col -->
-                                             <div class="col-6">
-                                                  <p class="text-muted mb-2">Last Week</p>
-                                                  <h3 class="text-dark mb-3">41.05k</h3>
-                                             </div> <!-- end col -->
-                                        </div> <!-- end row -->
-                                   </div>
-                              </div> <!-- end card-->
-                         </div> <!-- end col -->
-
-                         <div class="col-lg-4">
-                              <div class="card card-height-100">
-                                   <div class="card-header d-flex align-items-center justify-content-between gap-2">
-                                        <h4 class="card-title flex-grow-1">Top Pages</h4>
-
-                                        <a href="#" class="btn btn-sm btn-soft-primary">View All</a>
-                                   </div>
-                                   <div class="table-responsive">
-                                        <table class="table table-hover table-nowrap table-centered m-0">
-                                             <thead class="bg-light bg-opacity-50">
-                                                  <tr>
-                                                       <th class="text-muted ps-3">Page Path</th>
-                                                       <th class="text-muted">Page Views</th>
-                                                       <th class="text-muted">Exit Rate</th>
-                                                  </tr>
-                                             </thead>
-                                             <tbody>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/ecommerce.html</a></td>
-                                                       <td>465 </td>
-                                                       <td><span class="badge badge-soft-success">4.4%</span></td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/dashboard.html</a></td>
-                                                       <td> 426</td>
-                                                       <td><span class="badge badge-soft-danger">20.4%</span></td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/chat.html</a></td>
-                                                       <td>254 </td>
-                                                       <td><span class="badge badge-soft-warning">12.25%</span></td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/auth-login.html</a></td>
-                                                       <td> 3369</td>
-                                                       <td><span class="badge badge-soft-success">5.2%</span></td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/email.html</a></td>
-                                                       <td>985 </td>
-                                                       <td><span class="badge badge-soft-danger">64.2%</span></td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/social.html</a></td>
-                                                       <td>653 </td>
-                                                       <td><span class="badge badge-soft-success">2.4%</span></td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3"><a href="#" class="text-muted">larkon/blog.html</a></td>
-                                                       <td>478 </td>
-                                                       <td><span class="badge badge-soft-danger">1.4%</span></td>
-                                                  </tr>
-                                             </tbody>
-                                        </table>
-                                   </div>
-                              </div>
-                         </div> <!-- end col -->
-
-                         <div class="col-xl-4 d-none">
-                              <div class="card">
-                                   <div class="card-header d-flex justify-content-between align-items-center">
-                                        <h4 class="card-title">Recent Transactions</h4>
-                                        <div>
-                                             <a href="#!" class="btn btn-sm btn-primary">
-                                                  <i class="bx bx-plus me-1"></i>Add
-                                             </a>
-                                        </div>
-                                   </div> <!-- end card-header-->
-                                   <div class="card-body p-0">
-                                        <div class="px-3" data-simplebar style="max-height: 398px;">
-                                             <table class="table table-hover mb-0 table-centered">
-                                                  <tbody>
-                                                       <tr>
-                                                            <td>24 April, 2024</td>
-                                                            <td>$120.55</td>
-                                                            <td><span class="badge bg-success">Cr</span></td>
-                                                            <td>Commisions </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>24 April, 2024</td>
-                                                            <td>$9.68</td>
-                                                            <td><span class="badge bg-success">Cr</span></td>
-                                                            <td>Affiliates </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>20 April, 2024</td>
-                                                            <td>$105.22</td>
-                                                            <td><span class="badge bg-danger">Dr</span></td>
-                                                            <td>Grocery </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>18 April, 2024</td>
-                                                            <td>$80.59</td>
-                                                            <td><span class="badge bg-success">Cr</span></td>
-                                                            <td>Refunds </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>18 April, 2024</td>
-                                                            <td>$750.95</td>
-                                                            <td><span class="badge bg-danger">Dr</span></td>
-                                                            <td>Bill Payments </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>17 April, 2024</td>
-                                                            <td>$455.62</td>
-                                                            <td><span class="badge bg-danger">Dr</span></td>
-                                                            <td>Electricity </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>17 April, 2024</td>
-                                                            <td>$102.77</td>
-                                                            <td><span class="badge bg-success">Cr</span></td>
-                                                            <td>Interest </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>16 April, 2024</td>
-                                                            <td>$79.49</td>
-                                                            <td><span class="badge bg-success">Cr</span></td>
-                                                            <td>Refunds </td>
-                                                       </tr>
-                                                       <tr>
-                                                            <td>05 April, 2024</td>
-                                                            <td>$980.00</td>
-                                                            <td><span class="badge bg-danger">Dr</span></td>
-                                                            <td>Shopping</td>
-                                                       </tr>
-                                                  </tbody>
-                                             </table>
-                                        </div>
-                                   </div> <!-- end card body -->
-                              </div> <!-- end card-->
-                         </div> <!-- end col-->
-                    </div> <!-- end row -->
-
-                    <div class="row">
-                         <div class="col">
-                              <div class="card">
-                                   <div class="card-body">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                             <h4 class="card-title">
-                                                  Recent Orders
-                                             </h4>
-
-                                             <a href="#!" class="btn btn-sm btn-soft-primary">
-                                                  <i class="bx bx-plus me-1"></i>Create Order
-                                             </a>
-                                        </div>
-                                   </div>
-                                   <!-- end card body -->
-                                   <div class="table-responsive table-centered">
-                                        <table class="table mb-0">
-                                             <thead class="bg-light bg-opacity-50">
-                                                  <tr>
-                                                       <th class="ps-3">
-                                                            Order ID.
-                                                       </th>
-                                                       <th>
-                                                            Date
-                                                       </th>
-                                                       <th>
-                                                            Product
-                                                       </th>
-                                                       <th>
-                                                            Customer Name
-                                                       </th>
-                                                       <th>
-                                                            Email ID
-                                                       </th>
-                                                       <th>
-                                                            Phone No.
-                                                       </th>
-                                                       <th>
-                                                            Address
-                                                       </th>
-                                                       <th>
-                                                            Payment Type
-                                                       </th>
-                                                       <th>
-                                                            Status
-                                                       </th>
-                                                  </tr>
-                                             </thead>
-                                             <!-- end thead-->
-                                             <tbody>
-                                                  <tr>
-                                                       <td class="ps-3">
-                                                            <a href="order-detail.html">#RB5625</a>
-                                                       </td>
-                                                       <td>29 April 2024</td>
-                                                       <td>
-                                                            <img src="Admin/assets/images/products/product-1(1).png" alt="product-1(1)" class="img-fluid avatar-sm">
-                                                       </td>
-                                                       <td>
-                                                            <a href="#!">Anna M. Hines</a>
-                                                       </td>
-                                                       <td>anna.hines@mail.com</td>
-                                                       <td>(+1)-555-1564-261</td>
-                                                       <td>Burr Ridge/Illinois</td>
-                                                       <td>Credit Card</td>
-                                                       <td>
-                                                            <i class="bx bxs-circle text-success me-1"></i>Completed
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3">
-                                                            <a href="order-detail.html">#RB9652</a>
-                                                       </td>
-                                                       <td>25 April 2024</td>
-                                                       <td>
-                                                            <img src="Admin/assets/images/products/product-4.png" alt="product-4" class="img-fluid avatar-sm">
-                                                       </td>
-                                                       <td>
-                                                            <a href="#!">Judith H. Fritsche</a>
-                                                       </td>
-                                                       <td>judith.fritsche.com</td>
-                                                       <td>(+57)-305-5579-759</td>
-                                                       <td>SULLIVAN/Kentucky</td>
-                                                       <td>Credit Card</td>
-                                                       <td>
-                                                            <i class="bx bxs-circle text-success me-1"></i>Completed
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3">
-                                                            <a href="order-detail.html">#RB5984</a>
-                                                       </td>
-                                                       <td>25 April 2024</td>
-                                                       <td>
-                                                            <img src="Admin/assets/images/products/product-5.png" alt="product-5" class="img-fluid avatar-sm">
-                                                       </td>
-                                                       <td>
-                                                            <a href="#!">Peter T. Smith</a>
-                                                       </td>
-                                                       <td>peter.smith@mail.com</td>
-                                                       <td>(+33)-655-5187-93</td>
-                                                       <td>Yreka/California</td>
-                                                       <td>Pay Pal</td>
-                                                       <td>
-                                                            <i class="bx bxs-circle text-success me-1"></i>Completed
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3">
-                                                            <a href="order-detail.html">#RB3625</a>
-                                                       </td>
-                                                       <td>21 April 2024</td>
-                                                       <td>
-                                                            <img src="Admin/assets/images/products/product-6.png" alt="product-6" class="img-fluid avatar-sm">
-                                                       </td>
-                                                       <td>
-                                                            <a href="#!">Emmanuel J. Delcid</a>
-                                                       </td>
-                                                       <td>
-                                                            emmanuel.delicid@mail.com
-                                                       </td>
-                                                       <td>(+30)-693-5553-637</td>
-                                                       <td>Atlanta/Georgia</td>
-                                                       <td>Pay Pal</td>
-                                                       <td>
-                                                            <i class="bx bxs-circle text-primary me-1"></i>Processing
-                                                       </td>
-                                                  </tr>
-                                                  <tr>
-                                                       <td class="ps-3">
-                                                            <a href="order-detail.html">#RB8652</a>
-                                                       </td>
-                                                       <td>18 April 2024</td>
-                                                       <td>
-                                                            <img src="Admin/assets/images/products/product-1(2).png" alt="product-1(2)" class="img-fluid avatar-sm">
-                                                       </td>
-                                                       <td>
-                                                            <a href="#!">William J. Cook</a>
-                                                       </td>
-                                                       <td>william.cook@mail.com</td>
-                                                       <td>(+91)-855-5446-150</td>
-                                                       <td>Rosenberg/Texas</td>
-                                                       <td>Credit Card</td>
-                                                       <td>
-                                                            <i class="bx bxs-circle text-primary me-1"></i>Processing
-                                                       </td>
-                                                  </tr>
-                                             </tbody>
-                                             <!-- end tbody -->
-                                        </table>
-                                        <!-- end table -->
-                                   </div>
-                                   <!-- table responsive -->
-
-                                   <div class="card-footer border-top">
-                                        <div class="row g-3">
-                                             <div class="col-sm">
-                                                  <div class="text-muted">
-                                                       Showing
-                                                       <span class="fw-semibold">5</span>
-                                                       of
-                                                       <span class="fw-semibold">90,521</span>
-                                                       orders
-                                                  </div>
-                                             </div>
-
-                                             <div class="col-sm-auto">
-                                                  <ul class="pagination m-0">
-                                                       <li class="page-item">
-                                                            <a href="#" class="page-link"><i class="bx bx-left-arrow-alt"></i></a>
-                                                       </li>
-                                                       <li class="page-item active">
-                                                            <a href="#" class="page-link">1</a>
-                                                       </li>
-                                                       <li class="page-item">
-                                                            <a href="#" class="page-link">2</a>
-                                                       </li>
-                                                       <li class="page-item">
-                                                            <a href="#" class="page-link">3</a>
-                                                       </li>
-                                                       <li class="page-item">
-                                                            <a href="#" class="page-link"><i class="bx bx-right-arrow-alt"></i></a>
-                                                       </li>
-                                                  </ul>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                              <!-- end card -->
                          </div>
-                         <!-- end col -->
-                    </div> <!-- end row -->
+                         <div class="col-md-6 col-xl-3">
+                              <div class="card">
+                                   <div class="card-body text-center">
+                                        <div class="rounded bg-primary-subtle d-flex align-items-center justify-content-center mx-auto">
+                                             <img src="assets/images/product/p-6.png" alt="" class="avatar-xl">
+                                        </div>
+                                        <h4 class="mt-3 mb-0">Electronics Headphone</h4>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-md-6 col-xl-3">
+                              <div class="card">
+                                   <div class="card-body text-center">
+                                        <div class="rounded bg-warning-subtle d-flex align-items-center justify-content-center mx-auto">
+                                             <img src="assets/images/product/p-7.png" alt="" class="avatar-xl">
+                                        </div>
+                                        <h4 class="mt-3 mb-0">Foot Wares</h4>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-md-6 col-xl-3">
+                              <div class="card">
+                                   <div class="card-body text-center">
+                                        <div class="rounded bg-info-subtle d-flex align-items-center justify-content-center mx-auto">
+                                             <img src="assets/images/product/p-9.png" alt="" class="avatar-xl">
+                                        </div>
+                                        <h4 class="mt-3 mb-0">Eye Ware & Sunglass</h4>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="row">
+                         <div class="col-xl-12">
+                              <div class="card">
+                                   <div class="card-header d-flex justify-content-between align-items-center gap-1">
+                                        <h4 class="card-title flex-grow-1">All Categories List</h4>
+
+                                        <a href="@Url.Action("CreateCategory","Admin")" class="btn btn-sm btn-primary">
+                                             Tạo mới danh mục
+                                        </a>
+                                        <a href="@Url.Action("EditCategory","Admin")" class="btn btn-sm btn-primary">
+                                             Chỉnh sửa danh mục
+                                        </a>
+
+                                        <div class="dropdown">
+                                             <a href="#" class="dropdown-toggle btn btn-sm btn-outline-light" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  This Month
+                                             </a>
+                                             <div class="dropdown-menu dropdown-menu-end">
+                                                  <!-- item-->
+                                                  <a href="#!" class="dropdown-item">Download</a>
+                                                  <!-- item-->
+                                                  <a href="#!" class="dropdown-item">Export</a>
+                                                  <!-- item-->
+                                                  <a href="#!" class="dropdown-item">Import</a>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div>
+                                        <div class="table-responsive">
+    <table class="table align-middle mb-0 table-hover table-centered">
+        <thead class="bg-light-subtle">
+            <tr>
+              
+                <th>ID</th>
+                <th>Tên danh mục</th>
+                <th>Giá khởi điểm</th>
+                <th>Tạo bởi</th>                
+                <th>Sản phẩm trong kho</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+                                            @foreach (var category in Model)
+                                            {
+                    <tr>
+                                                    <td>@category.CategoryCode</td>
+                        
+                        <td>
+                            <div class="d-flex align-items-center gap-2">
+                           
+                                <p class="text-dark fw-medium fs-15 mb-0">@category.CategoryName</p>
+                            </div>
+                        </td>
+                        <td>@category.StartingPrice</td>
+                        <td>@category.CreatedBy</td>
+                        <td>@category.ProductStock</td>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <a href="#!" class="btn btn-light btn-sm"><iconify-icon icon="solar:eye-broken" class="align-middle fs-18"></iconify-icon></a>
+                                    <a href="@Url.Action("EditCategory", "Admin", new { id = category.CategoryId })" class="btn btn-soft-primary btn-sm"><iconify-icon icon="solar:pen-2-broken" class="align-middle fs-18"></iconify-icon></a>
+                                <a href="#!" class="btn btn-soft-danger btn-sm"><iconify-icon icon="solar:trash-bin-minimalistic-2-broken" class="align-middle fs-18"></iconify-icon></a>
+                            </div>
+                        </td>
+                    </tr>
+                                            }
+        </tbody>
+    </table>
+</div>
+                              </div>
+                              <div class="d-flex justify-content-end mt-3">
+                                @Html.PagedListPager(Model, page => Url.Action("ListCategory", new { page }),
+                                                              new PagedListRenderOptions
+                                                     {
+                                                         LiElementClasses = new string[] { "page-item" },
+                                                         PageClasses = new string[] { "page-link" }
+                                                     })
+</div>
+                         </div>
+                    </div>
 
                </div>
                <!-- End Container Fluid -->
@@ -1858,25 +1399,18 @@
           <!-- End Page Content -->
           <!-- ==================================================== -->
 
+
      </div>
      <!-- END Wrapper -->
 
      <!-- Vendor Javascript (Require in all Page) -->
-     <script src="Admin/assets/js/vendor.js"></script>
+     <script src="assets/js/vendor.js"></script>
 
      <!-- App Javascript (Require in all Page) -->
-     <script src="Admin/assets/js/app.js"></script>
-
-     <!-- Vector Map Js -->
-     <script src="Admin/assets/vendor/jsvectormap/js/jsvectormap.min.js"></script>
-     <script src="Admin/assets/vendor/jsvectormap/maps/world-merc.js"></script>
-     <script src="Admin/assets/vendor/jsvectormap/maps/world.js"></script>
-
-     <!-- Dashboard Js -->
-     <script src="Admin/assets/js/pages/dashboard.js"></script>
+     <script src="assets/js/app.js"></script>
 
 </body>
 
 
-<!-- Mirrored from techzaa.in/larkon/admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 12:42:30 GMT -->
+
 </html>

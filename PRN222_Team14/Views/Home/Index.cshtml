@@ -1,9 +1,17 @@
-﻿<!DOCTYPE html>
+﻿@model ElectronicShopTeam14.Models.LoginViewModel
+@{
+    Layout=null;
+    }
+@{
+    ViewData["Title"] = "Account";
+}
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/home-v7.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:36 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <!-- Title -->
         <title>Home-v7 | Electro - Responsive Website Template</title>
 
@@ -54,12 +62,111 @@
                             <div class="topbar-right ml-auto">
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="#" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Store Locator</a>
+
+                                       <a href="@Url.Action("Contact", "Home")" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Địa chỉ cửa hàng</a>
                                     </li>
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Track Your Order</a>
+                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Theo dõi đơn hàng</a>
                                     </li>
-                                    <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+                                       <a href="@Url.Action("Shop", "Home")" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Shop</a>
+                                    </li>
+                                    <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
+                                        <div class="d-flex align-items-center">
+                                            <!-- Language -->
+                                            <div class="position-relative">
+                                                <a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center u-header-topbar__nav-link font-weight-normal" href="javascript:;" role="button"
+                                                    aria-controls="languageDropdown"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    data-unfold-event="hover"
+                                                    data-unfold-target="#languageDropdown"
+                                                    data-unfold-type="css-animation"
+                                                    data-unfold-duration="300"
+                                                    data-unfold-delay="300"
+                                                    data-unfold-hide-on-scroll="true"
+                                                    data-unfold-animation-in="slideInUp"
+                                                    data-unfold-animation-out="fadeOut">
+                                                    <span class="d-inline-block d-sm-none">US</span>
+                                                    <span class="d-none d-sm-inline-flex align-items-center"><i class="ec ec-dollar mr-1"></i> Dollar (US)</span>
+                                                </a>
+
+                                                <div id="languageDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="languageDropdownInvoker">
+                                                    <a class="dropdown-item active" href="#">English</a>
+                                                    <a class="dropdown-item" href="#">Deutsch</a>
+                                                    <a class="dropdown-item" href="#">Español‎</a>
+                                                </div>
+                                            </div>
+                                            <!-- End Language -->
+                                        </div>
+                                    </li>
+                             <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+            <!-- Account Sidebar Toggle Button -->
+            <div class="dropdown">
+                <a id="sidebarNavToggler" href="javascript:;" role="button" 
+                   class="u-header-topbar__nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                    <i class="ec ec-user mr-1"></i> 
+                    Xin chào, @User.Identity.Name
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="sidebarNavToggler">
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Profile", "Account")">
+                            <i class="fa-solid fa-user"></i> Thông tin tài khoản
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("History", "Order")">
+                            <i class="fa-solid fa-cart-shopping"></i> Lịch sử đơn hàng
+                        </a>
+                    </li>
+                                                @if (User.IsInRole("Admin"))
+                                                {
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Index", "Admin")">
+                            <i class="fa-solid fa-gear"></i> Quản lý Admin
+                        </a>
+                    </li>
+                                                }
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                                                        @Html.AntiForgeryToken()
+                            <button type="submit" class="dropdown-item">
+                                <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+                                    }
+                                    else
+                                    {
+            <!-- Account Sidebar Toggle Button -->
+            <a id="sidebarNavToggler" href="javascript:;" role="button" 
+               class="u-header-topbar__nav-link"
+               aria-controls="sidebarContent"
+               aria-haspopup="true"
+               aria-expanded="false"
+               data-unfold-event="click"
+               data-unfold-hide-on-scroll="false"
+               data-unfold-target="#sidebarContent"
+               data-unfold-type="css-animation"
+               data-unfold-animation-in="fadeInRight"
+               data-unfold-animation-out="fadeOutRight"
+               data-unfold-duration="500">
+                <i class="ec ec-user mr-1"></i> Đăng nhập <span class="text-gray-50">hoặc</span> Đăng ký
+            </a>
+                                    }
+    <!-- End Account Sidebar Toggle Button -->
+</li>
+
+   @* <div class="dropdown">
+
                                     @if (User.Identity.IsAuthenticated)
                                     {
                                         <a asp-controller="Account" asp-action="Profile">
@@ -72,7 +179,13 @@
                                             <i class="ec ec-user mr-1"></i> Register <span class="text-gray-50">or</span> Sign in
                                         </a>
                                     }
-                                    </li>
+</div>
+ *@
+
+
+
+
+
                                 </ul>
                             </div>
                         </div>
@@ -107,7 +220,7 @@
                                     <!-- End Fullscreen Toggle Button -->
 
                                     <!-- Logo -->
-                                    <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0" href="index.html" aria-label="Electro">
+                                    <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0" href="@Url.Action("Index","Home")" aria-label="Electro">
                                         <svg version="1.1" x="0px" y="0px" width="120px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
                                             <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
                                             <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
@@ -227,35 +340,35 @@
                                                             <!-- Home Section -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
                                                                 <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarHomeCollapse" data-target="#headerSidebarHomeCollapse">
-                                                                    Home & Static Pages
+                                                                    Trang chủ
                                                                 </a>
 
                                                                 <div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Home - v7 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v7.html">Home v7</a></li>
-                                                                        <!-- End Home - v7 -->
+
+                                                                    <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">                                                                     
+
                                                                         <!-- About -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="about.html">About</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("About", "Home")">Chúng tôi</a></li>
                                                                         <!-- End About -->
-                                                                        <!-- Contact v1 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="contact-v1.html">Contact v1</a></li>
-                                                                        <!-- End Contact v1 -->
-                                                                        <!-- Contact v2 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="contact-v2.html">Contact v2</a></li>
-                                                                        <!-- End Contact v2 -->
+
+                                                                        <!-- Contact -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("Contact", "Home")">Liên hệ</a></li>
+                                                                         <!-- End Contact -->
+                                                                       
                                                                         <!-- FAQ -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="faq.html">FAQ</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("FAQ", "Home")">Câu hỏi thường gặp</a></li>
                                                                         <!-- End FAQ -->
-                                                                        <!-- Store Directory -->
+                                                                        @* <!-- Store Directory -->
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="store-directory.html">Store Directory</a></li>
-                                                                        <!-- End Store Directory -->
+                                                                        <!-- End Store Directory --> *@
                                                                         <!-- Terms and Conditions -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="terms-and-conditions.html">Terms and Conditions</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("TermsAndConditions", "Home")">Điều khoản và chính sách</a></li>
                                                                         <!-- End Terms and Conditions -->
                                                                         <!-- 404 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="404.html">404</a></li>
-                                                                        <!-- End 404 -->
+
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("Error404", "Home")">404</a></li>
+                                                                        <!-- End 404 --> 
+
                                                                     </ul>
                                                                 </div>
                                                             </li>
@@ -509,14 +622,9 @@
 
                                                     <!-- Home - Submenu -->
                                                     <ul id="HomeSubMenu" class="hs-sub-menu u-header__sub-menu animated fadeOut" aria-labelledby="HomeMegaMenu" style="min-width: 230px; display: none;">
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="index.html">Home v1</a></li>
+                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="@Url.Action("Index","Home")">Home v1</a></li>
                                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v2.html">Home v2</a></li>
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v3.html">Home v3</a></li>
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v3-full-color-bg.html">Home v3.1</a></li>
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v4.html">Home v4</a></li>
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v5.html">Home v5</a></li>
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v6.html">Home v6</a></li>
-                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v7.html">Home v7</a></li>
+         
                                                     </ul>
                                                     <!-- End Home - Submenu -->
                                                 </li>
@@ -530,7 +638,7 @@
 
                                                 <!-- Trending Styles -->
                                                 <li class="nav-item u-header__nav-item">
-                                                    <a class="nav-link u-header__nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Cameras</a>
+                                                    <a class="nav-link u-header__nav-link" href="@Url.Action("FAQ","Home")" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Câu hỏi thường gặp</a>
                                                 </li>
                                                 <!-- End Trending Styles -->
                                             </ul>
@@ -1067,17 +1175,17 @@
                                                         <div class="col-xl-6 col-6 mt-md-5">
                                                             <h1 class="font-size-58-sm text-lh-57 font-weight-light"
                                                                 data-scs-animation-in="fadeInUp">
-                                                                THE NEW <span class="d-block font-size-58-sm">STANDARD</span>
+                                                                TIỂU CHUẨN <span class="d-block font-size-58-sm">VỀ NHỮNG CHIẾC </span>
                                                             </h1>
                                                             <h6 class="font-size-15-sm font-weight-bold mb-2 mb-md-3"
                                                                 data-scs-animation-in="fadeInUp"
-                                                                data-scs-animation-delay="200">UNDER FAVORABLE SMARTWATCHES
+                                                                data-scs-animation-delay="200">ĐỒNG HỒ THÔNG MINH ĐƯỢC ƯU CHUỘNG
                                                             </h6>
                                                             <div class="mb-2 mb-md-4"
                                                                 data-scs-animation-in="fadeInUp"
                                                                 data-scs-animation-delay="300">
                                                                 <span class="font-size-13">FROM</span>
-                                                                <div class="font-size-50 font-weight-bold text-lh-45">$749</div>
+                                                                <div class="font-size-20 font-weight-bold text-lh-45">5.000.000VNĐ</div>
                                                             </div>
                                                         </div>
                                                         <div class="col-xl-6 col-6 d-flex align-items-center"
@@ -1188,16 +1296,16 @@
                             <div class="max-width-240-xl">
                                 <div class="d-md-flex d-xl-block">
                                     <div class="bg-white border-top border-xl-top-0">
-                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="text-gray-90 position-relative d-block overflow-hidden">
+                                        <a href="@Url.Action("Shop","Home")" class="text-gray-90 position-relative d-block overflow-hidden">
                                             <div class="position-absolute transform-rotate-16-banner">
                                                 <img class="img-fluid" src="../../assets/img/140X140/img1.png" alt="Image Description">
                                             </div>
                                             <div class="px-4 py-6 min-height-172">
                                                 <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-                                                    CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+                                                    NẮM BẮT<strong>NHỮNG ƯU ĐÃI</strong> CHO MÁY ẢNH
                                                 </div>
                                                 <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-                                                    Shop now
+                                                    MUA NGAY
                                                     <span class="link__icon ml-1">
                                                         <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
                                                     </span>
@@ -1206,16 +1314,16 @@
                                         </a>
                                     </div>
                                     <div class="bg-white border-top">
-                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="text-gray-90 position-relative d-block overflow-hidden">
+                                         <a href="@Url.Action("Shop","Home")" class="text-gray-90 position-relative d-block overflow-hidden">
                                             <div class="position-absolute transform-rotate-16-banner">
                                                 <img class="img-fluid" src="../../assets/img/140X140/img2.png" alt="Image Description">
                                             </div>
                                             <div class="px-4 py-6 min-height-172">
                                                 <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-                                                    CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+                                                    NẮM BẮT<strong>NHỮNG ƯU ĐÃI</strong> CHO ĐIỆN THOẠI
                                                 </div>
                                                 <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-                                                    Shop now
+                                                    MUA NGAY
                                                     <span class="link__icon ml-1">
                                                         <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
                                                     </span>
@@ -1224,16 +1332,16 @@
                                         </a>
                                     </div>
                                     <div class="bg-white border-top">
-                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="text-gray-90 position-relative d-block overflow-hidden">
+                                         <a href="@Url.Action("Shop","Home")" class="text-gray-90 position-relative d-block overflow-hidden">
                                             <div class="position-absolute transform-rotate-16-banner">
                                                 <img class="img-fluid" src="../../assets/img/140X140/img3.png" alt="Image Description">
                                             </div>
                                             <div class="px-4 py-6 min-height-172">
                                                 <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-                                                    CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+                                                    NẮM BẮT<strong>NHỮNG ƯU ĐÃI</strong> CHO MÁY TÍNH
                                                 </div>
                                                 <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-                                                    Shop now
+                                                    MUA NGAY
                                                     <span class="link__icon ml-1">
                                                         <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
                                                     </span>
@@ -4258,239 +4366,276 @@
                         </div>
                         <!-- End Toggle Button -->
 
-                        <!-- Content -->
-                        <div class="js-scrollbar u-sidebar__body">
-                            <div class="u-sidebar__content u-header-sidebar__content">
-                                <form class="js-validate">
-                                    <!-- Login -->
-                                    <div id="login" data-target-group="idForm">
-                                        <!-- Title -->
-                                        <header class="text-center mb-7">
-                                        <h2 class="h4 mb-0">Welcome Back!</h2>
-                                        <p>Login to manage your account.</p>
-                                        </header>
-                                        <!-- End Title -->
+<!-- Content -->
+<div class="js-scrollbar u-sidebar__body">
+    <div class="u-sidebar__content u-header-sidebar__content">
+        <!-- Login Form -->
+        <div id="login" data-target-group="idForm" style="display: @(ViewBag.Form != "signup" && ViewBag.Form != "forgotPassword" ? "block" : "none")">
+            <!-- Title -->
+            <header class="text-center mb-7">
+                <h2 class="h4 mb-0">Chào mừng bạn đến với Electronic Shop</h2>
+                <p>Đăng nhập tài khoản của bạn</p>
+            </header>
+            <!-- End Title -->
 
-                                        <!-- Form Group -->
-                                        <div class="form-group">
-                                            <div class="js-form-message js-focus-state">
-                                                <label class="sr-only" for="signinEmail">Email</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text" id="signinEmailLabel">
-                                                            <span class="fas fa-user"></span>
-                                                        </span>
-                                                    </div>
-                                                    <input type="email" class="form-control" name="email" id="signinEmail" placeholder="Email" aria-label="Email" aria-describedby="signinEmailLabel" required
-                                                    data-msg="Please enter a valid email address."
-                                                    data-error-class="u-has-error"
-                                                    data-success-class="u-has-success">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Form Group -->
+          <form asp-action="Login" asp-controller="Account" method="post" class="js-validate">
+        <!-- Hiển thị lỗi từ ModelState -->
+                                    @if (!ViewData.ModelState.IsValid)
+                                    {
+                <div class="alert alert-danger">
+                                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                            {
+                            <p>@error.ErrorMessage</p>
+                                            }
+                </div>
+                                    }
 
-                                        <!-- Form Group -->
-                                        <div class="form-group">
-                                            <div class="js-form-message js-focus-state">
-                                              <label class="sr-only" for="signinPassword">Password</label>
-                                              <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="signinPasswordLabel">
-                                                        <span class="fas fa-lock"></span>
-                                                    </span>
-                                                </div>
-                                                <input type="password" class="form-control" name="password" id="signinPassword" placeholder="Password" aria-label="Password" aria-describedby="signinPasswordLabel" required
-                                                   data-msg="Your password is invalid. Please try again."
-                                                   data-error-class="u-has-error"
-                                                   data-success-class="u-has-success">
-                                              </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Form Group -->
-
-                                        <div class="d-flex justify-content-end mb-4">
-                                            <a class="js-animation-link small link-muted" href="javascript:;"
-                                               data-target="#forgotPassword"
-                                               data-link-group="idForm"
-                                               data-animation-in="slideInUp">Forgot Password?</a>
-                                        </div>
-
-                                        <div class="mb-2">
-                                            <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Login</button>
-                                        </div>
-
-                                        <div class="text-center mb-4">
-                                            <span class="small text-muted">Do not have an account?</span>
-                                            <a class="js-animation-link small text-dark" href="javascript:;"
-                                               data-target="#signup"
-                                               data-link-group="idForm"
-                                               data-animation-in="slideInUp">Signup
-                                            </a>
-                                        </div>
-
-                                        <div class="text-center">
-                                            <span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
-                                        </div>
-
-                                        <!-- Login Buttons -->
-                                        <div class="d-flex">
-                                            <a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="#">
-                                              <span class="fab fa-facebook-square mr-1"></span>
-                                              Facebook
-                                            </a>
-                                            <a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="#">
-                                              <span class="fab fa-google mr-1"></span>
-                                              Google
-                                            </a>
-                                        </div>
-                                        <!-- End Login Buttons -->
-                                    </div>
-
-                                    <!-- Signup -->
-                                    <div id="signup" style="display: none; opacity: 0;" data-target-group="idForm">
-                                        <!-- Title -->
-                                        <header class="text-center mb-7">
-                                        <h2 class="h4 mb-0">Welcome to Electro.</h2>
-                                        <p>Fill out the form to get started.</p>
-                                        </header>
-                                        <!-- End Title -->
-
-                                        <!-- Form Group -->
-                                        <div class="form-group">
-                                            <div class="js-form-message js-focus-state">
-                                                <label class="sr-only" for="signupEmail">Email</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text" id="signupEmailLabel">
-                                                            <span class="fas fa-user"></span>
-                                                        </span>
-                                                    </div>
-                                                    <input type="email" class="form-control" name="email" id="signupEmail" placeholder="Email" aria-label="Email" aria-describedby="signupEmailLabel" required
-                                                    data-msg="Please enter a valid email address."
-                                                    data-error-class="u-has-error"
-                                                    data-success-class="u-has-success">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-
-                                        <!-- Form Group -->
-                                        <div class="form-group">
-                                            <div class="js-form-message js-focus-state">
-                                                <label class="sr-only" for="signupPassword">Password</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text" id="signupPasswordLabel">
-                                                            <span class="fas fa-lock"></span>
-                                                        </span>
-                                                    </div>
-                                                    <input type="password" class="form-control" name="password" id="signupPassword" placeholder="Password" aria-label="Password" aria-describedby="signupPasswordLabel" required
-                                                    data-msg="Your password is invalid. Please try again."
-                                                    data-error-class="u-has-error"
-                                                    data-success-class="u-has-success">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-
-                                        <!-- Form Group -->
-                                        <div class="form-group">
-                                            <div class="js-form-message js-focus-state">
-                                            <label class="sr-only" for="signupConfirmPassword">Confirm Password</label>
-                                                <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="signupConfirmPasswordLabel">
-                                                        <span class="fas fa-key"></span>
-                                                    </span>
-                                                </div>
-                                                <input type="password" class="form-control" name="confirmPassword" id="signupConfirmPassword" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="signupConfirmPasswordLabel" required
-                                                data-msg="Password does not match the confirm password."
-                                                data-error-class="u-has-error"
-                                                data-success-class="u-has-success">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-
-                                        <div class="mb-2">
-                                            <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Get Started</button>
-                                        </div>
-
-                                        <div class="text-center mb-4">
-                                            <span class="small text-muted">Already have an account?</span>
-                                            <a class="js-animation-link small text-dark" href="javascript:;"
-                                                data-target="#login"
-                                                data-link-group="idForm"
-                                                data-animation-in="slideInUp">Login
-                                            </a>
-                                        </div>
-
-                                        <div class="text-center">
-                                            <span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
-                                        </div>
-
-                                        <!-- Login Buttons -->
-                                        <div class="d-flex">
-                                            <a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="#">
-                                                <span class="fab fa-facebook-square mr-1"></span>
-                                                Facebook
-                                            </a>
-                                            <a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="#">
-                                                <span class="fab fa-google mr-1"></span>
-                                                Google
-                                            </a>
-                                        </div>
-                                        <!-- End Login Buttons -->
-                                    </div>
-                                    <!-- End Signup -->
-
-                                    <!-- Forgot Password -->
-                                    <div id="forgotPassword" style="display: none; opacity: 0;" data-target-group="idForm">
-                                        <!-- Title -->
-                                        <header class="text-center mb-7">
-                                            <h2 class="h4 mb-0">Recover Password.</h2>
-                                            <p>Enter your email address and an email with instructions will be sent to you.</p>
-                                        </header>
-                                        <!-- End Title -->
-
-                                        <!-- Form Group -->
-                                        <div class="form-group">
-                                            <div class="js-form-message js-focus-state">
-                                                <label class="sr-only" for="recoverEmail">Your email</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text" id="recoverEmailLabel">
-                                                            <span class="fas fa-user"></span>
-                                                        </span>
-                                                    </div>
-                                                    <input type="email" class="form-control" name="email" id="recoverEmail" placeholder="Your email" aria-label="Your email" aria-describedby="recoverEmailLabel" required
-                                                    data-msg="Please enter a valid email address."
-                                                    data-error-class="u-has-error"
-                                                    data-success-class="u-has-success">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Form Group -->
-
-                                        <div class="mb-2">
-                                            <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Recover Password</button>
-                                        </div>
-
-                                        <div class="text-center mb-4">
-                                            <span class="small text-muted">Remember your password?</span>
-                                            <a class="js-animation-link small" href="javascript:;"
-                                               data-target="#login"
-                                               data-link-group="idForm"
-                                               data-animation-in="slideInUp">Login
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <!-- End Forgot Password -->
-                                </form>
+                <!-- Form Group -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signinEmail">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="signinEmailLabel">
+                                    <span class="fas fa-user"></span>
+                                </span>
                             </div>
+                            <input type="email" class="form-control" name="Email" id="signinEmail" placeholder="Email" 
+                                   required data-msg="Vui lòng nhập địa chỉ email hợp lệ.">
                         </div>
-                        <!-- End Content -->
+                    </div>
+                </div>
+                <!-- End Form Group -->
+
+                <!-- Form Group -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signinPassword">Password</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="signinPasswordLabel">
+                                    <span class="fas fa-lock"></span>
+                                </span>
+                            </div>
+                            <input type="password" class="form-control" name="Password" id="signinPassword" placeholder="Password" 
+                                   required data-msg="Vui lòng nhập địa chỉ mật khẩu hợp lệ. Please try again.">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form Group -->
+
+                <!-- Remember Me -->
+              <div class="form-group">
+    <div class="custom-control custom-checkbox">
+        <input asp-for="RememberMe" type="checkbox" class="custom-control-input" id="rememberMe">
+        <label class="custom-control-label" for="rememberMe">Remember Me</label>
+    </div>
+</div>
+                <div class="d-flex justify-content-end mb-4">
+                    <a class="js-animation-link small link-muted" href="javascript:;"
+                       data-target="#forgotPassword"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Quên mật khẩu?</a>
+                </div>
+
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Đăng nhập</button>
+                </div>
+
+                <div class="text-center mb-4">
+                    <span class="small text-muted">Bạn không có tài khoản?</span>
+                    <a class="js-animation-link small text-dark" href="javascript:;"
+                       data-target="#signup"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Đăng ký</a>
+                </div>
+            </form>
+        </div>
+        <!-- End Login -->
+
+        <!-- Signup Form -->
+        <div id="signup" style="display: @(ViewBag.Form == "signup" ? "block" : "none"); opacity: @(ViewBag.Form == "signup" ? "1" : "0");" data-target-group="idForm">
+            <!-- Title -->
+            <header class="text-center mb-7">
+                <h2 class="h4 mb-0">Chào mừng bạn đến với Electronic Shop</h2>
+                <p>Đăng ký.</p>
+            </header>
+            <!-- End Title -->
+
+            <form asp-action="Register" asp-controller="Account" method="post" class="js-validate">
+                                    @if (ViewData.ModelState[""] != null && ViewData.ModelState[""].Errors.Count > 0)
+                                    {
+                        <div class="alert alert-danger">
+                                            @ViewData.ModelState[""].Errors[0].ErrorMessage
+                        </div>
+                                    }
+
+                <!-- Form Groups -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupEmail">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="signupEmailLabel">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control" name="Email" id="signupEmail" placeholder="Email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" name="UserName" id="signupUsername" placeholder="Username" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupPassword">Password</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-lock"></span>
+                                </span>
+                            </div>
+                            <input type="password" class="form-control" name="Password" id="signupPassword" placeholder="Password" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+    <div class="js-form-message js-focus-state">
+        <label class="sr-only" for="signupConfirmPassword">Confirm Password</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                </span>
+            </div>
+            <input type="password" class="form-control" name="ConfirmPassword" id="signupConfirmPassword" placeholder="Confirm Password" required>
+        </div>
+    </div>
+</div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupPhone">Phone Number</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-phone"></span>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" name="PhoneNumber" id="signupPhone" placeholder="Phone Number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupAddress">Address</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-home"></span>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" name="Address" id="signupAddress" placeholder="Address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupDOB">Date of Birth</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-calendar"></span>
+                                </span>
+                            </div>
+                            <input type="date" class="form-control" name="DateOfBirth" id="signupDOB">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Đăng ký</button>
+                </div>
+
+                <div class="text-center mb-4">
+                    <span class="small text-muted">Bạn đã có tài khoản?</span>
+                    <a class="js-animation-link small text-dark" href="javascript:;"
+                       data-target="#login"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+        <!-- End Signup -->
+
+        <!-- Forgot Password -->
+        <div id="forgotPassword" style="display: @(ViewBag.Form == "forgotPassword" ? "block" : "none"); opacity: @(ViewBag.Form == "forgotPassword" ? "1" : "0");" data-target-group="idForm">
+            <!-- Title -->
+            <header class="text-center mb-7">
+                <h2 class="h4 mb-0">Khôi phục mật khẩu.</h2>
+                <p>Nhập địa chỉ email của bạn và một email có hướng dẫn sẽ được gửi cho bạn.</p>
+            </header>
+            <!-- End Title -->
+
+            <form asp-action="ForgotPassword" asp-controller="Account" method="post" class="js-validate">
+                                    @if (TempData["Success"] != null)
+                                    {
+                        <div class="alert alert-success">
+                                            @TempData["Success"]
+                        </div>
+                                    }
+
+                <!-- Form Group -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="recoverEmail">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="recoverEmailLabel">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control" name="Email" id="recoverEmail" placeholder="Your email" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form Group -->
+
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Khôi phục</button>
+                </div>
+
+                <div class="text-center mb-4">
+                    <span class="small text-muted">Remember your password?</span>
+                    <a class="js-animation-link small" href="javascript:;"
+                       data-target="#login"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Login</a>
+                </div>
+            </form>
+        </div>
+        <!-- End Forgot Password -->
+    </div>
+</div>
+<!-- End Content -->
+
+                       
+
                     </div>
                 </div>
             </div>
@@ -4648,6 +4793,4 @@
             });
         </script>
     </body>
-
-<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/home-v7.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:39 GMT -->
-</html>
+</html>.

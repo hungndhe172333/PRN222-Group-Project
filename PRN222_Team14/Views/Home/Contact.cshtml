@@ -1,14 +1,14 @@
 ﻿@{
     Layout = null;
 }
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:39 GMT -->
+<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/contact-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:48 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
         <!-- Title -->
-        <title>About | Electro - Responsive Website Template</title>
+        <title>Liên hệ | Electronic Shop</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
@@ -85,64 +85,66 @@
                                             <!-- End Language -->
                                         </div>
                                     </li>
-                                           <div class="dropdown">
+                                    <div class="dropdown">
                                     @if (User.Identity.IsAuthenticated)
                                     {
-                    <a class="u-header-topbar__nav-link dropdown-toggle" 
-                       href="#" 
-                       role="button" 
-                       id="userDropdown"
-                       data-bs-toggle="dropdown" 
-                       aria-expanded="false">
-                        <i class="ec ec-user mr-1"></i> 
-                        <span class="text-gray-90">@User.Identity.Name</span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="userDropdown">
-                        <li>
-                            <a class="dropdown-item" href="@Url.Action("Profile", "Account")">
-                                    <i class="fa-solid fa-user"></i> Thông tin tài khoản
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="@Url.Action("History", "Order")">
-                                    <i class="fa-solid fa-cart-shopping"></i> Lịch sử đơn hàng
-                            </a>
-                        </li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li>
-                            <form asp-controller="Account" asp-action="Logout" method="post">
-                                <button type="submit" class="dropdown-item">
-                                        <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
-                                </button>
-                            </form>
-                        </li>
-                    </ul>
+                <a class="u-header-topbar__nav-link dropdown-toggle" 
+                   href="#" 
+                   role="button" 
+                   id="userDropdown"
+                   data-bs-toggle="dropdown" 
+                   aria-expanded="false">
+                    <i class="ec ec-user mr-1"></i> 
+                    <span class="text-gray-90">@User.Identity.Name</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Profile", "Account")">
+                                <i class="fa-solid fa-user"></i> Thông tin tài khoản
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("History", "Order")">
+                                <i class="fa-solid fa-cart-shopping"></i> Lịch sử đơn hàng
+                        </a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                            <button type="submit" class="dropdown-item">
+                                    <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
+                            </button>
+                        </form>
+                    </li>
+                </ul>
                                     }
                                     else
                                     {
-                    <a class="u-header-topbar__nav-link dropdown-toggle" 
-                       href="#" 
-                       role="button" 
-                       id="guestDropdown"
-                       data-bs-toggle="dropdown" 
-                       aria-expanded="false">
-                        <i class="ec ec-user mr-1"></i> 
-                        <span class="text-gray-90">Tài khoản</span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="guestDropdown">
-                        <li>
-                            <a class="dropdown-item" href="@Url.Action("Login", "Account")">
-                                        <i class="fa-solid fa-right-to-bracket"></i> Đăng nhập
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="@Url.Action("Register", "Account")">
-                                    <i class="fa-solid fa-registered"></i> Đăng ký
-                            </a>
-                        </li>
-                    </ul>
+                <a class="u-header-topbar__nav-link dropdown-toggle" 
+                   href="#" 
+                   role="button" 
+                   id="guestDropdown"
+                   data-bs-toggle="dropdown" 
+                   aria-expanded="false">
+                    <i class="ec ec-user mr-1"></i> 
+                    <span class="text-gray-90">Tài khoản</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="guestDropdown">
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Login", "Account")">
+                                    <i class="fa-solid fa-right-to-bracket"></i> Đăng nhập
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Register", "Account")">
+                                <i class="fa-solid fa-registered"></i> Đăng ký
+                        </a>
+                    </li>
+                </ul>
                                     }
 </div>
+
+
                                 </ul>
                             </div>
                         </div>
@@ -249,7 +251,7 @@
                                                 <div class="js-scrollbar u-sidebar__body">
                                                     <div id="headerSidebarContent" class="u-sidebar__content u-header-sidebar__content">
                                                         <!-- Logo -->
-                                                        <a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="index.html" aria-label="Electro">
+                                                        <a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="index.cshtml" aria-label="Electro">
                                                             <svg version="1.1" x="0px" y="0px" width="175.748px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
                                                                 <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
                                                                 <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
@@ -297,34 +299,14 @@
                                                             <!-- Home Section -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
                                                                 <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarHomeCollapse" data-target="#headerSidebarHomeCollapse">
-                                                                    Home & Static Pages
+                                                                    Trang chủ
                                                                 </a>
 
                                                                 <div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Home - v1 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="index.html">Home v1</a></li>
-                                                                        <!-- End Home - v1 -->
-                                                                        <!-- Home - v2 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v2.html">Home v2</a></li>
-                                                                        <!-- End Home - v2 -->
-                                                                        <!-- Home - v3 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v3.html">Home v3</a></li>
-                                                                        <!-- End Home - v3 -->
-                                                                        <!-- Home - v3-full-color-bg -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v3-full-color-bg.html">Home v3.1</a></li>
-                                                                        <!-- End Home - v3-full-color-bg -->
-                                                                        <!-- Home - v4 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v4.html">Home v4</a></li>
-                                                                        <!-- End Home - v4 -->
-                                                                        <!-- Home - v5 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v5.html">Home v5</a></li>
-                                                                        <!-- End Home - v5 -->
-                                                                        <!-- Home - v6 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v6.html">Home v6</a></li>
-                                                                        <!-- End Home - v6 -->
+                                                                      
                                                                         <!-- Home - v7 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v7.html">Home v7</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="index.cshtml">Home v7</a></li>
                                                                         <!-- End Home - v7 -->
                                                                         <!-- About -->
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="about.html">About</a></li>
@@ -727,10 +709,10 @@
                                     <i class="ec ec-support font-size-50 text-primary"></i>
                                     <div class="ml-2">
                                         <div class="phone">
-                                            <strong>Hỗ trợ</strong> <a href="tel:800856800604" class="text-gray-90">0348956373</a>
+                                            <strong>Support</strong> <a href="tel:800856800604" class="text-gray-90">(+800) 856 800 604</a>
                                         </div>
                                         <div class="email">
-                                            E-mail: <a href="mailto:doanhtnhe172637@fpt.edu.vn?subject=Help Need" class="text-gray-90">doanhtnhe172637@fpt.edu.vn</a>
+                                            E-mail: <a href="mailto:info@electro.com?subject=Help Need" class="text-gray-90">info@electro.com</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1215,7 +1197,7 @@
 
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content" role="main">
-             <!-- breadcrumb -->
+            <!-- breadcrumb -->
             <div class="bg-gray-13 bg-md-transparent">
                 <div class="container">
                     <!-- breadcrumb -->
@@ -1224,7 +1206,7 @@
                             <ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="@Url.Action("Index", "Home")">Home</a></li>
 
-                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Chúng tôi</li>
+                                <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Liên hệ</li>
                             </ol>
                         </nav>
                     </div>
@@ -1232,276 +1214,94 @@
                 </div>
             </div>
             <!-- End breadcrumb -->
-            <div class="bg-img-hero mb-14" style="background-image: url(../../assets/img/1920x600/img1.html);">
-                <div class="container">
-                    <div class="flex-content-center max-width-620-lg flex-column mx-auto text-center min-height-564">
-                        <h1 class="h1 font-weight-bold">Chúng tôi</h1>
-                        <p class="text-gray-39 font-size-18 text-lh-default">🚀 Chào mừng đến với Electronic Shop!
-Chúng tôi là một cửa hàng chuyên cung cấp các sản phẩm điện tử chất lượng cao, từ điện thoại, laptop, phụ kiện công nghệ đến đồ gia dụng thông minh. Với sứ mệnh mang đến những sản phẩm hiện đại, bền bỉ và giá cả hợp lý, Electronic Shop luôn đặt khách hàng lên hàng đầu.</p>
-                    </div>
-                </div>
+            <div class="mb-8">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5062169040802!2d105.52271427603362!3d21.01242168833807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abc60e7d3f19%3A0x2be9d7d0b5abcbf4!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBGUFQgSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1739970959975!5m2!1svi!2s" width="100%" height="514" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="card mb-3 border-0 text-center rounded-0">
-                            <img class="img-fluid mb-3" src="../../assets/img/500X300/img1.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="font-size-18 font-weight-semi-bold mb-3">Chúng tôi thực sự làm gì?</h5>
-                                <p class="text-gray-90 max-width-334 mx-auto"></p>
+                <div class="row mb-10">
+                    <div class="col-md-8 col-xl-9">
+                        <div class="mr-xl-6">
+                            <div class="border-bottom border-color-1 mb-5">
+                                <h3 class="section-title mb-0 pb-2 font-size-25">Để lại lời nhắn cho chúng tôi</h3>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <div class="card mb-3 border-0 text-center rounded-0">
-                            <img class="img-fluid mb-3" src="../../assets/img/500X300/img2.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="font-size-18 font-weight-semi-bold mb-3">Tầm nhìn của chúng tôi</h5>
-                                <p class="text-gray-90 max-width-334 mx-auto"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-3 border-0 text-center rounded-0">
-                            <img class="img-fluid mb-3" src="../../assets/img/500X300/img3.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="font-size-18 font-weight-semi-bold mb-3">Lịch sử cửa hàng</h5>
-                                <p class="text-gray-90 max-width-334 mx-auto"></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bg-gray-1 py-12 mb-10 mb-lg-15">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-                            <img class="img-fluid mb-3 rounded-circle" src="../../assets/img/300X300/img16.jpg" alt="Card image cap">
-                            <h2 class="font-size-18 font-weight-semi-bold mb-0">Thomas Snow</h2>
-                            <span class="text-gray-41">CEO/Founder</span>
-                        </div>
-                        <div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-                            <img class="img-fluid mb-3 rounded-circle" src="../../assets/img/300X300/img17.jpg" alt="Card image cap">
-                            <h2 class="font-size-18 font-weight-semi-bold mb-0">Anna Baranov</h2>
-                            <span class="text-gray-41">Client Care</span>
-                        </div>
-                        <div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-                            <img class="img-fluid mb-3 rounded-circle" src="../../assets/img/300X300/img18.jpg" alt="Card image cap">
-                            <h2 class="font-size-18 font-weight-semi-bold mb-0">Andre Kowalsy</h2>
-                            <span class="text-gray-41">Support Boss</span>
-                        </div>
-                        <div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-                            <img class="img-fluid mb-3 rounded-circle" src="../../assets/img/300X300/img19.jpg" alt="Card image cap">
-                            <h2 class="font-size-18 font-weight-semi-bold mb-0">Pamela Doe</h2>
-                            <span class="text-gray-41">Delivery Driver</span>
-                        </div>
-                        <div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-                            <img class="img-fluid mb-3 rounded-circle" src="../../assets/img/300X300/img20.jpg" alt="Card image cap">
-                            <h2 class="font-size-18 font-weight-semi-bold mb-0">Susan McCain</h2>
-                            <span class="text-gray-41">Packaging Girl</span>
-                        </div>
-                        <div class="col-md-4 mb-5 mb-xl-0 col-xl text-center">
-                            <img class="img-fluid mb-3 rounded-circle" src="../../assets/img/300X300/img21.png" alt="Card image cap">
-                            <h2 class="font-size-18 font-weight-semi-bold mb-0">See Details</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container mb-8 mb-lg-0">
-                <div class="row mb-8">
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-lg-6 mb-5 mb-lg-8">
-                                <h3 class="font-size-18 font-weight-semi-bold text-gray-39 mb-4">Chúng tôi thực sự làm gì?</h3>
-                                <p class="text-gray-90">  Cung cấp thiết bị điện tử chất lượng cao
-Chúng tôi chuyên cung cấp nhiều loại điện thoại thông minh, máy tính xách tay, thiết bị chơi game, đồ gia dụng và phụ kiện từ các thương hiệu hàng đầu. Mỗi sản phẩm đều được lựa chọn cẩn thận để đảm bảo chất lượng, độ bền và công nghệ mới nhất.
-
-                            </div>
-                            <div class="col-lg-6 mb-5 mb-lg-8">
-                                <h3 class="font-size-18 font-weight-semi-bold text-gray-39 mb-4">Tầm nhìn của chúng tôi</h3>
-                                <p class="text-gray-90">Tại Electronic Shop , chúng tôi định nghĩa lại cách mọi người trải nghiệm công nghệ bằng cách tạo ra những sản phẩm dễ tiếp cận, giá cả phải chăng và sáng tạo cho khách hàng.</p>
-                            </div>
-                            <div class="col-lg-6 mb-5 mb-lg-8">
-                                <h3 class="font-size-18 font-weight-semi-bold text-gray-39 mb-4">Lịch sử của Cửa hàng</h3>
-                                <p class="text-gray-90">Tại Electronic Shop , chúng tôi đã đi một chặng đường dài từ một cửa hàng công nghệ nhỏ đến một cái tên đáng tin cậy trong ngành điện tử. Hành trình của chúng tôi được xây dựng trên niềm đam mê, sự đổi mới và cam kết cung cấp các giải pháp công nghệ tốt nhất cho khách hàng.</p>
-                            </div>
-                            <div class="col-lg-6 mb-5 mb-lg-8">
-                                <h3 class="font-size-18 font-weight-semi-bold text-gray-39 mb-4">Hợp tác với chúng tôi!</h3>
-                                <p class="text-gray-90"> Tại Electronic Shop , chúng tôi tin vào sức mạnh của sự hợp tác và quan hệ đối tác lâu dài. Cho dù bạn là nhà cung cấp, nhà phân phối, nhà bán lẻ hay chủ doanh nghiệp , chúng tôi đều hoan nghênh các cơ hội hợp tác và tạo ra mối quan hệ cùng có lợi.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="ml-lg-8">
-                            <h3 class="font-size-18 font-weight-semi-bold text-gray-39 mb-4">Chúng tôi có thể làm gì cho bạn?</h3>
-                            <!-- Basics Accordion -->
-                            <div id="basicsAccordion1" class="about-accordion">
-                                <!-- Card -->
-                                <div class="card mb-4 border-color-4 rounded-0">
-                                    <div class="card-header card-collapse border-color-4" id="basicsHeadingOne">
-                                        <h5 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block flex-horizontal-center card-btn p-0 font-size-18"
-                                                data-toggle="collapse"
-                                                data-target="#basicsCollapseOnee"
-                                                aria-expanded="true"
-                                                aria-controls="basicsCollapseOnee">
-                                                <span class="border border-color-5 rounded font-size-12 mr-5">
-                                                    <i class="fas fa-plus"></i>
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                                Hỗ trợ 24/7
-                                            </button>
-                                        </h5>
+                            <p class="max-width-830-xl text-gray-90"</p>
+                            <form class="js-validate" novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- Input -->
+                                        <div class="js-form-message mb-4">
+                                            <label class="form-label">
+                                                Tên
+                                                <span class="text-danger">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" name="Tên" placeholder="" aria-label="" required="" data-msg="Please enter your frist name." data-error-class="u-has-error" data-success-class="u-has-success" autocomplete="off">
+                                        </div>
+                                        <!-- End Input -->
                                     </div>
-                                    <div id="basicsCollapseOnee" class="collapse show"
-                                        aria-labelledby="basicsHeadingOne"
-                                        data-parent="#basicsAccordion1">
-                                        <div class="card-body">
-                                            <p class="mb-0"><ul>
-  <li>🔹 <strong>Chúng tôi hỗ trợ bạn như thế nào?</strong></li>
-  <li>✅ <strong>Hỗ trợ kỹ thuật</strong> – Bạn đang gặp sự cố với thiết bị của mình? Các chuyên gia của chúng tôi sẵn sàng hỗ trợ khắc phục sự cố, thiết lập và sửa chữa.</li>
-  <li>✅ <strong>Hỗ trợ đơn hàng và giao hàng</strong> – Bạn cần trợ giúp theo dõi đơn hàng hoặc quản lý việc trả hàng? Chúng tôi cung cấp các bản cập nhật theo thời gian thực và các giải pháp không rắc rối.</li>
-  <li>✅ <strong>Thắc mắc về sản phẩm</strong> – Bạn đang tìm kiếm khuyến nghị hoặc có thắc mắc về sản phẩm? Đội ngũ của chúng tôi ở đây để hướng dẫn bạn đến lựa chọn tốt nhất.</li>
-  <li>✅ <strong>Dịch vụ bảo hành và sau bán hàng</strong> – Chúng tôi cam kết bảo hành, đổi trả và sửa chữa sản phẩm tận tâm để bạn an tâm.</li>
-  <li>✅ <strong>Hỗ trợ qua trò chuyện trực tiếp, email và điện thoại</strong> – Liên hệ với chúng tôi qua trò chuyện trực tiếp, email hoặc gọi điện trực tiếp — bất kỳ cách nào thuận tiện nhất cho bạn!</li>
-</ul>
-</p>
+
+                                    <div class="col-md-6">
+                                        <!-- Input -->
+                                        <div class="js-form-message mb-4">
+                                            <label class="form-label">
+                                                Họ
+                                                <span class="text-danger">*</span>
+                                            </label>
+                                            <input type="text" class="form-control" name="Họ" placeholder="" aria-label="" required="" data-msg="Please enter your last name." data-error-class="u-has-error" data-success-class="u-has-success">
+                                        </div>
+                                        <!-- End Input -->
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <!-- Input -->
+                                        <div class="js-form-message mb-4">
+                                            <label class="form-label">
+                                                Nội dung
+                                            </label>
+                                            <input type="text" class="form-control" name="Subject" placeholder="" aria-label="" data-msg="Please enter subject." data-error-class="u-has-error" data-success-class="u-has-success">
+                                        </div>
+                                        <!-- End Input -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="js-form-message mb-4">
+                                            <label class="form-label">
+                                                Tin nhắn của bạn
+                                            </label>
+
+                                            <div class="input-group">
+                                                <textarea class="form-control p-5" rows="4" name="text" placeholder=""></textarea>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4 border-color-4 rounded-0">
-                                    <div class="card-header card-collapse border-color-4" id="basicsHeadingTwo">
-                                        <h5 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block flex-horizontal-center card-btn p-0 font-size-18"
-                                                data-toggle="collapse"
-                                                data-target="#basicsCollapseTwo"
-                                                aria-expanded="false"
-                                                aria-controls="basicsCollapseTwo">
-                                                <span class="border border-color-5 rounded font-size-12 mr-5">
-                                                    <i class="fas fa-plus"></i>
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                                Chất lượng tốt nhất
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="basicsCollapseTwo" class="collapse"
-                                        aria-labelledby="basicsHeadingTwo"
-                                        data-parent="#basicsAccordion1">
-                                        <div class="card-body">
-                                            <p class="mb-0"> 🔹 <strong>Tại sao nên chọn sản phẩm của chúng tôi?</strong><br><br>
-        ✅ <strong>100% chính hãng và được chứng nhận</strong> – Chúng tôi chỉ lấy nguồn hàng từ các thương hiệu đáng tin cậy và nhà cung cấp được ủy quyền, đảm bảo sản phẩm chính hãng và chất lượng cao.<br><br>
-        ✅ <strong>Kiểm tra chất lượng nghiêm ngặt</strong> – Mỗi sản phẩm đều trải qua quá trình kiểm tra và thử nghiệm nghiêm ngặt để đáp ứng các tiêu chuẩn cao của chúng tôi trước khi đến tay khách hàng.<br><br>
-        ✅ <strong>Công nghệ và đổi mới mới nhất</strong> – Chúng tôi mang đến cho bạn những tiện ích mới nhất và công nghệ tiên tiến, đảm bảo bạn luôn đi đầu trong thế giới kỹ thuật số.<br><br>
-        ✅ <strong>Bảo hành và hỗ trợ sau bán hàng mạnh mẽ</strong> – Tất cả sản phẩm của chúng tôi đều được bảo hành bởi nhà sản xuất và dịch vụ khách hàng đáng tin cậy để mang đến cho bạn sự an tâm.<br><br>
-        ✅ <strong>Vật liệu và thiết kế cao cấp</strong> – Từ điện thoại thông minh đến thiết bị nhà thông minh, chúng tôi ưu tiên độ bền, hiệu quả và trải nghiệm của người dùng.</p>
-                                        </div>
-                                    </div>
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary-dark-w px-5">Gửi tin nhắn</button>
                                 </div>
-                                <!-- End Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4 border-color-4 rounded-0">
-                                    <div class="card-header card-collapse border-color-4" id="basicsHeadingThree">
-                                        <h5 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block flex-horizontal-center card-btn p-0 font-size-18"
-                                                data-toggle="collapse"
-                                                data-target="#basicsCollapseThree"
-                                                aria-expanded="false"
-                                                aria-controls="basicsCollapseThree">
-                                                <span class="border border-color-5 rounded font-size-12 mr-5">
-                                                    <i class="fas fa-plus"></i>
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                                Giao hàng nhanh nhất
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="basicsCollapseThree" class="collapse"
-                                        aria-labelledby="basicsHeadingThree"
-                                        data-parent="#basicsAccordion1">
-                                        <div class="card-body">
-                                            <p class="mb-0">🔹 <strong>Tại sao nên chọn dịch vụ giao hàng của chúng tôi?</strong><br><br>
-        ✅ <strong>Giao hàng siêu nhanh</strong> – Chúng tôi xử lý và giao đơn hàng trong vòng 24 giờ để bạn nhận được hàng nhanh nhất có thể.<br><br>
-        ✅ <strong>Giao hàng trong ngày và giao hàng nhanh</strong> – Bạn cần gấp? Chúng tôi cung cấp dịch vụ giao hàng trong ngày hoặc ngày hôm sau tại một số địa điểm được chọn.<br><br>
-        ✅ <strong>Giao hàng trên toàn thế giới</strong> – Dù bạn ở đâu, chúng tôi đảm bảo giao hàng toàn cầu thông qua các đối tác chuyển phát nhanh đáng tin cậy.<br><br>
-        ✅ <strong>Theo dõi đơn hàng theo thời gian thực</strong> – Cập nhật trạng thái lô hàng của bạn thông qua liên kết theo dõi và thông báo trực tiếp.<br><br>
-        ✅ <strong>Bao bì an toàn và bảo mật</strong> – Chúng tôi đóng gói mọi sản phẩm cẩn thận để đảm bảo sản phẩm đến tay khách hàng trong tình trạng hoàn hảo.<br><br>
-        ✅ <strong>Trả hàng và thay thế dễ dàng</strong> – Nếu có vấn đề gì, chúng tôi sẽ thực hiện quy trình trả hàng hoặc đổi hàng nhanh chóng và đơn giản.
-    </p></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4 border-color-4 rounded-0">
-                                    <div class="card-header card-collapse border-color-4" id="basicsHeadingFour">
-                                        <h5 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block flex-horizontal-center card-btn p-0 font-size-18"
-                                                data-toggle="collapse"
-                                                data-target="#basicsCollapseFour"
-                                                aria-expanded="false"
-                                                aria-controls="basicsCollapseFour">
-                                                <span class="border border-color-5 rounded font-size-12 mr-5">
-                                                    <i class="fas fa-plus"></i>
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                                Chăm sóc khách hàng
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="basicsCollapseFour" class="collapse"
-                                        aria-labelledby="basicsHeadingFour"
-                                        data-parent="#basicsAccordion1">
-                                        <div class="card-body">
-                                            <p class="mb-0">  🔹 <strong>Chúng tôi hỗ trợ bạn như thế nào?</strong><br><br>
-        ✅ <strong>Hỗ trợ kỹ thuật</strong> – Bạn đang gặp sự cố với thiết bị của mình? Các chuyên gia của chúng tôi sẵn sàng hỗ trợ khắc phục sự cố, thiết lập và sửa chữa.<br><br>
-        ✅ <strong>Hỗ trợ đơn hàng và giao hàng</strong> – Bạn cần trợ giúp theo dõi đơn hàng hoặc quản lý việc trả hàng? Chúng tôi cung cấp các bản cập nhật theo thời gian thực và các giải pháp không rắc rối.<br><br>
-        ✅ <strong>Thắc mắc về sản phẩm</strong> – Bạn đang tìm kiếm khuyến nghị hoặc có thắc mắc về sản phẩm? Đội ngũ của chúng tôi ở đây để hướng dẫn bạn đến lựa chọn tốt nhất.<br><br>
-        ✅ <strong>Dịch vụ bảo hành và sau bán hàng</strong> – Chúng tôi cam kết bảo hành, đổi trả và sửa chữa sản phẩm tận tâm để bạn an tâm.<br><br>
-        ✅ <strong>Hỗ trợ qua trò chuyện trực tiếp, email và điện thoại</strong> – Liên hệ với chúng tôi qua trò chuyện trực tiếp, email hoặc gọi điện trực tiếp — bất kỳ cách nào thuận tiện nhất cho bạn!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Card -->
-
-                                <!-- Card -->
-                                <div class="card mb-4 border-color-4 rounded-0">
-                                    <div class="card-header card-collapse border-color-4" id="basicsHeadingFive">
-                                        <h5 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block flex-horizontal-center card-btn p-0 font-size-18"
-                                                data-toggle="collapse"
-                                                data-target="#basicsCollapseFive"
-                                                aria-expanded="false"
-                                                aria-controls="basicsCollapseFive">
-                                                <span class="border border-color-5 rounded font-size-12 mr-5">
-                                                    <i class="fas fa-plus"></i>
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                               Hơn 200 khách hàng hài lòng
-                                            </button>
-                                        </h5>
-                                    </div>
-                                    <div id="basicsCollapseFive" class="collapse"
-                                        aria-labelledby="basicsHeadingFive"
-                                        data-parent="#basicsAccordion1">
-                                        <div class="card-body">
-                                            <p class="mb-0">🔹 <strong>Tại sao khách hàng yêu thích chúng tôi?</strong><br><br>
-        ✅ <strong>Sản phẩm chất lượng cao</strong> – Chúng tôi chỉ cung cấp các thiết bị điện tử tốt nhất và đáng tin cậy nhất từ các thương hiệu hàng đầu.<br><br>
-        ✅ <strong>Giao hàng nhanh chóng và an toàn</strong> – Đơn hàng của bạn sẽ đến nhanh chóng và an toàn, bất kể bạn ở đâu.<br><br>
-        ✅ <strong>Hỗ trợ khách hàng 24/7</strong> – Đội ngũ thân thiện của chúng tôi luôn sẵn sàng hỗ trợ bạn giải đáp mọi thắc mắc hoặc vấn đề.<br><br>
-        ✅ <strong>Trả hàng và bảo hành dễ dàng</strong> – Chúng tôi chịu trách nhiệm về sản phẩm của mình và đảm bảo quy trình trả hàng và thay thế diễn ra suôn sẻ.<br><br>
-        ✅ <strong>Giá tốt nhất & Ưu đãi độc quyền</strong> – Tận hưởng giá cả cạnh tranh và ưu đãi đặc biệt quanh năm!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Card -->
-                            </div>
-                            <!-- End Basics Accordion -->
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xl-3">
+                        <div class="border-bottom border-color-1 mb-5">
+                            <h3 class="section-title mb-0 pb-2 font-size-25">Cửa hàng của chúng tôi</h3>
+                        </div>
+                        <div class="mr-xl-6">
+                            <address class="mb-6">
+                               Đại học FPT <br>
+                                khu công nghê cao Hòa Lạc <br>
+                                Hà Nội,Việt Nam
+                            </address>
+                            <h5 class="font-size-14 font-weight-bold mb-3">Giờ mở cửa</h5>
+                            <ul class="list-unstyled mb-6">
+                                <li class="flex-center-between mb-1"><span class="">Thứ hai:</span><span class="">6 giờ A.M - 18 giở P.M </span></li>
+                                <li class="flex-center-between mb-1"><span class="">Thứ ba:</span><span class="">6 giờ A.M - 18 giở P.M </span></li>
+                                <li class="flex-center-between mb-1"><span class="">Thứ tư:</span><span class="">6 giờ A.M - 18 giở P.M </span></li>
+                                <li class="flex-center-between mb-1"><span class="">Thứ năm:</span><span class="">6 giờ A.M - 18 giở P.M </span></li>
+                                <li class="flex-center-between mb-1"><span class="">Thứ sáu:</span><span class="">6 giờ A.M - 18 giở P.M </span></li>
+                                <li class="flex-center-between mb-1"><span class="">Thứ bảy:</span><span class="">6 giờ A.M - 18 giở P.M </span></li>
+                                <li class="flex-center-between"><span class="">Chủ nhật</span><span class="">Đóng cửa</span></li>
+                            </ul>
+                            <h5 class="font-size-14 font-weight-bold mb-3">Tuyển dụng</h5>
+                            <p class="text-gray-90">Nếu bạn quan tâm đến cơ hội việc làm tại Electronic Shop, vui lòng gửi email cho chúng tôi: <a class="text-blue text-decoration-on" href="mailto:doanhtnhe172637@fpt.edu.vn.com">doanhtnhe172637@fpt.edu.vn.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -2841,5 +2641,5 @@ Chúng tôi chuyên cung cấp nhiều loại điện thoại thông minh, máy 
         </script>
     </body>
 
-<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:48 GMT -->
+<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/contact-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:48 GMT -->
 </html>
