@@ -1,16 +1,20 @@
-﻿<!DOCTYPE html>
+﻿@model ElectronicShopTeam14.Models.LoginViewModel
+@{
+    Layout=null;
+    }
+@{
+    ViewData["Title"] = "Account";
+}
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/home-v7.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:36 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-    <!-- Title -->
-    <title>Home-v7 | Electro - Responsive Website Template</title>
-
-    <!-- Required Meta Tags Always Come First -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <!-- Title -->
+        <title>Home-v7 | Electro - Responsive Website Template</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="../../favicon.png">
@@ -18,9 +22,165 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
 
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="../../assets/css/font-electro.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+
+        <!-- CSS Implementing Plugins -->
+        <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../../assets/css/font-electro.css">
+
+        <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+        <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+        <link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+
+        <!-- CSS Electro Template -->
+        <link rel="stylesheet" href="../../assets/css/theme.css">
+    </head>
+
+    <body>
+
+        <!-- ========== HEADER ========== -->
+        <header id="header" class="u-header u-header-left-aligned-nav border-bottom border-color-1">
+            <div class="u-header__section">
+                <!-- Topbar -->
+                <div class="u-header-topbar py-2 d-none d-xl-block">
+                    <div class="container">
+                        <div class="d-flex align-items-center">
+                            <div class="topbar-left">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item u-header-topbar__nav-item u-header-topbar__nav-item-no-border mr-0">
+                                        <a href="tel:+060800801858" class="u-header-topbar__nav-link"><i class="ec ec-phone text-primary mr-1"></i> +060 (800) 801-858</a>
+                                    </li>
+                                    <li class="list-inline-item u-header-topbar__nav-item u-header-topbar__nav-item-no-border">
+                                        <a href="mailto:info@electro.com" class="u-header-topbar__nav-link"><i class="ec ec-mail text-primary mr-1"></i> info@electro.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="topbar-right ml-auto">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+
+                                       <a href="@Url.Action("Contact", "Home")" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Địa chỉ cửa hàng</a>
+                                    </li>
+                                    <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Theo dõi đơn hàng</a>
+                                    </li>
+                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+                                       <a href="@Url.Action("Shop", "Home")" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Shop</a>
+                                    </li>
+                                    <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
+                                        <div class="d-flex align-items-center">
+                                            <!-- Language -->
+                                            <div class="position-relative">
+                                                <a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center u-header-topbar__nav-link font-weight-normal" href="javascript:;" role="button"
+                                                    aria-controls="languageDropdown"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    data-unfold-event="hover"
+                                                    data-unfold-target="#languageDropdown"
+                                                    data-unfold-type="css-animation"
+                                                    data-unfold-duration="300"
+                                                    data-unfold-delay="300"
+                                                    data-unfold-hide-on-scroll="true"
+                                                    data-unfold-animation-in="slideInUp"
+                                                    data-unfold-animation-out="fadeOut">
+                                                    <span class="d-inline-block d-sm-none">US</span>
+                                                    <span class="d-none d-sm-inline-flex align-items-center"><i class="ec ec-dollar mr-1"></i> Dollar (US)</span>
+                                                </a>
+
+                                                <div id="languageDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="languageDropdownInvoker">
+                                                    <a class="dropdown-item active" href="#">English</a>
+                                                    <a class="dropdown-item" href="#">Deutsch</a>
+                                                    <a class="dropdown-item" href="#">Español‎</a>
+                                                </div>
+                                            </div>
+                                            <!-- End Language -->
+                                        </div>
+                                    </li>
+                             <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+            <!-- Account Sidebar Toggle Button -->
+            <div class="dropdown">
+                <a id="sidebarNavToggler" href="javascript:;" role="button" 
+                   class="u-header-topbar__nav-link dropdown-toggle"
+                   data-toggle="dropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false">
+                    <i class="ec ec-user mr-1"></i> 
+                    Xin chào, @User.Identity.Name
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="sidebarNavToggler">
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Profile", "Account")">
+                            <i class="fa-solid fa-user"></i> Thông tin tài khoản
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("History", "Order")">
+                            <i class="fa-solid fa-cart-shopping"></i> Lịch sử đơn hàng
+                        </a>
+                    </li>
+                                                @if (User.IsInRole("Admin"))
+                                                {
+                    <li>
+                        <a class="dropdown-item" href="@Url.Action("Index", "Admin")">
+                            <i class="fa-solid fa-gear"></i> Quản lý Admin
+                        </a>
+                    </li>
+                                                }
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                                                        @Html.AntiForgeryToken()
+                            <button type="submit" class="dropdown-item">
+                                <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
+                            </button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+                                    }
+                                    else
+                                    {
+            <!-- Account Sidebar Toggle Button -->
+            <a id="sidebarNavToggler" href="javascript:;" role="button" 
+               class="u-header-topbar__nav-link"
+               aria-controls="sidebarContent"
+               aria-haspopup="true"
+               aria-expanded="false"
+               data-unfold-event="click"
+               data-unfold-hide-on-scroll="false"
+               data-unfold-target="#sidebarContent"
+               data-unfold-type="css-animation"
+               data-unfold-animation-in="fadeInRight"
+               data-unfold-animation-out="fadeOutRight"
+               data-unfold-duration="500">
+                <i class="ec ec-user mr-1"></i> Đăng nhập <span class="text-gray-50">hoặc</span> Đăng ký
+            </a>
+                                    }
+    <!-- End Account Sidebar Toggle Button -->
+</li>
+
+   @* <div class="dropdown">
+
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <a asp-controller="Account" asp-action="Profile">
+                                            <i class="ec ec-user mr-1"></i> Profile
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-controller="Account" asp-action="Login">
+                                            <i class="ec ec-user mr-1"></i> Register <span class="text-gray-50">or</span> Sign in
+                                        </a>
+                                    }
+</div>
+ *@
 
     <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
     <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
@@ -95,16 +255,19 @@
                                         data-unfold-animation-in="fadeInLeft"
                                         data-unfold-animation-out="fadeOutLeft"
                                         data-unfold-duration="500">
-                                    <span id="hamburgerTriggerMenu" class="u-hamburger__box">
-                                        <span class="u-hamburger__inner"></span>
-                                    </span>
-                                </button>
-                                <!-- End Fullscreen Toggle Button -->
-                                <!-- Logo -->
-                                <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0" href="index.html" aria-label="Electro">
-                                    <svg version="1.1" x="0px" y="0px" width="120px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
-                                        <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
-                                        <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
+
+                                        <span id="hamburgerTriggerMenu" class="u-hamburger__box">
+                                            <span class="u-hamburger__inner"></span>
+                                        </span>
+                                    </button>
+                                    <!-- End Fullscreen Toggle Button -->
+
+                                    <!-- Logo -->
+                                    <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0" href="@Url.Action("Index","Home")" aria-label="Electro">
+                                        <svg version="1.1" x="0px" y="0px" width="120px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
+                                            <ellipse class="ellipse-bg" fill-rule="evenodd" clip-rule="evenodd" fill="#FDD700" cx="170.05" cy="36.341" rx="5.32" ry="5.367"></ellipse>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#333E48" d="M30.514,0.71c-0.034,0.003-0.066,0.008-0.056,0.056
+
                                                 C30.263,0.995,29.876,1.181,29.79,1.5c-0.148,0.548,0,1.568,0,2.427v36.459c0.265,0.221,0.506,0.465,0.725,0.734h6.187
                                                 c0.2-0.25,0.423-0.477,0.669-0.678V1.387C37.124,1.185,36.9,0.959,36.701,0.71H30.514z M117.517,12.731
                                                 c-0.232-0.189-0.439-0.64-0.781-0.734c-0.754-0.209-2.039,0-3.121,0h-3.176V4.435c-0.232-0.189-0.439-0.639-0.781-0.733
@@ -209,236 +372,250 @@
                                                                     c0.404-1.031-0.365-1.502-0.891-2.088c-2.543-2.835-6.66-5.377-11.704-5.137c-6.02,0.288-10.218,3.697-12.484,7.846
                                                                     c-1.293,2.365-1.951,5.158-1.729,8.408c0.209,3.053,1.191,5.496,2.619,7.508c2.842,4.004,7.385,6.973,13.656,6.377
                                                                     c5.976-0.568,9.574-3.936,11.816-8.354c-0.141-0.271-0.221-0.604-0.336-0.902C92.929,31.364,90.843,30.485,88.812,29.55z">
-                                                            </path>
-                                                        </svg>
-                                                    </a>
-                                                    <!-- End Logo -->
-                                                    <!-- List -->
-                                                    <ul id="headerSidebarList" class="u-header-collapse__nav">
-                                                        <!-- Home Section -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarHomeCollapse" data-target="#headerSidebarHomeCollapse">
-                                                                Home & Static Pages
-                                                            </a>
 
-                                                            <div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- Home - v1 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="index.html">Home v1</a></li>
-                                                                    <!-- End Home - v1 -->
-                                                                    <!-- Home - v2 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v2.html">Home v2</a></li>
-                                                                    <!-- End Home - v2 -->
-                                                                    <!-- Home - v3 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v3.html">Home v3</a></li>
-                                                                    <!-- End Home - v3 -->
-                                                                    <!-- Home - v3-full-color-bg -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v3-full-color-bg.html">Home v3.1</a></li>
-                                                                    <!-- End Home - v3-full-color-bg -->
-                                                                    <!-- Home - v4 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v4.html">Home v4</a></li>
-                                                                    <!-- End Home - v4 -->
-                                                                    <!-- Home - v5 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v5.html">Home v5</a></li>
-                                                                    <!-- End Home - v5 -->
-                                                                    <!-- Home - v6 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v6.html">Home v6</a></li>
-                                                                    <!-- End Home - v6 -->
-                                                                    <!-- Home - v7 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="home-v7.html">Home v7</a></li>
-                                                                    <!-- End Home - v7 -->
-                                                                    <!-- About -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="about.html">About</a></li>
-                                                                    <!-- End About -->
-                                                                    <!-- Contact v1 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="contact-v1.html">Contact v1</a></li>
-                                                                    <!-- End Contact v1 -->
-                                                                    <!-- Contact v2 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="contact-v2.html">Contact v2</a></li>
-                                                                    <!-- End Contact v2 -->
-                                                                    <!-- FAQ -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="faq.html">FAQ</a></li>
-                                                                    <!-- End FAQ -->
-                                                                    <!-- Store Directory -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="store-directory.html">Store Directory</a></li>
-                                                                    <!-- End Store Directory -->
-                                                                    <!-- Terms and Conditions -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="terms-and-conditions.html">Terms and Conditions</a></li>
-                                                                    <!-- End Terms and Conditions -->
-                                                                    <!-- 404 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="404.html">404</a></li>
-                                                                    <!-- End 404 -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Home Section -->
-                                                        <!-- Shop Pages -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarPagesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarPagesCollapse">
-                                                                Shop Pages
-                                                            </a>
+                                                                </path>
+                                                            </svg>
+                                                        </a>
+                                                        <!-- End Logo -->
 
-                                                            <div id="headerSidebarPagesCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebarPagesMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- Shop Grid -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-grid.html">Shop Grid</a></li>
-                                                                    <!-- End Shop Grid -->
-                                                                    <!-- Shop Grid Extended -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-grid-extended.html">Shop Grid Extended</a></li>
-                                                                    <!-- End Shop Grid Extended -->
-                                                                    <!-- Shop List View -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-list-view.html">Shop List View</a></li>
-                                                                    <!-- End Shop List View -->
-                                                                    <!-- Shop List View Small -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-list-view-small.html">Shop List View Small</a></li>
-                                                                    <!-- End Shop List View Small -->
-                                                                    <!-- Shop Left Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                                    <!-- End Shop Left Sidebar -->
-                                                                    <!-- Shop Full width -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-full-width.html">Shop Full width</a></li>
-                                                                    <!-- End Shop Full width -->
-                                                                    <!-- Shop Right Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                                    <!-- End Shop Right Sidebar -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Shop Pages -->
-                                                        <!-- Product Categories -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarBlogCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarBlogCollapse">
-                                                                Product Categories
-                                                            </a>
+                                                        <!-- List -->
+                                                        <ul id="headerSidebarList" class="u-header-collapse__nav">
+                                                            <!-- Home Section -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarHomeCollapse" data-target="#headerSidebarHomeCollapse">
+                                                                    Trang chủ
+                                                                </a>
 
-                                                            <div id="headerSidebarBlogCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebarBlogMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- 4 Column Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-4-column-sidebar.html">4 Column Sidebar</a></li>
-                                                                    <!-- End 4 Column Sidebar -->
-                                                                    <!-- 5 Column Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">5 Column Sidebar</a></li>
-                                                                    <!-- End 5 Column Sidebar -->
-                                                                    <!-- 6 Column Full width -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-6-column-full-width.html">6 Column Full width</a></li>
-                                                                    <!-- End 6 Column Full width -->
-                                                                    <!-- 7 Column Full width -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html">7 Column Full width</a></li>
-                                                                    <!-- End 7 Column Full width -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Product Categories -->
-                                                        <!-- Single Product Pages -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarShopCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarShopCollapse">
-                                                                Single Product Pages
-                                                            </a>
+                                                                <div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
 
-                                                            <div id="headerSidebarShopCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebarShopMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- Single Product Extended -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-extended.html">Single Product Extended</a></li>
-                                                                    <!-- End Single Product Extended -->
-                                                                    <!-- Single Product Fullwidth -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html">Single Product Fullwidth</a></li>
-                                                                    <!-- End Single Product Fullwidth -->
-                                                                    <!-- Single Product Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-sidebar.html">Single Product Sidebar</a></li>
-                                                                    <!-- End Single Product Sidebar -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Single Product Pages -->
-                                                        <!-- Ecommerce Pages -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarDemosCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarDemosCollapse">
-                                                                Ecommerce Pages
-                                                            </a>
+                                                                    <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">                                                                     
 
-                                                            <div id="headerSidebarDemosCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebarDemosMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- Shop -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html">Shop</a></li>
-                                                                    <!-- End Shop -->
-                                                                    <!-- Cart -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/cart.html">Cart</a></li>
-                                                                    <!-- End Cart -->
-                                                                    <!-- Checkout -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/checkout.html">Checkout</a></li>
-                                                                    <!-- End Checkout -->
-                                                                    <!-- My Account -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/my-account.html">My Account</a></li>
-                                                                    <!-- End My Account -->
-                                                                    <!-- Track your Order -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html">Track your Order</a></li>
-                                                                    <!-- End Track your Order -->
-                                                                    <!-- Compare -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/compare.html">Compare</a></li>
-                                                                    <!-- End Compare -->
-                                                                    <!-- wishlist -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/wishlist.html">wishlist</a></li>
-                                                                    <!-- End wishlist -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Ecommerce Pages -->
-                                                        <!-- Shop Columns -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebardocsCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebardocsCollapse">
-                                                                Shop Columns
-                                                            </a>
+                                                                        <!-- About -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("About", "Home")">Chúng tôi</a></li>
+                                                                        <!-- End About -->
 
-                                                            <div id="headerSidebardocsCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebardocsMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- 7 Column Full width -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-7-columns-full-width.html">7 Column Full width</a></li>
-                                                                    <!-- End 7 Column Full width -->
-                                                                    <!-- 6 Column Full width -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-6-columns-full-width.html">6 Column Full width</a></li>
-                                                                    <!-- End 6 Column Full width -->
-                                                                    <!-- 5 Column Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-5-columns-sidebar.html">5 Column Sidebar</a></li>
-                                                                    <!-- End 5 Column Sidebar -->
-                                                                    <!-- 4 Column Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-4-columns-sidebar.html">4 Column Sidebar</a></li>
-                                                                    <!-- End 4 Column Sidebar -->
-                                                                    <!-- 3 Column Sidebar -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-3-columns-sidebar.html">3 Column Sidebar</a></li>
-                                                                    <!-- End 3 Column Sidebar -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Shop Columns -->
-                                                        <!-- Blog Pages -->
-                                                        <li class="u-has-submenu u-header-collapse__submenu">
-                                                            <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarblogsCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarblogsCollapse">
-                                                                Blog Pages
-                                                            </a>
+                                                                        <!-- Contact -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("Contact", "Home")">Liên hệ</a></li>
+                                                                         <!-- End Contact -->
+                                                                       
+                                                                        <!-- FAQ -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("FAQ", "Home")">Câu hỏi thường gặp</a></li>
+                                                                        <!-- End FAQ -->
+                                                                        @* <!-- Store Directory -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="store-directory.html">Store Directory</a></li>
+                                                                        <!-- End Store Directory --> *@
+                                                                        <!-- Terms and Conditions -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("TermsAndConditions", "Home")">Điều khoản và chính sách</a></li>
+                                                                        <!-- End Terms and Conditions -->
+                                                                        <!-- 404 -->
 
-                                                            <div id="headerSidebarblogsCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                <ul id="headerSidebarblogsMenu" class="u-header-collapse__nav-list">
-                                                                    <!-- Blog v1 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v1.html">Blog v1</a></li>
-                                                                    <!-- End Blog v1 -->
-                                                                    <!-- Blog v2 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v2.html">Blog v2</a></li>
-                                                                    <!-- End Blog v2 -->
-                                                                    <!-- Blog v3 -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v3.html">Blog v3</a></li>
-                                                                    <!-- End Blog v3 -->
-                                                                    <!-- Blog Full Width -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-full-width.html">Blog Full Width</a></li>
-                                                                    <!-- End Blog Full Width -->
-                                                                    <!-- Single Blog Post -->
-                                                                    <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/single-blog-post.html">Single Blog Post</a></li>
-                                                                    <!-- End Single Blog Post -->
-                                                                </ul>
-                                                            </div>
-                                                        </li>
-                                                        <!-- End Blog Pages -->
-                                                    </ul>
-                                                    <!-- End List -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="@Url.Action("Error404", "Home")">404</a></li>
+                                                                        <!-- End 404 --> 
+
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Home Section -->
+
+                                                            <!-- Shop Pages -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarPagesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarPagesCollapse">
+                                                                    Shop Pages
+                                                                </a>
+
+                                                                <div id="headerSidebarPagesCollapse" class="collapse" data-parent="#headerSidebarContent">
+                                                                    <ul id="headerSidebarPagesMenu" class="u-header-collapse__nav-list">
+                                                                        <!-- Shop Grid -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-grid.html">Shop Grid</a></li>
+                                                                        <!-- End Shop Grid -->
+
+                                                                        <!-- Shop Grid Extended -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-grid-extended.html">Shop Grid Extended</a></li>
+                                                                        <!-- End Shop Grid Extended -->
+
+                                                                        <!-- Shop List View -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-list-view.html">Shop List View</a></li>
+                                                                        <!-- End Shop List View -->
+
+                                                                        <!-- Shop List View Small -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-list-view-small.html">Shop List View Small</a></li>
+                                                                        <!-- End Shop List View Small -->
+
+                                                                        <!-- Shop Left Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                                                        <!-- End Shop Left Sidebar -->
+
+                                                                        <!-- Shop Full width -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-full-width.html">Shop Full width</a></li>
+                                                                        <!-- End Shop Full width -->
+
+                                                                        <!-- Shop Right Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                                                        <!-- End Shop Right Sidebar -->
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Shop Pages -->
+
+                                                            <!-- Product Categories -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarBlogCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarBlogCollapse">
+                                                                    Product Categories
+                                                                </a>
+
+                                                                <div id="headerSidebarBlogCollapse" class="collapse" data-parent="#headerSidebarContent">
+                                                                    <ul id="headerSidebarBlogMenu" class="u-header-collapse__nav-list">
+                                                                        <!-- 4 Column Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-4-column-sidebar.html">4 Column Sidebar</a></li>
+                                                                        <!-- End 4 Column Sidebar -->
+
+                                                                        <!-- 5 Column Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">5 Column Sidebar</a></li>
+                                                                        <!-- End 5 Column Sidebar -->
+
+                                                                        <!-- 6 Column Full width -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-6-column-full-width.html">6 Column Full width</a></li>
+                                                                        <!-- End 6 Column Full width -->
+
+                                                                        <!-- 7 Column Full width -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html">7 Column Full width</a></li>
+                                                                        <!-- End 7 Column Full width -->
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Product Categories -->
+
+                                                            <!-- Single Product Pages -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarShopCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarShopCollapse">
+                                                                    Single Product Pages
+                                                                </a>
+
+                                                                <div id="headerSidebarShopCollapse" class="collapse" data-parent="#headerSidebarContent">
+                                                                    <ul id="headerSidebarShopMenu" class="u-header-collapse__nav-list">
+                                                                        <!-- Single Product Extended -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-extended.html">Single Product Extended</a></li>
+                                                                        <!-- End Single Product Extended -->
+
+                                                                        <!-- Single Product Fullwidth -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html">Single Product Fullwidth</a></li>
+                                                                        <!-- End Single Product Fullwidth -->
+
+                                                                        <!-- Single Product Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-sidebar.html">Single Product Sidebar</a></li>
+                                                                        <!-- End Single Product Sidebar -->
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Single Product Pages -->
+
+                                                            <!-- Ecommerce Pages -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarDemosCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarDemosCollapse">
+                                                                    Ecommerce Pages
+                                                                </a>
+
+                                                                <div id="headerSidebarDemosCollapse" class="collapse" data-parent="#headerSidebarContent">
+                                                                    <ul id="headerSidebarDemosMenu" class="u-header-collapse__nav-list">
+                                                                        <!-- Shop -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html">Shop</a></li>
+                                                                        <!-- End Shop -->
+
+                                                                        <!-- Cart -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/cart.html">Cart</a></li>
+                                                                        <!-- End Cart -->
+
+                                                                        <!-- Checkout -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/checkout.html">Checkout</a></li>
+                                                                        <!-- End Checkout -->
+
+                                                                        <!-- My Account -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/my-account.html">My Account</a></li>
+                                                                        <!-- End My Account -->
+
+                                                                        <!-- Track your Order -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html">Track your Order</a></li>
+                                                                        <!-- End Track your Order -->
+
+                                                                        <!-- Compare -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/compare.html">Compare</a></li>
+                                                                        <!-- End Compare -->
+
+                                                                        <!-- wishlist -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/wishlist.html">wishlist</a></li>
+                                                                        <!-- End wishlist -->
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Ecommerce Pages -->
+
+                                                            <!-- Shop Columns -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebardocsCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebardocsCollapse">
+                                                                    Shop Columns
+                                                                </a>
+
+                                                                <div id="headerSidebardocsCollapse" class="collapse" data-parent="#headerSidebarContent">
+                                                                    <ul id="headerSidebardocsMenu" class="u-header-collapse__nav-list">
+                                                                        <!-- 7 Column Full width -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-7-columns-full-width.html">7 Column Full width</a></li>
+                                                                        <!-- End 7 Column Full width -->
+
+                                                                        <!-- 6 Column Full width -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-6-columns-full-width.html">6 Column Full width</a></li>
+                                                                        <!-- End 6 Column Full width -->
+
+                                                                        <!-- 5 Column Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-5-columns-sidebar.html">5 Column Sidebar</a></li>
+                                                                        <!-- End 5 Column Sidebar -->
+
+                                                                        <!-- 4 Column Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-4-columns-sidebar.html">4 Column Sidebar</a></li>
+                                                                        <!-- End 4 Column Sidebar -->
+
+                                                                        <!-- 3 Column Sidebar -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-3-columns-sidebar.html">3 Column Sidebar</a></li>
+                                                                        <!-- End 3 Column Sidebar -->
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Shop Columns -->
+
+                                                            <!-- Blog Pages -->
+                                                            <li class="u-has-submenu u-header-collapse__submenu">
+                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarblogsCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarblogsCollapse">
+                                                                    Blog Pages
+                                                                </a>
+
+                                                                <div id="headerSidebarblogsCollapse" class="collapse" data-parent="#headerSidebarContent">
+                                                                    <ul id="headerSidebarblogsMenu" class="u-header-collapse__nav-list">
+                                                                        <!-- Blog v1 -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v1.html">Blog v1</a></li>
+                                                                        <!-- End Blog v1 -->
+
+                                                                        <!-- Blog v2 -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v2.html">Blog v2</a></li>
+                                                                        <!-- End Blog v2 -->
+
+                                                                        <!-- Blog v3 -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v3.html">Blog v3</a></li>
+                                                                        <!-- End Blog v3 -->
+
+                                                                        <!-- Blog Full Width -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-full-width.html">Blog Full Width</a></li>
+                                                                        <!-- End Blog Full Width -->
+
+                                                                        <!-- Single Blog Post -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="https://transvelo.github.io/electro-html/2.0/html/blog/single-blog-post.html">Single Blog Post</a></li>
+                                                                        <!-- End Single Blog Post -->
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <!-- End Blog Pages -->
+                                                        </ul>
+                                                        <!-- End List -->
+                                                    </div>
+
                                                 </div>
                                             </div>
                                             <!-- End Content -->
@@ -469,6 +646,52 @@
                                             <span class="ec ec-search font-size-24"></span>
                                         </button>
                                     </div>
+
+                                </form>
+                            </div>
+                            <!-- End Search Bar -->
+                            <!-- Secondary Menu -->
+                            <div class="col-md-auto position-static d-none d-xl-block">
+                                <div class="secondary-menu v1">
+                                    <!-- Nav -->
+                                    <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space position-static">
+                                        <!-- Navigation -->
+                                        <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
+                                            <ul class="navbar-nav u-header__navbar-nav">
+                                                <!-- Home -->
+                                                <li class="nav-item hs-has-sub-menu u-header__nav-item"
+                                                    data-event="hover"
+                                                    data-animation-in="slideInUp"
+                                                    data-animation-out="fadeOut">
+                                                    <a id="HomeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle text-sale" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="HomeSubMenu">Home</a>
+
+                                                    <!-- Home - Submenu -->
+                                                    <ul id="HomeSubMenu" class="hs-sub-menu u-header__sub-menu animated fadeOut" aria-labelledby="HomeMegaMenu" style="min-width: 230px; display: none;">
+                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="@Url.Action("Index","Home")">Home v1</a></li>
+                                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v2.html">Home v2</a></li>
+         
+                                                    </ul>
+                                                    <!-- End Home - Submenu -->
+                                                </li>
+                                                <!-- End Home -->
+
+                                                <!-- Featured Brands -->
+                                                <li class="nav-item u-header__nav-item">
+                                                    <a class="nav-link u-header__nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pendrives</a>
+                                                </li>
+                                                <!-- End Featured Brands -->
+
+                                                <!-- Trending Styles -->
+                                                <li class="nav-item u-header__nav-item">
+                                                    <a class="nav-link u-header__nav-link" href="@Url.Action("FAQ","Home")" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Câu hỏi thường gặp</a>
+                                                </li>
+                                                <!-- End Trending Styles -->
+                                            </ul>
+                                        </div>
+                                        <!-- End Navigation -->
+                                    </nav>
+                                    <!-- End Nav -->
+
                                 </div>
                             </form>
                         </div>
@@ -1026,40 +1249,41 @@
                             </div>
                             <!-- End Basics Accordion -->
                         </div>
-                    </div>
-                    <!-- End Vertical Menu -->
-                    <!-- Slider-Category Section -->
-                    <div class="col">
-                        <div class="max-width-890-wd max-width-660-xl">
-                            <!-- Slider -->
-                            <div class="slider-bg max-height-345-xl max-height-348-wd">
-                                <div class="overflow-hidden">
-                                    <div class="js-slick-carousel u-slick"
-                                         data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-5 ml-3 ml-md-4 ml-lg-9 ml-xl-4 ml-wd-9">
-                                        <div class="js-slide">
-                                            <div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9">
-                                                <div class="row no-gutters">
-                                                    <div class="col-xl-6 col-6 mt-md-5">
-                                                        <h1 class="font-size-58-sm text-lh-57 font-weight-light"
-                                                            data-scs-animation-in="fadeInUp">
-                                                            THE NEW <span class="d-block font-size-58-sm">STANDARD</span>
-                                                        </h1>
-                                                        <h6 class="font-size-15-sm font-weight-bold mb-2 mb-md-3"
-                                                            data-scs-animation-in="fadeInUp"
-                                                            data-scs-animation-delay="200">
-                                                            UNDER FAVORABLE SMARTWATCHES
-                                                        </h6>
-                                                        <div class="mb-2 mb-md-4"
-                                                             data-scs-animation-in="fadeInUp"
-                                                             data-scs-animation-delay="300">
-                                                            <span class="font-size-13">FROM</span>
-                                                            <div class="font-size-50 font-weight-bold text-lh-45">$749</div>
+
+                        <!-- End Vertical Menu -->
+                        <!-- Slider-Category Section -->
+                        <div class="col">
+                            <div class="max-width-890-wd max-width-660-xl">
+                                <!-- Slider -->
+                                <div class="slider-bg max-height-345-xl max-height-348-wd">
+                                    <div class="overflow-hidden">
+                                        <div class="js-slick-carousel u-slick"
+                                            data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-5 ml-3 ml-md-4 ml-lg-9 ml-xl-4 ml-wd-9">
+                                            <div class="js-slide">
+                                                <div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9">
+                                                    <div class="row no-gutters">
+                                                        <div class="col-xl-6 col-6 mt-md-5">
+                                                            <h1 class="font-size-58-sm text-lh-57 font-weight-light"
+                                                                data-scs-animation-in="fadeInUp">
+                                                                TIỂU CHUẨN <span class="d-block font-size-58-sm">VỀ NHỮNG CHIẾC </span>
+                                                            </h1>
+                                                            <h6 class="font-size-15-sm font-weight-bold mb-2 mb-md-3"
+                                                                data-scs-animation-in="fadeInUp"
+                                                                data-scs-animation-delay="200">ĐỒNG HỒ THÔNG MINH ĐƯỢC ƯU CHUỘNG
+                                                            </h6>
+                                                            <div class="mb-2 mb-md-4"
+                                                                data-scs-animation-in="fadeInUp"
+                                                                data-scs-animation-delay="300">
+                                                                <span class="font-size-13">FROM</span>
+                                                                <div class="font-size-20 font-weight-bold text-lh-45">5.000.000VNĐ</div>
+                                                            </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-xl-6 col-6 d-flex align-items-center"
-                                                         data-scs-animation-in="zoomIn"
-                                                         data-scs-animation-delay="400">
-                                                        <img class="img-fluid max-width-300-md" src="../../assets/img/416X420/img1.png" alt="Image Description">
+                                                        <div class="col-xl-6 col-6 d-flex align-items-center"
+                                                            data-scs-animation-in="zoomIn"
+                                                            data-scs-animation-delay="400">
+                                                            <img class="img-fluid max-width-300-md" src="../../assets/img/416X420/img1.png" alt="Image Description">
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -1159,62 +1383,63 @@
                             </ul>
                             <!-- End Category -->
                         </div>
-                    </div>
-                    <!-- End Slider-Category Section -->
-                    <!-- Banner -->
-                    <div class="col-md-auto">
-                        <div class="max-width-240-xl">
-                            <div class="d-md-flex d-xl-block">
-                                <div class="bg-white border-top border-xl-top-0">
-                                    <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="text-gray-90 position-relative d-block overflow-hidden">
-                                        <div class="position-absolute transform-rotate-16-banner">
-                                            <img class="img-fluid" src="../../assets/img/140X140/img1.png" alt="Image Description">
-                                        </div>
-                                        <div class="px-4 py-6 min-height-172">
-                                            <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-                                                CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+                        <!-- End Slider-Category Section -->
+                        <!-- Banner -->
+                        <div class="col-md-auto">
+                            <div class="max-width-240-xl">
+                                <div class="d-md-flex d-xl-block">
+                                    <div class="bg-white border-top border-xl-top-0">
+                                        <a href="@Url.Action("Shop","Home")" class="text-gray-90 position-relative d-block overflow-hidden">
+                                            <div class="position-absolute transform-rotate-16-banner">
+                                                <img class="img-fluid" src="../../assets/img/140X140/img1.png" alt="Image Description">
                                             </div>
-                                            <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-                                                Shop now
-                                                <span class="link__icon ml-1">
-                                                    <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-                                                </span>
+                                            <div class="px-4 py-6 min-height-172">
+                                                <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
+                                                    NẮM BẮT<strong>NHỮNG ƯU ĐÃI</strong> CHO MÁY ẢNH
+                                                </div>
+                                                <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
+                                                    MUA NGAY
+                                                    <span class="link__icon ml-1">
+                                                        <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
+                                                    </span>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="bg-white border-top">
-                                    <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="text-gray-90 position-relative d-block overflow-hidden">
-                                        <div class="position-absolute transform-rotate-16-banner">
-                                            <img class="img-fluid" src="../../assets/img/140X140/img2.png" alt="Image Description">
-                                        </div>
-                                        <div class="px-4 py-6 min-height-172">
-                                            <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-                                                CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+                                        </a>
+                                    </div>
+                                    <div class="bg-white border-top">
+                                         <a href="@Url.Action("Shop","Home")" class="text-gray-90 position-relative d-block overflow-hidden">
+                                            <div class="position-absolute transform-rotate-16-banner">
+                                                <img class="img-fluid" src="../../assets/img/140X140/img2.png" alt="Image Description">
                                             </div>
-                                            <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-                                                Shop now
-                                                <span class="link__icon ml-1">
-                                                    <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-                                                </span>
+                                            <div class="px-4 py-6 min-height-172">
+                                                <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
+                                                    NẮM BẮT<strong>NHỮNG ƯU ĐÃI</strong> CHO ĐIỆN THOẠI
+                                                </div>
+                                                <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
+                                                    MUA NGAY
+                                                    <span class="link__icon ml-1">
+                                                        <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
+                                                    </span>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="bg-white border-top">
-                                    <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="text-gray-90 position-relative d-block overflow-hidden">
-                                        <div class="position-absolute transform-rotate-16-banner">
-                                            <img class="img-fluid" src="../../assets/img/140X140/img3.png" alt="Image Description">
-                                        </div>
-                                        <div class="px-4 py-6 min-height-172">
-                                            <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-                                                CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+                                        </a>
+                                    </div>
+                                    <div class="bg-white border-top">
+                                         <a href="@Url.Action("Shop","Home")" class="text-gray-90 position-relative d-block overflow-hidden">
+                                            <div class="position-absolute transform-rotate-16-banner">
+                                                <img class="img-fluid" src="../../assets/img/140X140/img3.png" alt="Image Description">
                                             </div>
-                                            <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
-                                                Shop now
-                                                <span class="link__icon ml-1">
-                                                    <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
-                                                </span>
+                                            <div class="px-4 py-6 min-height-172">
+                                                <div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
+                                                    NẮM BẮT<strong>NHỮNG ƯU ĐÃI</strong> CHO MÁY TÍNH
+                                                </div>
+                                                <div class="link text-gray-90 font-weight-bold font-size-15" href="#">
+                                                    MUA NGAY
+                                                    <span class="link__icon ml-1">
+                                                        <span class="link__icon-inner"><i class="ec ec-arrow-right-categproes"></i></span>
+                                                    </span>
+                                                </div>
+
                                             </div>
                                         </div>
                                     </a>
@@ -3979,26 +4204,29 @@
                                     <small class="fas fa-star"></small>
                                     <small class="far fa-star text-muted"></small>
                                 </div>
-                                <div class="prodcut-price mt-auto">
-                                    <div class="font-size-15">$2999.00</div>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-wd-3 d-none d-wd-block">
+                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="d-block"><img class="img-fluid" src="../../assets/img/330X360/img1.jpg" alt="Image Description"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer-top-widget -->
+            <!-- Footer-newsletter -->
+            <div class="bg-primary py-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 mb-md-3 mb-lg-0">
+                            <div class="row align-items-center">
+                                <div class="col-auto flex-horizontal-center">
+                                    <i class="ec ec-newsletter font-size-40"></i>
+                                    <h2 class="font-size-20 mb-0 ml-3">Sign up to Newsletter</h2>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
-                            <div class="col-auto">
-                                <a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
-                            </div>
-                            <div class="col pl-4 d-flex flex-column">
-                                <h5 class="product-item__title mb-0"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Full Color LaserJet Pro M452dn</a></h5>
-                                <div class="text-warning mb-2">
-                                    <small class="fas fa-star"></small>
-                                    <small class="fas fa-star"></small>
-                                    <small class="fas fa-star"></small>
-                                    <small class="fas fa-star"></small>
-                                    <small class="far fa-star text-muted"></small>
-                                </div>
-                                <div class="prodcut-price mt-auto">
-                                    <div class="font-size-15">$439.00</div>
+                                <div class="col my-4 my-md-0">
+                                    <h5 class="font-size-15 ml-4 mb-0">...and receive <strong>$20 coupon for first shopping.</strong></h5>
+
                                 </div>
                             </div>
                         </li>
@@ -4024,16 +4252,18 @@
                                 <h5 class="font-size-15 ml-4 mb-0">...and receive <strong>$20 coupon for first shopping.</strong></h5>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <!-- Subscribe Form -->
-                        <form class="js-validate js-form-message">
-                            <label class="sr-only" for="subscribeSrEmail">Email address</label>
-                            <div class="input-group input-group-pill">
-                                <input type="email" class="form-control border-0 height-40" name="email" id="subscribeSrEmail" placeholder="Email address" aria-label="Email address" aria-describedby="subscribeButton" required
-                                       data-msg="Please enter a valid email address.">
-                                <div class="input-group-append">
-                                    <button type="submit" class="btn btn-dark btn-sm-wide height-40 py-2" id="subscribeButton">Sign Up</button>
+
+                        <div class="col-lg-5">
+                            <!-- Subscribe Form -->
+                            <form class="js-validate js-form-message">
+                                <label class="sr-only" for="subscribeSrEmail">Email address</label>
+                                <div class="input-group input-group-pill">
+                                    <input type="email" class="form-control border-0 height-40" name="email" id="subscribeSrEmail" placeholder="Email address" aria-label="Email address" aria-describedby="subscribeButton" required
+                                    data-msg="Please enter a valid email address.">
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-dark btn-sm-wide height-40 py-2" id="subscribeButton">Sign Up</button>
+                                    </div>
+
                                 </div>
                             </div>
                         </form>
@@ -4087,68 +4317,72 @@
                                             c0.404-1.031-0.365-1.502-0.891-2.088c-2.543-2.835-6.66-5.377-11.704-5.137c-6.02,0.288-10.218,3.697-12.484,7.846
                                             c-1.293,2.365-1.951,5.158-1.729,8.408c0.209,3.053,1.191,5.496,2.619,7.508c2.842,4.004,7.385,6.973,13.656,6.377
                                             c5.976-0.568,9.574-3.936,11.816-8.354c-0.141-0.271-0.221-0.604-0.336-0.902C92.929,31.364,90.843,30.485,88.812,29.55z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </div>
-                        <div class="mb-4">
-                            <div class="row no-gutters">
-                                <div class="col-auto">
-                                    <i class="ec ec-support text-primary font-size-56"></i>
-                                </div>
-                                <div class="col pl-3">
-                                    <div class="font-size-13 font-weight-light">Got questions? Call us 24/7!</div>
-                                    <a href="tel:+80080018588" class="font-size-20 text-gray-90">(800) 8001-8588, </a><a href="tel:+0600874548" class="font-size-20 text-gray-90">(0600) 874 548</a>
+
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="mb-4">
+                                <div class="row no-gutters">
+                                    <div class="col-auto">
+                                        <i class="ec ec-support text-primary font-size-56"></i>
+                                    </div>
+                                    <div class="col pl-3">
+                                        <div class="font-size-13 font-weight-light">Got questions? Call us 24/7!</div>
+                                        <a href="tel:+80080018588" class="font-size-20 text-gray-90">(800) 8001-8588, </a><a href="tel:+0600874548" class="font-size-20 text-gray-90">(0600) 874 548</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="mb-4">
-                            <h6 class="mb-1 font-weight-bold">Contact info</h6>
-                            <address class="">
-                                17 Princess Road, London, Greater London NW1 8JR, UK
-                            </address>
-                        </div>
-                        <div class="my-4 my-md-4">
-                            <ul class="list-inline mb-0 opacity-7">
-                                <li class="list-inline-item mr-0">
-                                    <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                        <span class="fab fa-facebook-f btn-icon__inner"></span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item mr-0">
-                                    <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                        <span class="fab fa-google btn-icon__inner"></span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item mr-0">
-                                    <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                        <span class="fab fa-twitter btn-icon__inner"></span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item mr-0">
-                                    <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                        <span class="fab fa-github btn-icon__inner"></span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="row">
-                            <div class="col-12 col-md mb-4 mb-md-0">
-                                <h6 class="mb-3 font-weight-bold">Find it Fast</h6>
-                                <!-- List Group -->
-                                <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Laptops & Computers</a></li>
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Cameras & Photography</a></li>
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Smart Phones & Tablets</a></li>
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Video Games & Consoles</a></li>
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">TV & Audio</a></li>
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Gadgets</a></li>
-                                    <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Car Electronic & GPS</a></li>
+                            <div class="mb-4">
+                                <h6 class="mb-1 font-weight-bold">Contact info</h6>
+                                <address class="">
+                                    17 Princess Road, London, Greater London NW1 8JR, UK
+                                </address>
+                            </div>
+                            <div class="my-4 my-md-4">
+                                <ul class="list-inline mb-0 opacity-7">
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-facebook-f btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-google btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-twitter btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-github btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+
                                 </ul>
                                 <!-- End List Group -->
                             </div>
+
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-12 col-md mb-4 mb-md-0">
+                                    <h6 class="mb-3 font-weight-bold">Find it Fast</h6>
+                                    <!-- List Group -->
+                                    <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Laptops & Computers</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Cameras & Photography</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Smart Phones & Tablets</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Video Games & Consoles</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">TV & Audio</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Gadgets</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html">Car Electronic & GPS</a></li>
+                                    </ul>
+                                    <!-- End List Group -->
+                                </div>
 
                             <div class="col-12 col-md mb-4 mb-md-0">
                                 <!-- List Group -->
@@ -4229,8 +4463,283 @@
                                 data-unfold-animation-in="fadeInRight"
                                 data-unfold-animation-out="fadeOutRight"
                                 data-unfold-duration="500">
-                            <i class="ec ec-close-remove"></i>
-                        </button>
+
+                                <i class="ec ec-close-remove"></i>
+                            </button>
+                        </div>
+                        <!-- End Toggle Button -->
+
+<!-- Content -->
+<div class="js-scrollbar u-sidebar__body">
+    <div class="u-sidebar__content u-header-sidebar__content">
+        <!-- Login Form -->
+        <div id="login" data-target-group="idForm" style="display: @(ViewBag.Form != "signup" && ViewBag.Form != "forgotPassword" ? "block" : "none")">
+            <!-- Title -->
+            <header class="text-center mb-7">
+                <h2 class="h4 mb-0">Chào mừng bạn đến với Electronic Shop</h2>
+                <p>Đăng nhập tài khoản của bạn</p>
+            </header>
+            <!-- End Title -->
+
+          <form asp-action="Login" asp-controller="Account" method="post" class="js-validate">
+        <!-- Hiển thị lỗi từ ModelState -->
+                                    @if (!ViewData.ModelState.IsValid)
+                                    {
+                <div class="alert alert-danger">
+                                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                            {
+                            <p>@error.ErrorMessage</p>
+                                            }
+                </div>
+                                    }
+
+                <!-- Form Group -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signinEmail">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="signinEmailLabel">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control" name="Email" id="signinEmail" placeholder="Email" 
+                                   required data-msg="Vui lòng nhập địa chỉ email hợp lệ.">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form Group -->
+
+                <!-- Form Group -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signinPassword">Password</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="signinPasswordLabel">
+                                    <span class="fas fa-lock"></span>
+                                </span>
+                            </div>
+                            <input type="password" class="form-control" name="Password" id="signinPassword" placeholder="Password" 
+                                   required data-msg="Vui lòng nhập địa chỉ mật khẩu hợp lệ. Please try again.">
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form Group -->
+
+                <!-- Remember Me -->
+              <div class="form-group">
+    <div class="custom-control custom-checkbox">
+        <input asp-for="RememberMe" type="checkbox" class="custom-control-input" id="rememberMe">
+        <label class="custom-control-label" for="rememberMe">Remember Me</label>
+    </div>
+</div>
+                <div class="d-flex justify-content-end mb-4">
+                    <a class="js-animation-link small link-muted" href="javascript:;"
+                       data-target="#forgotPassword"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Quên mật khẩu?</a>
+                </div>
+
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Đăng nhập</button>
+                </div>
+
+                <div class="text-center mb-4">
+                    <span class="small text-muted">Bạn không có tài khoản?</span>
+                    <a class="js-animation-link small text-dark" href="javascript:;"
+                       data-target="#signup"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Đăng ký</a>
+                </div>
+            </form>
+        </div>
+        <!-- End Login -->
+
+        <!-- Signup Form -->
+        <div id="signup" style="display: @(ViewBag.Form == "signup" ? "block" : "none"); opacity: @(ViewBag.Form == "signup" ? "1" : "0");" data-target-group="idForm">
+            <!-- Title -->
+            <header class="text-center mb-7">
+                <h2 class="h4 mb-0">Chào mừng bạn đến với Electronic Shop</h2>
+                <p>Đăng ký.</p>
+            </header>
+            <!-- End Title -->
+
+            <form asp-action="Register" asp-controller="Account" method="post" class="js-validate">
+                                    @if (ViewData.ModelState[""] != null && ViewData.ModelState[""].Errors.Count > 0)
+                                    {
+                        <div class="alert alert-danger">
+                                            @ViewData.ModelState[""].Errors[0].ErrorMessage
+                        </div>
+                                    }
+
+                <!-- Form Groups -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupEmail">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="signupEmailLabel">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control" name="Email" id="signupEmail" placeholder="Email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" name="UserName" id="signupUsername" placeholder="Username" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupPassword">Password</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-lock"></span>
+                                </span>
+                            </div>
+                            <input type="password" class="form-control" name="Password" id="signupPassword" placeholder="Password" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+    <div class="js-form-message js-focus-state">
+        <label class="sr-only" for="signupConfirmPassword">Confirm Password</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <span class="fas fa-lock"></span>
+                </span>
+            </div>
+            <input type="password" class="form-control" name="ConfirmPassword" id="signupConfirmPassword" placeholder="Confirm Password" required>
+        </div>
+    </div>
+</div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupPhone">Phone Number</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-phone"></span>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" name="PhoneNumber" id="signupPhone" placeholder="Phone Number">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupAddress">Address</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-home"></span>
+                                </span>
+                            </div>
+                            <input type="text" class="form-control" name="Address" id="signupAddress" placeholder="Address">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="signupDOB">Date of Birth</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    <span class="fas fa-calendar"></span>
+                                </span>
+                            </div>
+                            <input type="date" class="form-control" name="DateOfBirth" id="signupDOB">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Đăng ký</button>
+                </div>
+
+                <div class="text-center mb-4">
+                    <span class="small text-muted">Bạn đã có tài khoản?</span>
+                    <a class="js-animation-link small text-dark" href="javascript:;"
+                       data-target="#login"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+        <!-- End Signup -->
+
+        <!-- Forgot Password -->
+        <div id="forgotPassword" style="display: @(ViewBag.Form == "forgotPassword" ? "block" : "none"); opacity: @(ViewBag.Form == "forgotPassword" ? "1" : "0");" data-target-group="idForm">
+            <!-- Title -->
+            <header class="text-center mb-7">
+                <h2 class="h4 mb-0">Khôi phục mật khẩu.</h2>
+                <p>Nhập địa chỉ email của bạn và một email có hướng dẫn sẽ được gửi cho bạn.</p>
+            </header>
+            <!-- End Title -->
+
+            <form asp-action="ForgotPassword" asp-controller="Account" method="post" class="js-validate">
+                                    @if (TempData["Success"] != null)
+                                    {
+                        <div class="alert alert-success">
+                                            @TempData["Success"]
+                        </div>
+                                    }
+
+                <!-- Form Group -->
+                <div class="form-group">
+                    <div class="js-form-message js-focus-state">
+                        <label class="sr-only" for="recoverEmail">Email</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="recoverEmailLabel">
+                                    <span class="fas fa-user"></span>
+                                </span>
+                            </div>
+                            <input type="email" class="form-control" name="Email" id="recoverEmail" placeholder="Your email" required>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Form Group -->
+
+                <div class="mb-2">
+                    <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Khôi phục</button>
+                </div>
+
+                <div class="text-center mb-4">
+                    <span class="small text-muted">Remember your password?</span>
+                    <a class="js-animation-link small" href="javascript:;"
+                       data-target="#login"
+                       data-link-group="idForm"
+                       data-animation-in="slideInUp">Login</a>
+                </div>
+            </form>
+        </div>
+        <!-- End Forgot Password -->
+    </div>
+</div>
+<!-- End Content -->
+
+                       
+
+
                     </div>
                     <!-- End Toggle Button -->
                     <!-- Content -->
@@ -4303,149 +4812,47 @@
                                         </a>
                                     </div>
 
-                                    <div class="text-center">
-                                        <span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
-                                    </div>
+        <!-- JS Global Compulsory -->
+        <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-                                    <!-- Login Buttons -->
-                                    <div class="d-flex">
-                                        <a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="#">
-                                            <span class="fab fa-facebook-square mr-1"></span>
-                                            Facebook
-                                        </a>
-                                        <a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="#">
-                                            <span class="fab fa-google mr-1"></span>
-                                            Google
-                                        </a>
-                                    </div>
-                                    <!-- End Login Buttons -->
-                                </div>
-
-                                <!-- Signup -->
-                                <div id="signup" style="display: none; opacity: 0;" data-target-group="idForm">
-                                    <!-- Title -->
-                                    <header class="text-center mb-7">
-                                        <h2 class="h4 mb-0">Welcome to Electro.</h2>
-                                        <p>Fill out the form to get started.</p>
-                                    </header>
-                                    <!-- End Title -->
-                                    <!-- Form Group -->
-                                    <div class="form-group">
-                                        <div class="js-form-message js-focus-state">
-                                            <label class="sr-only" for="signupEmail">Email</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="signupEmailLabel">
-                                                        <span class="fas fa-user"></span>
-                                                    </span>
-                                                </div>
-                                                <input type="email" class="form-control" name="email" id="signupEmail" placeholder="Email" aria-label="Email" aria-describedby="signupEmailLabel" required
-                                                       data-msg="Please enter a valid email address."
-                                                       data-error-class="u-has-error"
-                                                       data-success-class="u-has-success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Input -->
-                                    <!-- Form Group -->
-                                    <div class="form-group">
-                                        <div class="js-form-message js-focus-state">
-                                            <label class="sr-only" for="signupPassword">Password</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="signupPasswordLabel">
-                                                        <span class="fas fa-lock"></span>
-                                                    </span>
-                                                </div>
-                                                <input type="password" class="form-control" name="password" id="signupPassword" placeholder="Password" aria-label="Password" aria-describedby="signupPasswordLabel" required
-                                                       data-msg="Your password is invalid. Please try again."
-                                                       data-error-class="u-has-error"
-                                                       data-success-class="u-has-success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Input -->
-                                    <!-- Form Group -->
-                                    <div class="form-group">
-                                        <div class="js-form-message js-focus-state">
-                                            <label class="sr-only" for="signupConfirmPassword">Confirm Password</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="signupConfirmPasswordLabel">
-                                                        <span class="fas fa-key"></span>
-                                                    </span>
-                                                </div>
-                                                <input type="password" class="form-control" name="confirmPassword" id="signupConfirmPassword" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="signupConfirmPasswordLabel" required
-                                                       data-msg="Password does not match the confirm password."
-                                                       data-error-class="u-has-error"
-                                                       data-success-class="u-has-success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Input -->
 
                                     <div class="mb-2">
                                         <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Get Started</button>
                                     </div>
 
-                                    <div class="text-center mb-4">
-                                        <span class="small text-muted">Already have an account?</span>
-                                        <a class="js-animation-link small text-dark" href="javascript:;"
-                                           data-target="#login"
-                                           data-link-group="idForm"
-                                           data-animation-in="slideInUp">
-                                            Login
-                                        </a>
-                                    </div>
 
-                                    <div class="text-center">
-                                        <span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
-                                    </div>
+        <!-- JS Electro -->
+        <script src="../../assets/js/hs.core.js"></script>
+        <script src="../../assets/js/components/hs.countdown.js"></script>
+        <script src="../../assets/js/components/hs.header.js"></script>
+        <script src="../../assets/js/components/hs.hamburgers.js"></script>
+        <script src="../../assets/js/components/hs.unfold.js"></script>
+        <script src="../../assets/js/components/hs.focus-state.js"></script>
+        <script src="../../assets/js/components/hs.malihu-scrollbar.js"></script>
+        <script src="../../assets/js/components/hs.validation.js"></script>
+        <script src="../../assets/js/components/hs.fancybox.js"></script>
+        <script src="../../assets/js/components/hs.onscroll-animation.js"></script>
+        <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+        <script src="../../assets/js/components/hs.show-animation.js"></script>
+        <script src="../../assets/js/components/hs.svg-injector.js"></script>
+        <script src="../../assets/js/components/hs.go-to.js"></script>
+        <script src="../../assets/js/components/hs.selectpicker.js"></script>
 
-                                    <!-- Login Buttons -->
-                                    <div class="d-flex">
-                                        <a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="#">
-                                            <span class="fab fa-facebook-square mr-1"></span>
-                                            Facebook
-                                        </a>
-                                        <a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="#">
-                                            <span class="fab fa-google mr-1"></span>
-                                            Google
-                                        </a>
-                                    </div>
-                                    <!-- End Login Buttons -->
-                                </div>
-                                <!-- End Signup -->
-                                <!-- Forgot Password -->
-                                <div id="forgotPassword" style="display: none; opacity: 0;" data-target-group="idForm">
-                                    <!-- Title -->
-                                    <header class="text-center mb-7">
-                                        <h2 class="h4 mb-0">Recover Password.</h2>
-                                        <p>Enter your email address and an email with instructions will be sent to you.</p>
-                                    </header>
-                                    <!-- End Title -->
-                                    <!-- Form Group -->
-                                    <div class="form-group">
-                                        <div class="js-form-message js-focus-state">
-                                            <label class="sr-only" for="recoverEmail">Your email</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="recoverEmailLabel">
-                                                        <span class="fas fa-user"></span>
-                                                    </span>
-                                                </div>
-                                                <input type="email" class="form-control" name="email" id="recoverEmail" placeholder="Your email" aria-label="Your email" aria-describedby="recoverEmailLabel" required
-                                                       data-msg="Please enter a valid email address."
-                                                       data-error-class="u-has-error"
-                                                       data-success-class="u-has-success">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Form Group -->
+        <!-- JS Plugins Init. -->
+        <script>
+            $(window).on('load', function () {
+                // initialization of HSMegaMenu component
+                $('.js-mega-menu').HSMegaMenu({
+                    event: 'hover',
+                    direction: 'horizontal',
+                    pageContainer: $('.container'),
+                    breakpoint: 1199.98,
+                    hideTimeOut: 0
+                });
 
-                                    <div class="mb-2">
-                                        <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Recover Password</button>
-                                    </div>
 
                                     <div class="text-center mb-4">
                                         <span class="small text-muted">Remember your password?</span>
@@ -4609,14 +5016,6 @@
                 }
             });
 
-            // initialization of unfold component
-            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-            // initialization of select picker
-            $.HSCore.components.HSSelectPicker.init('.js-select');
-        });
-    </script>
-</body>
-
-<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/home/home-v7.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Feb 2025 14:50:39 GMT -->
-</html>
+        </script>
+    </body>
+</html>.

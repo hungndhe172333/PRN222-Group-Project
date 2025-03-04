@@ -81,6 +81,31 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Admin\BillManager\ListBill.cshtml" />
+    <None Include="Views\Admin\CategoryManager\CreateCategory.cshtml" />
+    <None Include="Views\Admin\CategoryManager\EditCategory.cshtml" />
+    <None Include="Views\Admin\CategoryManager\ListCategory.cshtml" />
+    <None Include="Views\Admin\Index.cshtml" />
+    <None Include="Views\Admin\ProductManager\ActiveProduct.cshtml" />
+    <None Include="Views\Admin\ProductManager\CreateProduct.cshtml" />
+    <None Include="Views\Admin\ProductManager\DetailProduct.cshtml" />
+    <None Include="Views\Admin\ProductManager\EditProduct.cshtml" />
+    <None Include="Views\Admin\ProductManager\ListProduct.cshtml" />
+    <None Include="Views\Admin\UserManager\CreateCustomer.cshtml" />
+    <None Include="Views\Admin\UserManager\DetailCustomer.cshtml" />
+    <None Include="Views\Admin\UserManager\EditCustomer.cshtml" />
+    <None Include="Views\Admin\UserManager\ListCustomer.cshtml" />
+    <None Include="Views\Admin\UserManager\Permission.cshtml" />
+    <None Include="Views\Home\About.cshtml" />
+    <None Include="Views\Home\Contact.cshtml" />
+    <None Include="Views\Home\Detail.cshtml" />
+    <None Include="Views\Home\Error404.cshtml" />
+    <None Include="Views\Home\FAQ.cshtml" />
+    <None Include="Views\Home\History.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Home\Shop.cshtml" />
+    <None Include="Views\Home\TermsAndConditions.cshtml" />
     <None Include="wwwroot\assets\js\components\hs.core.js" />
     <None Include="wwwroot\assets\js\components\hs.countdown.js" />
     <None Include="wwwroot\assets\js\components\hs.fancybox.js" />
@@ -189,6 +214,8 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.3.0" />
