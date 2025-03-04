@@ -2,10 +2,15 @@
 using ElectronicShopTeam14.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Facebook;
+using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System.ComponentModel.DataAnnotations;
+using System.Net.Mail;
+using System.Net;
 using System.Security.Claims;
 
 namespace ElectronicShopTeam14.Controllers
@@ -23,6 +28,7 @@ namespace ElectronicShopTeam14.Controllers
             _emailService = emailService;
 
         }
+        //***** FORGOT PASSWORD *****
         [HttpGet]
         public IActionResult ForgotPassword()
         {
@@ -67,6 +73,8 @@ namespace ElectronicShopTeam14.Controllers
 
             return View(model);
         }
+
+        //***** RESET PASSWORD *****
         public class ResetPasswordViewModel
         {
             [Required(ErrorMessage = "Email là bắt buộc")]
@@ -113,7 +121,7 @@ namespace ElectronicShopTeam14.Controllers
             return View(model);
         }
 
-
+        //***** LOGIN *****
         [HttpGet]
         public IActionResult Login()
         {
@@ -167,8 +175,128 @@ namespace ElectronicShopTeam14.Controllers
             return View(model);
         }
 
+        //***** LOGIN GOOGLE *****
+        [HttpGet]
+        public IActionResult GoogleLogin()
+        {
+            var properties = new AuthenticationProperties { RedirectUri = Url.Action("GoogleResponse") };
+            return Challenge(properties, GoogleDefaults.AuthenticationScheme);
+        }
 
+        // Google redirect
+        [HttpGet]
+        public async Task<IActionResult> GoogleResponse()
+        {
+            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
+            if (!result.Succeeded)
+                return RedirectToAction("Login");
+
+            var claims = result.Principal.Identities.FirstOrDefault()?.Claims.Select(c => new
+            {
+                c.Type,
+                c.Value
+            });
+
+            string email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+            string fullName = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+
+            if (email == null)
+            {
+                ViewBag.Error = "Không thể xác thực tài khoản Google!";
+                return View("Login");
+            }
+
+            // Kiểm tra email có trong DB không?
+            var user = _userRepository.GetUserByEmail(email);
+            if (user == null)
+            {
+                user = new User
+                {
+                    UserEmail = email,
+                    UserName = fullName ?? "Google User",
+                    UserPass = "abc@123",
+                    IsAdmin = "False",
+                    Banned = false,
+                    IsStoreStaff = "False"
+                };
+
+                _userRepository.AddUser(user);
+            }
+
+            // Đăng nhập user vào hệ thống
+            var userClaims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Email, user.UserEmail),
+            new Claim("FullName", user.UserName),
+        };
+
+            var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties { IsPersistent = true };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        //***** LOGIN FACEBOOK *****
+        [HttpGet]
+        public IActionResult FacebookLogin()
+        {
+            var properties = new AuthenticationProperties { RedirectUri = Url.Action("FacebookResponse") };
+            return Challenge(properties, FacebookDefaults.AuthenticationScheme);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> FacebookResponse()
+        {
+            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            if (!result.Succeeded)
+                return RedirectToAction("Login");
+
+            var claims = result.Principal.Identities.FirstOrDefault()?.Claims.Select(c => new
+            {
+                c.Type,
+                c.Value
+            });
+
+            string email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
+            string fullName = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            // Kiểm tra email có trong DB không?
+            var user = _userRepository.GetUserByEmail(email);
+            if (user == null)
+            {
+                user = new User
+                {
+                    UserEmail = email,
+                    UserPass = "abc@123",
+                    UserName = fullName,
+                    IsAdmin = "False",
+                    Banned = false,
+                    IsStoreStaff = "False"
+                };
+                _userRepository.AddUser(user);
+            }
+
+            // Đăng nhập user vào hệ thống
+            var userClaims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Email, user.UserEmail),
+            new Claim("FullName", user.UserName),
+        };
+
+            var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var authProperties = new AuthenticationProperties { IsPersistent = true };
+
+            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        //***** REGISTER *****
+        // Lưu tạm thông tin user để xác thực OTP
+        private static Dictionary<string, (User User, string OTP, DateTime Expiry)> otpStorage = new();
         [HttpGet]
         public IActionResult Register()
         {
@@ -202,40 +330,139 @@ namespace ElectronicShopTeam14.Controllers
                     Banned = false
                 };
 
-                try
-                {
-                    _userRepository.AddUser(user);
+                // Tạo OTP
+                string otp = new Random().Next(100000, 999999).ToString();
+                otpStorage[model.Email] = (user, otp, DateTime.UtcNow.AddMinutes(5));
+                SendOtpEmail(model.Email, otp);
 
-                    // Automatically log in the user after registration
-                    var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.UserName ?? user.UserEmail),
-                new Claim(ClaimTypes.Email, user.UserEmail),
-                new Claim("UserId", user.UserId.ToString())
-            };
+                // Lưu email để chuyển qua trang nhập OTP
+                TempData["Email"] = model.Email;
+                return RedirectToAction("VerifyOtp");
 
-                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    var authProperties = new AuthenticationProperties();
+                //try
+                //{
+                //    _userRepository.AddUser(user);
 
-                    await HttpContext.SignInAsync(
-                        CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(claimsIdentity),
-                        authProperties);
+                //    // Automatically log in the user after registration
+                //    var claims = new List<Claim>
+                //        {
+                //            new Claim(ClaimTypes.Name, user.UserName ?? user.UserEmail),
+                //            new Claim(ClaimTypes.Email, user.UserEmail),
+                //            new Claim("UserId", user.UserId.ToString())
+                //        };
 
-                    return RedirectToAction("Index", "Home");
-                }
-                catch (Exception)
-                {
-                    ModelState.AddModelError("", "Đã xảy ra lỗi khi đăng ký. Vui lòng thử lại sau.");
-                }
+                //    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                //    var authProperties = new AuthenticationProperties();
+
+                //    await HttpContext.SignInAsync(
+                //        CookieAuthenticationDefaults.AuthenticationScheme,
+                //        new ClaimsPrincipal(claimsIdentity),
+                //        authProperties);
+
+                //    return RedirectToAction("Index", "Home");
+                //}
+                //catch (Exception)
+                //{
+                //    ModelState.AddModelError("", "Đã xảy ra lỗi khi đăng ký. Vui lòng thử lại sau.");
+                //}
             }
 
             return View(model);
         }
 
-
+        //***** VERIFY OTP *****
+        [HttpGet]
+        public IActionResult VerifyOtp()
+        {
+            ViewBag.Email = TempData["Email"]?.ToString();
+            return View();
+        }
 
         [HttpPost]
+        public IActionResult VerifyOtp(string email, string otp)
+        {
+            if (string.IsNullOrEmpty(email))
+            {
+                ViewBag.Error = "Email không hợp lệ!";
+                return View();
+            }
+
+            if (otpStorage.ContainsKey(email))
+            {
+                var (user, storedOtp, timeOtp) = otpStorage[email];
+
+                if (timeOtp < DateTime.UtcNow)
+                {
+                    ViewBag.Error = "Mã OTP đã hết hạn!";
+                    return View();
+                }
+
+                if (otp == storedOtp)
+                {
+                    _userRepository.AddUser(user);
+                    otpStorage.Remove(email); // Xóa OTP khỏi bộ nhớ
+                    return RedirectToAction("Login");           //Khi thành công cần có thông báo
+                }
+                else
+                {
+                    ViewBag.Error = "Mã OTP không đúng!";
+                }
+            }
+            else
+            {
+                ViewBag.Error = "Không tìm thấy yêu cầu xác thực!";
+            }
+
+            return View();
+        }
+
+        //***** RESEND OTP *****
+        [HttpPost]
+        public IActionResult ResendOtp(string email)
+        {
+            if (otpStorage.ContainsKey(email))
+            {
+                var (user, _, _) = otpStorage[email]; // Lấy thông tin user từ bộ nhớ tạm
+
+                string newOtp = new Random().Next(100000, 999999).ToString();
+                otpStorage[email] = (user, newOtp, DateTime.UtcNow.AddMinutes(5));
+                SendOtpEmail(email, newOtp);
+
+                ViewBag.Success = "OTP mới đã được gửi!";
+            }
+            else
+            {
+                ViewBag.Error = "Không tìm thấy yêu cầu xác thực!";
+            }
+
+            ViewBag.Email = email;
+            return View("VerifyOtp");
+        }
+
+        //***** SEND OTP BY EMAIL *****
+        private void SendOtpEmail(string email, string otp)
+        {
+            var smtpClient = new SmtpClient("smtp.gmail.com")
+            {
+                Port = 587,
+                Credentials = new NetworkCredential("fctuoiconde@gmail.com", "zadc gtaz olcv ibxx"),
+                EnableSsl = true,
+            };
+
+            var mailMessage = new MailMessage
+            {
+                From = new MailAddress("fctuoiconde@gmail.com"),
+                Subject = "Xác thực OTP",
+                Body = $"Mã OTP của bạn là: {otp}",
+                IsBodyHtml = false,
+            };
+
+            mailMessage.To.Add(email);
+
+            smtpClient.Send(mailMessage);
+        }
+
+        //***** LOGOUT *****
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
@@ -320,7 +547,7 @@ namespace ElectronicShopTeam14.Controllers
             return RedirectToAction(nameof(Profile));
         }
 
-
+        //***** CHANGE PASSWORD *****
         [HttpGet]
         public IActionResult ChangePassword()
         {
