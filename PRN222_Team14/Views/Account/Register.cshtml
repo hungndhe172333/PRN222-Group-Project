@@ -90,14 +90,14 @@
                                            asp-for="DateOfBirth">
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">
-                                    Đăng ký tài khoản
+                                    Xác thực OTP
                                 </button>
                                 <hr>
-                                <a href="@Url.Action("ExternalLogin", "Account", new { provider = "Google" })" 
+                                <a href="@Url.Action("GoogleLogin", "Account")"
                                    class="btn btn-google btn-user btn-block">
                                     <i class="fab fa-google fa-fw"></i> Đăng ký với Google
                                 </a>
-                                <a href="@Url.Action("ExternalLogin", "Account", new { provider = "Facebook" })" 
+                                <a href="@Url.Action("FacebookLogin", "Account")"
                                    class="btn btn-facebook btn-user btn-block">
                                     <i class="fab fa-facebook-f fa-fw"></i> Đăng ký với Facebook
                                 </a>
