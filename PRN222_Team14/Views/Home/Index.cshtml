@@ -60,11 +60,18 @@
                                         <a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Track Your Order</a>
                                     </li>
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <!-- Account Sidebar Toggle Button -->
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <a asp-controller="Account" asp-action="Profile">
+                                            <i class="ec ec-user mr-1"></i> Profile
+                                        </a>
+                                    }
+                                    else
+                                    {
                                         <a asp-controller="Account" asp-action="Login">
                                             <i class="ec ec-user mr-1"></i> Register <span class="text-gray-50">or</span> Sign in
                                         </a>
-                                        <!-- End Account Sidebar Toggle Button -->
+                                    }
                                     </li>
                                 </ul>
                             </div>
@@ -225,27 +232,6 @@
 
                                                                 <div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Home - v1 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="index.html">Home v1</a></li>
-                                                                        <!-- End Home - v1 -->
-                                                                        <!-- Home - v2 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v2.html">Home v2</a></li>
-                                                                        <!-- End Home - v2 -->
-                                                                        <!-- Home - v3 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v3.html">Home v3</a></li>
-                                                                        <!-- End Home - v3 -->
-                                                                        <!-- Home - v3-full-color-bg -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v3-full-color-bg.html">Home v3.1</a></li>
-                                                                        <!-- End Home - v3-full-color-bg -->
-                                                                        <!-- Home - v4 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v4.html">Home v4</a></li>
-                                                                        <!-- End Home - v4 -->
-                                                                        <!-- Home - v5 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v5.html">Home v5</a></li>
-                                                                        <!-- End Home - v5 -->
-                                                                        <!-- Home - v6 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="home-v6.html">Home v6</a></li>
-                                                                        <!-- End Home - v6 -->
                                                                         <!-- Home - v7 -->
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="home-v7.html">Home v7</a></li>
                                                                         <!-- End Home - v7 -->

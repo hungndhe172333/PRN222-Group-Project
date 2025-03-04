@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:service\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\views\\account\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\service\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:service\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|d:\\studing\\sp25\\prn222\\project prn222\\prn222-group-project\\prn222_team14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3215202F-9CC0-4482-BA63-4C56D38EB118}|ElectronicShopTeam14.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,58 +46,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-23T05:23:35.771Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:36:16.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:06:11.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Service\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Service\\UserRepository.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Service\\UserRepository.cs",
+              "RelativeToolTip": "Service\\UserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:16:13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Service\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Service\\IUserRepository.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Service\\IUserRepository.cs",
+              "RelativeToolTip": "Service\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:16:02.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T12:09:02.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAGMAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T06:05:44.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACsAAAAAAAAAAAAUwDUAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIBAACHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-23T04:59:28.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHUAAAAHAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFQAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-23T04:40:48.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VerifyOtp.cshtml",
-              "DocumentMoniker": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Account\\VerifyOtp.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\VerifyOtp.cshtml",
-              "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Views\\Account\\VerifyOtp.cshtml",
-              "RelativeToolTip": "Views\\Account\\VerifyOtp.cshtml",
-              "ViewState": "AQIAACgAAAAAAAAAAAAmwDgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T04:31:49.363Z",
               "EditorCaption": ""
             },
             {
@@ -92,7 +158,7 @@
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "D:\\Studing\\Sp25\\PRN222\\Project PRN222\\PRN222-Group-Project\\PRN222_Team14\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAwwHYBAAAoAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T03:39:06.028Z",
               "EditorCaption": ""
