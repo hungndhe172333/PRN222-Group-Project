@@ -1,0 +1,3341 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ElectronicShopTeam14.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ElectronicShopTeam14.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\css\\app.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\app.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\css\\icons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\icons.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\css\\vendor.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\css\\vendor.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\boxiconsd41d.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\boxiconsd41d.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\tabler-icons3026.ttf",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\tabler-icons3026.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\tabler-icons3026.woff2",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\tabler-icons3026.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\fonts\\tabler-iconsd41d.woff",
+      "PackagePath": "staticwebassets\\Admin\\assets\\fonts\\tabler-iconsd41d.woff"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\404-error.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\404-error.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\Customer.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\Customer.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\facebook.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\facebook.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\google-analytics.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\google-analytics.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\google-mail.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\google-mail.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\google-meet.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\google-meet.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\slack.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\slack.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\stripe.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\stripe.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\app-calendar\\zoom.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\app-calendar\\zoom.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\brands\\dhl.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brands\\dhl.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\brands\\fedex.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brands\\fedex.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\brands\\ups.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\brands\\ups.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\card\\mastercard.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\mastercard.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\card\\paypal.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\paypal.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\card\\stripe.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\stripe.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\card\\visa.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\card\\visa.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\check-2.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\check-2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\cod.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\cod.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\coming-soon.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\coming-soon.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\double.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\double.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\logo-light.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\logo-light.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\logo-sm.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\logo-sm.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\maintenance-2.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\maintenance-2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\momo.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\momo.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\party.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\party.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-1.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-10.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-10.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-11.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-11.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-12.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-12.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-13.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-13.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-14.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-14.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-2.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-3.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-4.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-5.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-6.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-6.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-7.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-7.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-8.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-8.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\product\\p-9.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\product\\p-9.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\products\\product-1(1).png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\products\\product-1(1).png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\products\\product-1(2).png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\products\\product-1(2).png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\products\\product-4.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\products\\product-4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\products\\product-5.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\products\\product-5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\products\\product-6.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\products\\product-6.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\qr-code.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\qr-code.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\dyson.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\dyson.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\gopro.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\gopro.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\h&m.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\h&m.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\huawei.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\huawei.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\image.html",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\image.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\nike.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\nike.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\rolex.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\rolex.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\thenorthface.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\thenorthface.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\seller\\zara.svg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\seller\\zara.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-8.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\small\\img-9.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\small\\img-9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\user-profile.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\user-profile.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-8.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\avatar-9.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\avatar-9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\chat.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\chat.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\users\\dummy-avatar.jpg",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\users\\dummy-avatar.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\images\\vnpay.png",
+      "PackagePath": "staticwebassets\\Admin\\assets\\images\\vnpay.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-area.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-area.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-bar.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-bar.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-boxplot.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-boxplot.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-bubble.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-bubble.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-candlestick.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-candlestick.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-column.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-column.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-heatmap.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-heatmap.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-line.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-line.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-mixed.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-mixed.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-pie.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-pie.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-polar-area.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-polar-area.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-radar.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-radar.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-radialbar.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-radialbar.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-scatter.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-scatter.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-timeline.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-timeline.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\apexchart-treemap.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\apexchart-treemap.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\extended-rating.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\extended-rating.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\extended-sweetalert.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\extended-sweetalert.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\form-clipboard.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\form-clipboard.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\form-flatepicker.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\form-flatepicker.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\form-quilljs.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\form-quilljs.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\form-slider.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\form-slider.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-canada.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-canada.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-google.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-google.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-iraq.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-iraq.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-russia.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-russia.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-spain.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-spain.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-us-aea-en.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-us-aea-en.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-us-lcc-en.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-us-lcc-en.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-us-mill-en.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-us-mill-en.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\maps-vector.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\maps-vector.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\components\\table-gridjs.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\components\\table-gridjs.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\app-calendar.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\app-calendar.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\app-chat.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\app-chat.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\app-email.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\app-email.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\coming-soon.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\coming-soon.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\coupons-add.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\coupons-add.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\customer-details.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\customer-details.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\dashboard.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\dashboard.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\invoice-add.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\invoice-add.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\order-cart.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\order-cart.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\product-details.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\product-details.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\product-grid.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\product-grid.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\seller-add.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\seller-add.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\seller-detail.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\seller-detail.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\pages\\widgets.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\pages\\widgets.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\js\\vendor.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\js\\vendor.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\gridjs\\gridjs.umd.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\gridjs\\gridjs.umd.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\gridjs\\theme\\mermaid.min.css",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\gridjs\\theme\\mermaid.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\jsvectormap\\js\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\jsvectormap\\js\\jsvectormap.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\jsvectormap\\maps\\world-merc.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\jsvectormap\\maps\\world-merc.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Admin\\assets\\vendor\\jsvectormap\\maps\\world.js",
+      "PackagePath": "staticwebassets\\Admin\\assets\\vendor\\jsvectormap\\maps\\world.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\amex.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\amex.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\diners.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\diners.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\discover.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\discover.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\jcb.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\jcb.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\laser.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\laser.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\maestro.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\maestro.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\mastercard.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\mastercard.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\unknown.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\unknown.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\assets\\images\\credit-cards\\visa.html",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\assets\\images\\credit-cards\\visa.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\black.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\black.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\blue.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\blue.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\flat-blue.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\flat-blue.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\gold.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\gold.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\green.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\green.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\orange.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\orange.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\pink.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\pink.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\red.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\red.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\colors\\yellow.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\colors\\yellow.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\config.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\config.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\font-electro.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\font-electro.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Home\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\font-electro.eot",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\font-electro.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\font-electro.svg",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\font-electro.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\font-electro.ttf",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\font-electro.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\font-electro.woff",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\font-electro.woff"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\font-electrod41d.eot",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\font-electrod41d.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\fontawesome-webfont3295.eot",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\fontawesome-webfont3295.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\fontawesome-webfont3295.svg",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\fontawesome-webfont3295.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\fontawesome-webfont3295.ttf",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\fontawesome-webfont3295.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\fontawesome-webfont3295.woff",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\fontawesome-webfont3295.woff"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\fontawesome-webfont3295.woff2",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\fontawesome-webfont3295.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\star.eot",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\star.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\star.svg",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\star.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\star.ttf",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\star.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\star.woff",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\star.woff"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\fonts\\stard41d.eot",
+      "PackagePath": "staticwebassets\\Home\\assets\\fonts\\stard41d.eot"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\ad-block\\1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\ad-block\\1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\ad-block\\2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\ad-block\\2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\banner\\ad-banner-sidebar.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\banner\\ad-banner-sidebar.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\banner\\home-v2.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\banner\\home-v2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blank.gif",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blank.gif"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\avatar.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-s-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-s-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-s-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-s-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-s-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-s-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\blog\\blog-s-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\blog\\blog-s-4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\1-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\1-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\1-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\1-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\1-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\1-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\2-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\2-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\2-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\2-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\2-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\2-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\2-4.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\2-4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\deals\\2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\deals\\2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\fav-icon.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\fav-icon.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\footer\\payment-icon\\1.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\footer\\payment-icon\\1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\footer\\payment-icon\\2.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\footer\\payment-icon\\2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\footer\\payment-icon\\3.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\footer\\payment-icon\\3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\footer\\payment-icon\\4.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\footer\\payment-icon\\4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\footer\\payment-icon\\5.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\footer\\payment-icon\\5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\home-v3-bg.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\home-v3-bg.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\megamenu-2.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\megamenu-2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\10.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\11.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\12.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\13.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\13.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\14.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\14.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\4.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\5.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\6.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\7.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\8.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\product-category\\9.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\product-category\\9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\header-image.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\header-image.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\mini-cart1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\mini-cart1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\mini-cart2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\mini-cart2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\products\\mini-cart3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\products\\mini-cart3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\ad-banner.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\ad-banner.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\brand.png",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\brand.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\s1-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\s1-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\s1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\s1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\s2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\s2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\s3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\s3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\s4.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\s4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\s5.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\s5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\single-thumb1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\single-thumb1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\single-thumb2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\single-thumb2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\single-thumb3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\single-thumb3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\single-thumb4.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\single-thumb4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\single-thumb5.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\single-thumb5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\single-product\\single-thumb6.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\single-product\\single-thumb6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\slider\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\slider\\banner-1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\slider\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\slider\\banner-2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\images\\slider\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\Home\\assets\\images\\slider\\banner-3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\bootstrap-hover-dropdown.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\bootstrap-hover-dropdown.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\echo.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\echo.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\electro.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\electro.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\jquery.waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\tether.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\tether.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\Home\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\Home\\switchstylesheet\\switchstylesheet.js",
+      "PackagePath": "staticwebassets\\Home\\switchstylesheet\\switchstylesheet.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\css\\font-electro.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-electro.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\css\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img10.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img11.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img12.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img13.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img14.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img15.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img16.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img6.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img7.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img8.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X100\\img9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\100X100\\img9.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X60\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X60\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X60\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X60\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\100X60\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\100X60\\img5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1024X1024\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\1024X1024\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1400X143\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\1400X143\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1400X206\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1400X206\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1400X420\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1400X420\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\140X140\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\140X140\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\140X140\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\140X140\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\140X140\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\140X140\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\150X140\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\150X140\\img8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\190X150\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\190X150\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\190X150\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\190X150\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\190X150\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X1080\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X1080\\img8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X422\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X422\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X422\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X422\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920X714\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920X714\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\1920x600\\img1.html",
+      "PackagePath": "staticwebassets\\assets\\img\\1920x600\\img1.html"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X276\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\200X276\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X276\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\200X276\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\200X60\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\200X60\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\200X60\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\200X60\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\200X60\\img5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\200X60\\img6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\200X60\\img6.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X200\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X200\\img8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X305\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X305\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\212X305\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\212X305\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\246X176\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\246X176\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\246X176\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\246X176\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\246X176\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\246X176\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\270X180\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\270X180\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\270X428\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\270X428\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X275\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X275\\img9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img10.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img10.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img11.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img11.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img12.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img12.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img13.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img13.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img14.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img14.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img15.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img16.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img17.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img18.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img19.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img20.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img21.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img21.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img7.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\300X300\\img9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\300X300\\img9.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\320X300\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\320X300\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\330X360\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\330X360\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\360X616\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\360X616\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\360X616\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\360X616\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\370X608\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\370X608\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\374X386\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\374X386\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\380X350\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\380X350\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\380X350\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\380X350\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\390X270\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\390X270\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\390X370\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\390X370\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\400X400\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\400X400\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\400X400\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\400X400\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\400X400\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\400X400\\img5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\416X420\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\416X420\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\416X420\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\416X420\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\416X420\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\416X420\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\446X262\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\446X262\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\446X262\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\446X262\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\446X262\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\468X417\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\468X417\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X300\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\500X300\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X300\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\500X300\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X300\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\500X300\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X380\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X380\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X380\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X380\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X380\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X380\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img5.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img6.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\500X400\\img7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\500X400\\img7.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\536X150\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\536X150\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\536X150\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\536X150\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\564X520\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\564X520\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\564X520\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\564X520\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\665X616\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\665X616\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\690X150\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\690X150\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\690X150\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\690X150\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\724X360\\img1.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\724X360\\img2.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\724X360\\img3.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\724X360\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\724X360\\img4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\img\\75X75\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\75X75\\img9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.countdown.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.countdown.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.fancybox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.fancybox.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.focus-state.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.focus-state.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.go-to.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.go-to.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.hamburgers.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.hamburgers.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.header.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.header.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.malihu-scrollbar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.malihu-scrollbar.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.onscroll-animation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.onscroll-animation.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.quantity-counter.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.quantity-counter.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.range-slider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.range-slider.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.scroll-nav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.scroll-nav.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.selectpicker.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.selectpicker.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.show-animation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.show-animation.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.slick-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.slick-carousel.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.svg-injector.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.svg-injector.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.unfold.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.unfold.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\components\\hs.validation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\components\\hs.validation.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\js\\hs.core.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hs.core.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\animate.css\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\appear.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\appear.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\fancybox\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fancybox\\jquery.fancybox.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\fancybox\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\fancybox\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\font-awesome\\css\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\font-awesome\\css\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\hs-megamenu\\hs.megamenu.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\hs-megamenu\\hs.megamenu.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\hs-megamenu\\hs.megamenu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\hs-megamenu\\hs.megamenu.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\hs-megamenu\\src\\hs.megamenu.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\ion-rangeslider\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ion-rangeslider\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ion-rangeslider\\js\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery-migrate\\dist\\jquery-migrate.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-migrate\\dist\\jquery-migrate.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\malihu-custom-scrollbar-plugin\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png",
+      "PackagePath": "staticwebassets\\assets\\vendor\\malihu-custom-scrollbar-plugin\\mCSB_buttons.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\popper.js\\dist\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\popper.js\\dist\\umd\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\slick-carousel\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\slick-carousel\\slick\\slick.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\slick-carousel\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\slick-carousel\\slick\\slick.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\svg-injector\\dist\\svg-injector.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\svg-injector\\dist\\svg-injector.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\assets\\vendor\\typed.js\\lib\\typed.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\typed.js\\lib\\typed.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\css\\sb-admin-2.min.css",
+      "PackagePath": "staticwebassets\\css\\sb-admin-2.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\APPLE.png",
+      "PackagePath": "staticwebassets\\images\\APPLE.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AS8000.png",
+      "PackagePath": "staticwebassets\\images\\AS8000.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AS8001.png",
+      "PackagePath": "staticwebassets\\images\\AS8001.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AS8002.png",
+      "PackagePath": "staticwebassets\\images\\AS8002.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AS8003.png",
+      "PackagePath": "staticwebassets\\images\\AS8003.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AS8004.png",
+      "PackagePath": "staticwebassets\\images\\AS8004.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AS8005.png",
+      "PackagePath": "staticwebassets\\images\\AS8005.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AT533.png",
+      "PackagePath": "staticwebassets\\images\\AT533.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\AT536.png",
+      "PackagePath": "staticwebassets\\images\\AT536.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\BL1.jpg",
+      "PackagePath": "staticwebassets\\images\\BL1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\BL2.jpg",
+      "PackagePath": "staticwebassets\\images\\BL2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\BL4.jpg",
+      "PackagePath": "staticwebassets\\images\\BL4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\BL5.jpg",
+      "PackagePath": "staticwebassets\\images\\BL5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\BL6.jpg",
+      "PackagePath": "staticwebassets\\images\\BL6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\BL7.jpg",
+      "PackagePath": "staticwebassets\\images\\BL7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\CK102.png",
+      "PackagePath": "staticwebassets\\images\\CK102.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\G1.jpg",
+      "PackagePath": "staticwebassets\\images\\G1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\G2.jpg",
+      "PackagePath": "staticwebassets\\images\\G2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\G3.jpg",
+      "PackagePath": "staticwebassets\\images\\G3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1001.png",
+      "PackagePath": "staticwebassets\\images\\H1001.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1002.jpg",
+      "PackagePath": "staticwebassets\\images\\H1002.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1003.jpg",
+      "PackagePath": "staticwebassets\\images\\H1003.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1004.jpg",
+      "PackagePath": "staticwebassets\\images\\H1004.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1005.jpg",
+      "PackagePath": "staticwebassets\\images\\H1005.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1006.jpg",
+      "PackagePath": "staticwebassets\\images\\H1006.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1007.jpg",
+      "PackagePath": "staticwebassets\\images\\H1007.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\H1008.jpg",
+      "PackagePath": "staticwebassets\\images\\H1008.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K10.jpg",
+      "PackagePath": "staticwebassets\\images\\K10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K11.jpg",
+      "PackagePath": "staticwebassets\\images\\K11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K12.jpg",
+      "PackagePath": "staticwebassets\\images\\K12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K13.jpg",
+      "PackagePath": "staticwebassets\\images\\K13.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K14.jpg",
+      "PackagePath": "staticwebassets\\images\\K14.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K15.jpg",
+      "PackagePath": "staticwebassets\\images\\K15.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K16.jpg",
+      "PackagePath": "staticwebassets\\images\\K16.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K17.jpg",
+      "PackagePath": "staticwebassets\\images\\K17.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K18.jpg",
+      "PackagePath": "staticwebassets\\images\\K18.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K19.jpg",
+      "PackagePath": "staticwebassets\\images\\K19.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K2.jpg",
+      "PackagePath": "staticwebassets\\images\\K2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K20.jpg",
+      "PackagePath": "staticwebassets\\images\\K20.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K3.jpg",
+      "PackagePath": "staticwebassets\\images\\K3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K4.jpg",
+      "PackagePath": "staticwebassets\\images\\K4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K5.jpg",
+      "PackagePath": "staticwebassets\\images\\K5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K6.jpg",
+      "PackagePath": "staticwebassets\\images\\K6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K7.jpg",
+      "PackagePath": "staticwebassets\\images\\K7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K8.jpg",
+      "PackagePath": "staticwebassets\\images\\K8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K9.jpg",
+      "PackagePath": "staticwebassets\\images\\K9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\K9_1.jpg",
+      "PackagePath": "staticwebassets\\images\\K9_1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\LG.png",
+      "PackagePath": "staticwebassets\\images\\LG.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK1.jpg",
+      "PackagePath": "staticwebassets\\images\\PK1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK10.jpg",
+      "PackagePath": "staticwebassets\\images\\PK10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK2.jpg",
+      "PackagePath": "staticwebassets\\images\\PK2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK3.jpg",
+      "PackagePath": "staticwebassets\\images\\PK3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK4.jpg",
+      "PackagePath": "staticwebassets\\images\\PK4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK5.jpg",
+      "PackagePath": "staticwebassets\\images\\PK5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK6.jpg",
+      "PackagePath": "staticwebassets\\images\\PK6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK7.jpg",
+      "PackagePath": "staticwebassets\\images\\PK7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK8.jpg",
+      "PackagePath": "staticwebassets\\images\\PK8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PK9.jpg",
+      "PackagePath": "staticwebassets\\images\\PK9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL1.jpg",
+      "PackagePath": "staticwebassets\\images\\PL1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL10.jpg",
+      "PackagePath": "staticwebassets\\images\\PL10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL11.jpg",
+      "PackagePath": "staticwebassets\\images\\PL11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL12.jpg",
+      "PackagePath": "staticwebassets\\images\\PL12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL13.jpg",
+      "PackagePath": "staticwebassets\\images\\PL13.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL2.jpg",
+      "PackagePath": "staticwebassets\\images\\PL2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL3.jpg",
+      "PackagePath": "staticwebassets\\images\\PL3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL4.jpg",
+      "PackagePath": "staticwebassets\\images\\PL4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL5.jpg",
+      "PackagePath": "staticwebassets\\images\\PL5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL6.jpg",
+      "PackagePath": "staticwebassets\\images\\PL6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL7.jpg",
+      "PackagePath": "staticwebassets\\images\\PL7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL8.jpg",
+      "PackagePath": "staticwebassets\\images\\PL8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\PL9.jpg",
+      "PackagePath": "staticwebassets\\images\\PL9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\Phone 1.jpg",
+      "PackagePath": "staticwebassets\\images\\Phone 1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\Phone 2.jpg",
+      "PackagePath": "staticwebassets\\images\\Phone 2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QB1.jpg",
+      "PackagePath": "staticwebassets\\images\\QB1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS1.jpg",
+      "PackagePath": "staticwebassets\\images\\QS1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS10.jpg",
+      "PackagePath": "staticwebassets\\images\\QS10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS11.jpg",
+      "PackagePath": "staticwebassets\\images\\QS11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS12.jpg",
+      "PackagePath": "staticwebassets\\images\\QS12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS13.jpg",
+      "PackagePath": "staticwebassets\\images\\QS13.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS14.jpg",
+      "PackagePath": "staticwebassets\\images\\QS14.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS15.jpg",
+      "PackagePath": "staticwebassets\\images\\QS15.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS16.jpg",
+      "PackagePath": "staticwebassets\\images\\QS16.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS17.jpg",
+      "PackagePath": "staticwebassets\\images\\QS17.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS18.jpg",
+      "PackagePath": "staticwebassets\\images\\QS18.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS19.jpg",
+      "PackagePath": "staticwebassets\\images\\QS19.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS2.jpg",
+      "PackagePath": "staticwebassets\\images\\QS2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS20.jpg",
+      "PackagePath": "staticwebassets\\images\\QS20.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS21.jpg",
+      "PackagePath": "staticwebassets\\images\\QS21.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS22.jpg",
+      "PackagePath": "staticwebassets\\images\\QS22.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS3.jpg",
+      "PackagePath": "staticwebassets\\images\\QS3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS4.jpg",
+      "PackagePath": "staticwebassets\\images\\QS4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS5.jpg",
+      "PackagePath": "staticwebassets\\images\\QS5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS6.jpg",
+      "PackagePath": "staticwebassets\\images\\QS6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS7.jpg",
+      "PackagePath": "staticwebassets\\images\\QS7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS8.jpg",
+      "PackagePath": "staticwebassets\\images\\QS8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\QS9.jpg",
+      "PackagePath": "staticwebassets\\images\\QS9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S1200.jpg",
+      "PackagePath": "staticwebassets\\images\\S1200.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S1201.jpg",
+      "PackagePath": "staticwebassets\\images\\S1201.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S1203.jpg",
+      "PackagePath": "staticwebassets\\images\\S1203.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S1204.jpg",
+      "PackagePath": "staticwebassets\\images\\S1204.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S1205.jpg",
+      "PackagePath": "staticwebassets\\images\\S1205.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4000.png",
+      "PackagePath": "staticwebassets\\images\\S4000.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4001.png",
+      "PackagePath": "staticwebassets\\images\\S4001.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4002.png",
+      "PackagePath": "staticwebassets\\images\\S4002.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4003.png",
+      "PackagePath": "staticwebassets\\images\\S4003.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4004.png",
+      "PackagePath": "staticwebassets\\images\\S4004.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4005.png",
+      "PackagePath": "staticwebassets\\images\\S4005.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4006.png",
+      "PackagePath": "staticwebassets\\images\\S4006.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\S4007.png",
+      "PackagePath": "staticwebassets\\images\\S4007.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SA7001.jpg",
+      "PackagePath": "staticwebassets\\images\\SA7001.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SA7002.jpg",
+      "PackagePath": "staticwebassets\\images\\SA7002.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SA7003.JPG",
+      "PackagePath": "staticwebassets\\images\\SA7003.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SA7004.JPG",
+      "PackagePath": "staticwebassets\\images\\SA7004.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SA7005.JPG",
+      "PackagePath": "staticwebassets\\images\\SA7005.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SA7006.JPG",
+      "PackagePath": "staticwebassets\\images\\SA7006.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SAMSUNG.png",
+      "PackagePath": "staticwebassets\\images\\SAMSUNG.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM1.jpg",
+      "PackagePath": "staticwebassets\\images\\SM1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM10.jpg",
+      "PackagePath": "staticwebassets\\images\\SM10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM11.jpg",
+      "PackagePath": "staticwebassets\\images\\SM11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM12.jpg",
+      "PackagePath": "staticwebassets\\images\\SM12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM2.jpg",
+      "PackagePath": "staticwebassets\\images\\SM2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM3.jpg",
+      "PackagePath": "staticwebassets\\images\\SM3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM4.jpg",
+      "PackagePath": "staticwebassets\\images\\SM4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM5.jpg",
+      "PackagePath": "staticwebassets\\images\\SM5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM561(2).png",
+      "PackagePath": "staticwebassets\\images\\SM561(2).png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM561.png",
+      "PackagePath": "staticwebassets\\images\\SM561.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM6.jpg",
+      "PackagePath": "staticwebassets\\images\\SM6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM7.jpg",
+      "PackagePath": "staticwebassets\\images\\SM7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM8.jpg",
+      "PackagePath": "staticwebassets\\images\\SM8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SM9.jpg",
+      "PackagePath": "staticwebassets\\images\\SM9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SONY.png",
+      "PackagePath": "staticwebassets\\images\\SONY.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6000.jpg",
+      "PackagePath": "staticwebassets\\images\\SW6000.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6001.jpg",
+      "PackagePath": "staticwebassets\\images\\SW6001.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6002.jpg",
+      "PackagePath": "staticwebassets\\images\\SW6002.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6003.jpg",
+      "PackagePath": "staticwebassets\\images\\SW6003.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6004.jpg",
+      "PackagePath": "staticwebassets\\images\\SW6004.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6005.JPG",
+      "PackagePath": "staticwebassets\\images\\SW6005.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6006.JPG",
+      "PackagePath": "staticwebassets\\images\\SW6006.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6007.JPG",
+      "PackagePath": "staticwebassets\\images\\SW6007.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6008.JPG",
+      "PackagePath": "staticwebassets\\images\\SW6008.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\SW6009.JPG",
+      "PackagePath": "staticwebassets\\images\\SW6009.JPG"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T1.jpg",
+      "PackagePath": "staticwebassets\\images\\T1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T10.jpg",
+      "PackagePath": "staticwebassets\\images\\T10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T11.jpg",
+      "PackagePath": "staticwebassets\\images\\T11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T1111.png",
+      "PackagePath": "staticwebassets\\images\\T1111.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T12.jpg",
+      "PackagePath": "staticwebassets\\images\\T12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T13.jpg",
+      "PackagePath": "staticwebassets\\images\\T13.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T14.jpg",
+      "PackagePath": "staticwebassets\\images\\T14.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T15.jpg",
+      "PackagePath": "staticwebassets\\images\\T15.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T16.jpg",
+      "PackagePath": "staticwebassets\\images\\T16.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T17.jpg",
+      "PackagePath": "staticwebassets\\images\\T17.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T18.jpg",
+      "PackagePath": "staticwebassets\\images\\T18.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2.jpg",
+      "PackagePath": "staticwebassets\\images\\T2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2099.png",
+      "PackagePath": "staticwebassets\\images\\T2099.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2106.png",
+      "PackagePath": "staticwebassets\\images\\T2106.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2109.png",
+      "PackagePath": "staticwebassets\\images\\T2109.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2119.png",
+      "PackagePath": "staticwebassets\\images\\T2119.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2127.png",
+      "PackagePath": "staticwebassets\\images\\T2127.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2128.png",
+      "PackagePath": "staticwebassets\\images\\T2128.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2129.png",
+      "PackagePath": "staticwebassets\\images\\T2129.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2130.png",
+      "PackagePath": "staticwebassets\\images\\T2130.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2131.png",
+      "PackagePath": "staticwebassets\\images\\T2131.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T2132.jpg",
+      "PackagePath": "staticwebassets\\images\\T2132.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T3.jpg",
+      "PackagePath": "staticwebassets\\images\\T3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T3000.png",
+      "PackagePath": "staticwebassets\\images\\T3000.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T4.jpg",
+      "PackagePath": "staticwebassets\\images\\T4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T5.jpg",
+      "PackagePath": "staticwebassets\\images\\T5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T6.jpg",
+      "PackagePath": "staticwebassets\\images\\T6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T7.jpg",
+      "PackagePath": "staticwebassets\\images\\T7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T8.jpg",
+      "PackagePath": "staticwebassets\\images\\T8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\T9.jpg",
+      "PackagePath": "staticwebassets\\images\\T9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\TD481.png",
+      "PackagePath": "staticwebassets\\images\\TD481.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\TD509.png",
+      "PackagePath": "staticwebassets\\images\\TD509.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\TOSHIBA.png",
+      "PackagePath": "staticwebassets\\images\\TOSHIBA.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\about1.jpg",
+      "PackagePath": "staticwebassets\\images\\about1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\about2.jpg",
+      "PackagePath": "staticwebassets\\images\\about2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\about3.jpg",
+      "PackagePath": "staticwebassets\\images\\about3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\banner10.jpg",
+      "PackagePath": "staticwebassets\\images\\banner10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\banner11.jpg",
+      "PackagePath": "staticwebassets\\images\\banner11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\banner12.jpg",
+      "PackagePath": "staticwebassets\\images\\banner12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\banner8.jpg",
+      "PackagePath": "staticwebassets\\images\\banner8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\banner9.jpg",
+      "PackagePath": "staticwebassets\\images\\banner9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie1.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie10.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie2.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie3.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie4.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie5.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie6.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie7.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie8.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\hoodie9.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\k1.jpg",
+      "PackagePath": "staticwebassets\\images\\k1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\laptop 1.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop 1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len1.jpg",
+      "PackagePath": "staticwebassets\\images\\len1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len10.jpg",
+      "PackagePath": "staticwebassets\\images\\len10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len11.jpg",
+      "PackagePath": "staticwebassets\\images\\len11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len12.jpg",
+      "PackagePath": "staticwebassets\\images\\len12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len13.jpg",
+      "PackagePath": "staticwebassets\\images\\len13.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len14.jpg",
+      "PackagePath": "staticwebassets\\images\\len14.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len15.jpg",
+      "PackagePath": "staticwebassets\\images\\len15.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len16.jpg",
+      "PackagePath": "staticwebassets\\images\\len16.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len17.jpg",
+      "PackagePath": "staticwebassets\\images\\len17.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len18.jpg",
+      "PackagePath": "staticwebassets\\images\\len18.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len19.jpg",
+      "PackagePath": "staticwebassets\\images\\len19.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len2.jpg",
+      "PackagePath": "staticwebassets\\images\\len2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len20.jpg",
+      "PackagePath": "staticwebassets\\images\\len20.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len21.jpg",
+      "PackagePath": "staticwebassets\\images\\len21.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len3.jpg",
+      "PackagePath": "staticwebassets\\images\\len3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len4.jpg",
+      "PackagePath": "staticwebassets\\images\\len4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len5.jpg",
+      "PackagePath": "staticwebassets\\images\\len5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len6.jpg",
+      "PackagePath": "staticwebassets\\images\\len6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len7.jpg",
+      "PackagePath": "staticwebassets\\images\\len7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len8.jpg",
+      "PackagePath": "staticwebassets\\images\\len8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\len9.jpg",
+      "PackagePath": "staticwebassets\\images\\len9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\tivi 1.jpg",
+      "PackagePath": "staticwebassets\\images\\tivi 1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\tivi 2.jpg",
+      "PackagePath": "staticwebassets\\images\\tivi 2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\tivi 3.jpg",
+      "PackagePath": "staticwebassets\\images\\tivi 3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\tivi 4.png",
+      "PackagePath": "staticwebassets\\images\\tivi 4.png"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\tivi 5.jpg",
+      "PackagePath": "staticwebassets\\images\\tivi 5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\tivi 6.jpg",
+      "PackagePath": "staticwebassets\\images\\tivi 6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v1.jpg",
+      "PackagePath": "staticwebassets\\images\\v1.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v10.jpg",
+      "PackagePath": "staticwebassets\\images\\v10.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v11.jpg",
+      "PackagePath": "staticwebassets\\images\\v11.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v12.jpg",
+      "PackagePath": "staticwebassets\\images\\v12.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v2.jpg",
+      "PackagePath": "staticwebassets\\images\\v2.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v3.jpg",
+      "PackagePath": "staticwebassets\\images\\v3.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v4.jpg",
+      "PackagePath": "staticwebassets\\images\\v4.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v5.jpg",
+      "PackagePath": "staticwebassets\\images\\v5.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v6.jpg",
+      "PackagePath": "staticwebassets\\images\\v6.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v7.jpg",
+      "PackagePath": "staticwebassets\\images\\v7.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v8.jpg",
+      "PackagePath": "staticwebassets\\images\\v8.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\images\\v9.jpg",
+      "PackagePath": "staticwebassets\\images\\v9.jpg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\hs.core.js",
+      "PackagePath": "staticwebassets\\lib\\hs.core.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.compatibility.min.js.map"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-easing\\jquery.easing.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-easing\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Studing\\Sp25\\PRN222\\ElectronicShopTeam14\\ElectronicShopTeam14\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ElectronicShopTeam14.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ElectronicShopTeam14.props",
+      "PackagePath": "build\\ElectronicShopTeam14.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ElectronicShopTeam14.props",
+      "PackagePath": "buildMultiTargeting\\ElectronicShopTeam14.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ElectronicShopTeam14.props",
+      "PackagePath": "buildTransitive\\ElectronicShopTeam14.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
