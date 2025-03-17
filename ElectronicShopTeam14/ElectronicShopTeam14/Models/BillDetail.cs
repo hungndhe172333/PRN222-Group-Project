@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace ElectronicShopTeam14.Models;
 
@@ -21,6 +22,7 @@ public partial class BillDetail
 
     public decimal Price { get; set; }
 
+    [JsonIgnore]
     public virtual Bill Bill { get; set; } = null!;
 
     public virtual Product Product { get; set; } = null!;

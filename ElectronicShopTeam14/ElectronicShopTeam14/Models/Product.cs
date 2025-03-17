@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace ElectronicShopTeam14.Models;
 
@@ -27,6 +28,7 @@ public partial class Product
 
     public string? ModelNumber { get; set; }
 
+    [JsonIgnore]
     public virtual ICollection<BillDetail> BillDetails { get; set; } = new List<BillDetail>();
 
     public virtual Brand? Brand { get; set; }

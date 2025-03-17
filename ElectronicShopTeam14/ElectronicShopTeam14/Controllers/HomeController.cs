@@ -1,4 +1,4 @@
-using ElectronicShopTeam14.Models;
+﻿using ElectronicShopTeam14.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
@@ -21,12 +21,6 @@ namespace ElectronicShopTeam14.Controllers
 
         public IActionResult Index()
         {
-        
-
-          
-
-            
-
             return View();
         }
 
@@ -107,7 +101,6 @@ namespace ElectronicShopTeam14.Controllers
             return View("Product_detail",product);
         }
 
-
         [HttpPost]
         public IActionResult AddComment(ProductComment comment)
         {
@@ -142,9 +135,7 @@ namespace ElectronicShopTeam14.Controllers
             return View();
         }
 
-
-
-        public IActionResult Shop1(int? page, int? categoryId)
+        public IActionResult Shop1(int? page, int? categoryId, int[] brandId, string[] colorString, decimal? minPrice, decimal? maxPrice)
         {
             int pageSize = 20;
             int pageNumber = (page ?? 1);
@@ -153,30 +144,57 @@ namespace ElectronicShopTeam14.Controllers
                 .Include(c => c.Products)
                 .ToList();
 
+            var brands = _context.Brands
+                .Include(c => c.Products)
+                .ToList();
+
+            var colors = _context.ProductColors
+                .GroupBy(pc => pc.Color)
+                .Select(g => g.First())
+                .ToList();
+
             var viewModel = new ShopViewModel
             {
-                Categories = categories
+                Categories = categories,
+                Brands = brands,
+                Colors = colors,
+				SelectedBrandId = brandId.ToList(),
+                SelectedColor = colorString.ToList(),
+                MinPrice = minPrice ?? 0,
+                MaxPrice = maxPrice ?? 99999999
             };
 
+            // Query sản phẩm
+            var query = _context.Products.AsQueryable();
+
             if (categoryId.HasValue)
+			{
+				query = query.Where(p => p.CategoryId == categoryId.Value);
+			}
+			if (brandId != null && brandId.Any())
+			{
+				query = query.Where(p => p.BrandId.HasValue && brandId.Contains(p.BrandId.Value));
+			}
+            if (colorString != null && colorString.Any())
             {
-                
-                viewModel.AllProducts = _context.Products
-                    .Where(p => p.CategoryId == categoryId.Value)
-                    .OrderBy(p => p.ProductName)
-                    .ToPagedList(pageNumber, pageSize);
-            }
-            else
-            {
-               
-                viewModel.AllProducts = _context.Products
-                    .OrderBy(p => p.ProductName)
-                    .ToPagedList(pageNumber, pageSize);
+                // Lọc sản phẩm có màu nằm trong danh sách chọn
+                var productIdsWithSelectedColors = _context.ProductColors
+                    .Where(pc => colorString.Contains(pc.Color))
+                    .Select(pc => pc.ProductId)
+                    .Distinct();
+
+                query = query.Where(p => productIdsWithSelectedColors.Contains(p.ProductId));
             }
 
-            var tvCategory = _context.Categories
+            // Lọc theo khoảng giá
+            query = query.Where(p => p.ProductPrice >= viewModel.MinPrice && p.ProductPrice <= viewModel.MaxPrice);
+
+            viewModel.AllProducts = query.OrderBy(p => p.ProductName).ToPagedList(pageNumber, pageSize);
+
+			var tvCategory = _context.Categories
                 .Include(c => c.Products)
                 .FirstOrDefault(c => c.CategoryName == "TV");
+
             var recommendedTvs = tvCategory?.Products.ToList() ?? new List<Product>();
 
             var smartphoneCategory = _context.Categories
@@ -196,6 +214,7 @@ namespace ElectronicShopTeam14.Controllers
 
             return View("Shop1", viewModel);
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

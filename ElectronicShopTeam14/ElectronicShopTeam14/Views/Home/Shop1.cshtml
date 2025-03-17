@@ -1328,152 +1328,56 @@
                             <div class="border-bottom border-color-1 mb-5">
                                 <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Filters</h3>
                             </div>
+
+                            <!-- Gộp tất cả vào 1 form -->
+                            <form method="get" action="@Url.Action("Shop1", "Home")">
+
+                            <!-- Filter brand -->
                             <div class="border-bottom pb-4 mb-4">
                                 <h4 class="font-size-14 mb-3 font-weight-bold">Brands</h4>
+                                    @foreach (var brand in Model.Brands)
+                                    {
+                                        <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox"
+                                                    class="custom-control-input"
+                                                    id="brand_@brand.BrandId"
+                                                    name="brandId"
+                                                    value="@brand.BrandId"
+                                                    @(Model.SelectedBrandId.Contains(brand.BrandId) ? "checked" : "")>
 
-                                <!-- Checkboxes -->
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                        <label class="custom-control-label" for="brandAdidas">Adidas
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                        <label class="custom-control-label" for="brandNewBalance">New Balance
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandNike">
-                                        <label class="custom-control-label" for="brandNike">Nike
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandFredPerry">
-                                        <label class="custom-control-label" for="brandFredPerry">Fred Perry
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="brandTnf">
-                                        <label class="custom-control-label" for="brandTnf">The North Face
-                                            <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <!-- End Checkboxes -->
-
-                                <!-- View More - Collapse -->
-                                <div class="collapse" id="collapseBrand">
-                                    <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brandGucci">
-                                            <label class="custom-control-label" for="brandGucci">Gucci
-                                                <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </label>
+                                                <label class="custom-control-label" for="brand_@brand.BrandId">
+                                                    @brand.BrandName
+                                                    <span class="text-gray-25 font-size-12 font-weight-normal">(@brand.Products.Count)</span>
+                                                </label>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="brandMango">
-                                            <label class="custom-control-label" for="brandMango">Mango
-                                                <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End View More - Collapse -->
-
-                                <!-- Link -->
-                                <a class="link link-collapse small font-size-13 text-gray-27 d-inline-flex mt-2" data-toggle="collapse" href="#collapseBrand" role="button" aria-expanded="false" aria-controls="collapseBrand">
-                                    <span class="link__icon text-gray-27 bg-white">
-                                        <span class="link__icon-inner">+</span>
-                                    </span>
-                                    <span class="link-collapse__default">Show more</span>
-                                    <span class="link-collapse__active">Show less</span>
-                                </a>
-                                <!-- End Link -->
+                                    }
                             </div>
+
+                            <!-- Filter Color -->
                             <div class="border-bottom pb-4 mb-4">
                                 <h4 class="font-size-14 mb-3 font-weight-bold">Color</h4>
-
-                                <!-- Checkboxes -->
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="categoryTshirt">
-                                        <label class="custom-control-label" for="categoryTshirt">Black <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="categoryShoes">
-                                        <label class="custom-control-label" for="categoryShoes">Black Leather <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="categoryAccessories">
-                                        <label class="custom-control-label" for="categoryAccessories">Black with Red <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="categoryTops">
-                                        <label class="custom-control-label" for="categoryTops">Gold <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                    </div>
-                                </div>
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                    <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="categoryBottom">
-                                        <label class="custom-control-label" for="categoryBottom">Spacegrey <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                    </div>
-                                </div>
-                                <!-- End Checkboxes -->
-
-                                <!-- View More - Collapse -->
-                                <div class="collapse" id="collapseColor">
+                                @foreach (var color in Model.Colors)
+                                {
                                     <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
                                         <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="categoryShorts">
-                                            <label class="custom-control-label" for="categoryShorts">Turquoise <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="categoryHats">
-                                            <label class="custom-control-label" for="categoryHats">White <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                        </div>
-                                    </div>
-                                    <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="categorySocks">
-                                            <label class="custom-control-label" for="categorySocks">White with Gold <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End View More - Collapse -->
+                                            <input type="checkbox"
+                                                   class="custom-control-input"
+                                                   id="color_@color.Color"
+                                                   name="colorString"
+                                                   value="@color.Color"
+                                            @(Model.SelectedColor.Contains(color.Color) ? "checked" : "")>
 
-                                <!-- Link -->
-                                <a class="link link-collapse small font-size-13 text-gray-27 d-inline-flex mt-2" data-toggle="collapse" href="#collapseColor" role="button" aria-expanded="false" aria-controls="collapseColor">
-                                    <span class="link__icon text-gray-27 bg-white">
-                                        <span class="link__icon-inner">+</span>
-                                    </span>
-                                    <span class="link-collapse__default">Show more</span>
-                                    <span class="link-collapse__active">Show less</span>
-                                </a>
-                                <!-- End Link -->
+                                            <label class="custom-control-label" for="color_@color.Color">
+                                                @color.Color
+                                            </label>
+                                        </div>
+                                    </div>
+                                }
                             </div>
+
+                            <!-- Filter Price -->
                             <div class="range-slider">
                                 <h4 class="font-size-14 mb-3 font-weight-bold">Price</h4>
                                 <!-- Range Slider -->
@@ -1484,11 +1388,16 @@
                                 data-hide-from-to="true"
                                 data-prefix="$"
                                 data-min="0"
-                                data-max="3456"
+                                data-max="99999999"
                                 data-from="0"
-                                data-to="3456"
+                                data-to="99999999"
                                 data-result-min="#rangeSliderExample3MinResult"
                                 data-result-max="#rangeSliderExample3MaxResult">
+
+                                <!-- Hidden input để gửi giá trị min-max -->
+                                <input type="hidden" id="minPrice" name="minPrice" value="@Model.MinPrice" />
+                                <input type="hidden" id="maxPrice" name="maxPrice" value="@Model.MaxPrice" />
+
                                 <!-- End Range Slider -->
                                 <div class="mt-1 text-gray-111 d-flex mb-4">
                                     <span class="mr-0dot5">Price: </span>
@@ -1498,9 +1407,23 @@
                                     <span>$</span>
                                     <span id="rangeSliderExample3MaxResult" class=""></span>
                                 </div>
+
+                                <!-- Nút Filter7 -->
                                 <button type="submit" class="btn px-4 btn-primary-dark-w py-2 rounded-lg">Filter</button>
                             </div>
+                            </form>
                         </div>
+                    <script>
+                        $(document).ready(function () {
+                            $(".js-range-slider").ionRangeSlider({
+                                onFinish: function (data) {
+                                    // Cập nhật giá trị min-max khi người dùng thay đổi slider
+                                    $('#minPrice').val(data.from);
+                                    $('#maxPrice').val(data.to);
+                                }
+                            });
+                        });
+                    </script>
                         <div class="mb-8">
                             <div class="border-bottom border-color-1 mb-5">
                                 <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Sản phẩm mới nhất</h3>
@@ -2780,9 +2703,9 @@
                                         data-hide-from-to="true"
                                         data-prefix="$"
                                         data-min="0"
-                                        data-max="3456"
+                                        data-max="99999999"
                                         data-from="0"
-                                        data-to="3456"
+                                        data-to="99999999"
                                         data-result-min="#rangeSliderExample3MinResult"
                                         data-result-max="#rangeSliderExample3MaxResult">
                                         <!-- End Range Slider -->

@@ -167,8 +167,6 @@ namespace ElectronicShopTeam14.Controllers
             return View(model);
         }
 
-
-
         [HttpGet]
         public IActionResult Register()
         {
@@ -233,9 +231,6 @@ namespace ElectronicShopTeam14.Controllers
             return View(model);
         }
 
-
-
-        [HttpPost]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
