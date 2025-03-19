@@ -1,4 +1,5 @@
-﻿@model TransactionHistoryViewModel
+﻿
+@model TransactionHistoryViewModel
 
 @{
     ViewData["Title"] = "Lịch sử giao dịch";
@@ -636,20 +637,25 @@
                         <thead>
                             <tr>
                                 <th>Order</th>
-                                <th>Ngày</th>
+                                <th>Ngày thanh toán</th>
                                 <th>Trạng thái</th>
                                 <th>Tổng tiền</th>
+                                <th>Cổng thanh toán</th>
+                                <th>Số điện thoại</th>
                                 <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach (var item in Model.TransactionHistories)
                             {
+                                var bill = Model.Bills.FirstOrDefault(b => b.BillId == item.BillId);
                                 <tr>
                                     <td>@item.BillId</td>
                                     <td>@item.TransactionDate.ToString("dd/MM/yyyy")</td>
                                     <td>@item.Status</td>
                                     <td>@item.Amount.ToString("C")</td>
+                                    <td>@(bill != null ? bill.Payment : "N/A")</td>
+                                    <td>0@(bill != null ? bill.Phone : "N/A")</td>
                                     <td>
                                         <a asp-controller="Order" asp-action="Detail" asp-route-billId="@item.BillId" class="btn btn-primary btn-sm">
                                             Xem chi tiết

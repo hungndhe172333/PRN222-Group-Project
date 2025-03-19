@@ -37,9 +37,12 @@ namespace ElectronicShopTeam14.Controllers
 
             var transactionhistories = _context.TransactionHistories.Where(t => t.UserId == userId).ToList();
 
+            var bills = _context.Bills.Where(b => transactionhistories.Select(t => t.BillId).Contains(b.BillId)).ToList();
+
             var viewModel = new TransactionHistoryViewModel
             {
-                TransactionHistories = transactionhistories
+                TransactionHistories = transactionhistories,
+                Bills = bills
             };
             return View("History", viewModel);
         }

@@ -660,19 +660,6 @@
 
                 <!-- Right Column: Order Details -->
                 <div class="col-md-8">
-                    <!-- Top Section: Bill Info -->
-                    <div class="mb-4">
-                        <h5>Order Information</h5>
-                        <div class="d-flex flex-wrap gap-3">
-                            <p><strong>Bill ID:</strong> @Model.Bill.BillId</p>
-                            <p><strong>Total Amount:</strong> @Model.Bill.Total.ToString("C")</p>
-                            <p><strong>Payment Method:</strong> @Model.Bill.Payment</p>
-                            <p><strong>Address:</strong> @Model.Bill.Address</p>
-                            <p><strong>Date:</strong> @Model.Bill.Date.ToString("dd/MM/yyyy")</p>
-                            <p><strong>Phone:</strong> @Model.Bill.Phone</p>
-                        </div>
-                    </div>
-
                     <!-- Bottom Section: Product Detail -->
                     <div id="product-detail">
                         <h5>Product Details</h5>
@@ -696,12 +683,8 @@
                     document.getElementById('product-detail').innerHTML = `
                             <h5>Product Details</h5>
                             <div class="d-flex flex-wrap gap-3">
-                                <img src="${product.img || '/default.png'}" class="img-fluid mb-2" style="max-width: 200px;">
+                                <img src="/${product.img || '/default.png'}" class="img-fluid mb-2" style="max-width: 200px;">
                                 <p><strong>Name:</strong> ${product.productName || 'N/A'}</p>
-                                <p><strong>Quantity:</strong> ${product.quantity || 0}</p>
-                                <p><strong>Size:</strong> ${product.size || 'N/A'}</p>
-                                <p><strong>Color:</strong> ${product.color || 'N/A'}</p>
-                                <p><strong>Price:</strong> ${(product.price || 0).toLocaleString()} VND</p>
                             </div>
                         `;
                 }
