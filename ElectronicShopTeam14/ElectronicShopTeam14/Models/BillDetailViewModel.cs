@@ -6,5 +6,7 @@ namespace ElectronicShopTeam14.Models
         public Bill Bill { get; set; }
         public List<BillDetail> BillDetails { get; set; }
         public List<Product> Products { get; set; }
+
+        public List<Bill> Bills { get; set; }
     }
 }

@@ -119,8 +119,6 @@
                                 <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                     <a title="Shop" href="@Url.Action("Shop1","Home")"><i class="ec ec-shopping-bag"></i>Sản phẩm</a>
                                 </li>
-
-
                                 <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                     @if (User.Identity.IsAuthenticated)
                                     {
@@ -185,70 +183,6 @@
                                     }
                                     <!-- End Account Sidebar Toggle Button -->
                                 </li>
-
-                                @* <div class="dropdown">
-                                @if (User.Identity.IsAuthenticated)
-                                {
-                                <a class="u-header-topbar__nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
-                                id="userDropdown"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="ec ec-user mr-1"></i>
-                                <span class="text-gray-90">@User.Identity.Name</span>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="userDropdown">
-                                <li>
-                                <a class="dropdown-item" href="@Url.Action("Profile", "Account")">
-                                <i class="fa-solid fa-user"></i> Thông tin tài khoản
-                                </a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="@Url.Action("History", "Order")">
-                                <i class="fa-solid fa-cart-shopping"></i> Lịch sử đơn hàng
-                                </a>
-                                </li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li>
-                                <form asp-controller="Account" asp-action="Logout" method="post">
-                                <button type="submit" class="dropdown-item">
-                                <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
-                                </button>
-                                </form>
-                                </li>
-                                </ul>
-                                }
-                                else
-                                {
-                                <a class="u-header-topbar__nav-link dropdown-toggle"
-                                href="#"
-                                role="button"
-                                id="guestDropdown"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="ec ec-user mr-1"></i>
-                                <span class="text-gray-90">Tài khoản</span>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="guestDropdown">
-                                <li>
-                                <a class="dropdown-item" href="@Url.Action("Login", "Account")">
-                                <i class="fa-solid fa-right-to-bracket"></i> Đăng nhập
-                                </a>
-                                </li>
-                                <li>
-                                <a class="dropdown-item" href="@Url.Action("Register", "Account")">
-                                <i class="fa-solid fa-registered"></i> Đăng ký
-                                </a>
-                                </li>
-                                </ul>
-                                }
-                                </div>
-                                *@
-
-
-
-
                             </ul>
                         </div>
                     </div>
@@ -263,6 +197,23 @@
                         <div class="col-auto">
                             <!-- Nav -->
                             <nav class="navbar navbar-expand u-header__navbar py-0">
+                                <!-- Fullscreen Toggle Button -->
+                                <button id="sidebarHeaderInvoker" type="button" class="navbar-toggler d-block btn u-hamburger mr-3"
+                                        aria-controls="sidebarHeader"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        data-unfold-event="click"
+                                        data-unfold-hide-on-scroll="false"
+                                        data-unfold-target="#sidebarHeader1"
+                                        data-unfold-type="css-animation"
+                                        data-unfold-animation-in="fadeInLeft"
+                                        data-unfold-animation-out="fadeOutLeft"
+                                        data-unfold-duration="500">
+                                    <span id="hamburgerTriggerMenu" class="u-hamburger__box">
+                                        <span class="u-hamburger__inner"></span>
+                                    </span>
+                                </button>
+                                <!-- End Fullscreen Toggle Button -->
                                 <!-- Logo -->
                                 <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0" href="@Url.Action("Index","Home")" aria-label="Electro">
                                     <svg version="1.1" x="0px" y="0px" width="120px" height="42.52px" viewBox="0 0 175.748 42.52" enable-background="new 0 0 175.748 42.52" style="margin-bottom: 0;">
@@ -306,7 +257,7 @@
                                     </svg>
                                 </a>
                                 <!-- End Logo -->
-							</nav>
+                            </nav>
                             <!-- End Nav -->
                             <!-- ========== HEADER SIDEBAR ========== -->
                             <aside id="sidebarHeader1" class="u-sidebar u-sidebar--left" aria-labelledby="sidebarHeaderInvokerMenu">
@@ -592,6 +543,15 @@
                                 <div class="input-group">
                                     <input type="email" class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary" name="email" id="searchproduct-item" placeholder="Search for products" aria-label="Search for products" aria-describedby="searchProduct1" required>
                                     <div class="input-group-append">
+                                        <!-- Select
+                                        <select class="js-select selectpicker dropdown-select custom-search-categories-select"
+                                                data-style="btn height-40 text-gray-60 font-weight-normal border-top border-bottom border-left-0 rounded-0 border-primary border-width-2 pl-0 pr-5 py-2">
+                                            <option value="one" selected>All Categories</option>
+                                            <option value="two">Two</option>
+                                            <option value="three">Three</option>
+                                            <option value="four">Four</option>
+                                        </select>-->
+                                        <!-- End Select -->
                                         <button class="btn btn-primary height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
                                             <span class="ec ec-search font-size-24"></span>
                                         </button>
@@ -609,11 +569,14 @@
                                     <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
                                         <ul class="navbar-nav u-header__navbar-nav">
                                             <!-- Home -->
-                                            <li class="nav-item u-header__nav-item"
+                                            <li class="nav-item hs-has-sub-menu u-header__nav-item"
                                                 data-event="hover"
                                                 data-animation-in="slideInUp"
                                                 data-animation-out="fadeOut">
-                                                <a id="HomeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle text-sale" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="HomeSubMenu">Home</a>
+                                                <a id="HomeMegaMenu" class="nav-link u-header__nav-link  text-sale"
+                                                   asp-controller="Home" asp-action="Index" aria-haspopup="true" aria-expanded="false" aria-labelledby="HomeSubMenu">
+                                                    Trang chủ
+                                                </a>
                                             </li>
                                             <!-- End Home -->
                                             <!-- Featured Brands -->

@@ -21,7 +21,6 @@ namespace ElectronicShopTeam14.Controllers
         [Authorize] // Thêm attribute này để yêu cầu đăng nhập
         public IActionResult History()
         {
-
             var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == "UserId");
             if (userIdClaim == null)
             {
@@ -35,13 +34,10 @@ namespace ElectronicShopTeam14.Controllers
                 return NotFound();
             }
 
-            var transactionhistories = _context.TransactionHistories.Where(t => t.UserId == userId).ToList();
+            var bills = _context.Bills.Where(t => t.UserId == userId).ToList();
 
-            var bills = _context.Bills.Where(b => transactionhistories.Select(t => t.BillId).Contains(b.BillId)).ToList();
-
-            var viewModel = new TransactionHistoryViewModel
+            var viewModel = new BillDetailViewModel
             {
-                TransactionHistories = transactionhistories,
                 Bills = bills
             };
             return View("History", viewModel);

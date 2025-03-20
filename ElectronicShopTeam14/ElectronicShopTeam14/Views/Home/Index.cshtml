@@ -75,8 +75,6 @@
 								<li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
 									<a title="Shop" href="@Url.Action("Shop1","Home")"><i class="ec ec-shopping-bag"></i>Sản phẩm</a>
 								</li>
-
-
 								<li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
 									@if (User.Identity.IsAuthenticated)
 									{
@@ -141,70 +139,6 @@
 									}
 									<!-- End Account Sidebar Toggle Button -->
 								</li>
-
-								@* <div class="dropdown">
-								@if (User.Identity.IsAuthenticated)
-								{
-								<a class="u-header-topbar__nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								id="userDropdown"
-								data-bs-toggle="dropdown"
-								aria-expanded="false">
-								<i class="ec ec-user mr-1"></i>
-								<span class="text-gray-90">@User.Identity.Name</span>
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="userDropdown">
-								<li>
-								<a class="dropdown-item" href="@Url.Action("Profile", "Account")">
-								<i class="fa-solid fa-user"></i> Thông tin tài khoản
-								</a>
-								</li>
-								<li>
-								<a class="dropdown-item" href="@Url.Action("History", "Order")">
-								<i class="fa-solid fa-cart-shopping"></i> Lịch sử đơn hàng
-								</a>
-								</li>
-								<li><hr class="dropdown-divider"></li>
-								<li>
-								<form asp-controller="Account" asp-action="Logout" method="post">
-								<button type="submit" class="dropdown-item">
-								<i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
-								</button>
-								</form>
-								</li>
-								</ul>
-								}
-								else
-								{
-								<a class="u-header-topbar__nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								id="guestDropdown"
-								data-bs-toggle="dropdown"
-								aria-expanded="false">
-								<i class="ec ec-user mr-1"></i>
-								<span class="text-gray-90">Tài khoản</span>
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="guestDropdown">
-								<li>
-								<a class="dropdown-item" href="@Url.Action("Login", "Account")">
-								<i class="fa-solid fa-right-to-bracket"></i> Đăng nhập
-								</a>
-								</li>
-								<li>
-								<a class="dropdown-item" href="@Url.Action("Register", "Account")">
-								<i class="fa-solid fa-registered"></i> Đăng ký
-								</a>
-								</li>
-								</ul>
-								}
-								</div>
-								*@
-
-
-
-
 							</ul>
 						</div>
 					</div>
@@ -565,14 +499,14 @@
 								<div class="input-group">
 									<input type="email" class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary" name="email" id="searchproduct-item" placeholder="Search for products" aria-label="Search for products" aria-describedby="searchProduct1" required>
 									<div class="input-group-append">
-										<!-- Select -->
+										<!-- Select 
 										<select class="js-select selectpicker dropdown-select custom-search-categories-select"
 												data-style="btn height-40 text-gray-60 font-weight-normal border-top border-bottom border-left-0 rounded-0 border-primary border-width-2 pl-0 pr-5 py-2">
 											<option value="one" selected>All Categories</option>
 											<option value="two">Two</option>
 											<option value="three">Three</option>
 											<option value="four">Four</option>
-										</select>
+										</select>-->
 										<!-- End Select -->
 										<button class="btn btn-primary height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
 											<span class="ec ec-search font-size-24"></span>
@@ -595,16 +529,11 @@
 												data-event="hover"
 												data-animation-in="slideInUp"
 												data-animation-out="fadeOut">
-												<a id="HomeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle text-sale" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="HomeSubMenu">Home</a>
-
-												<!-- Home - Submenu -->
-												<ul id="HomeSubMenu" class="hs-sub-menu u-header__sub-menu animated fadeOut" aria-labelledby="HomeMegaMenu" style="min-width: 230px; display: none;">
-													<li><a class="nav-link u-header__sub-menu-nav-link" href="@Url.Action("Index","Home")">Home v1</a></li>
-													<li><a class="nav-link u-header__sub-menu-nav-link" href="home-v2.html">Home v2</a></li>
-
-												</ul>
-												<!-- End Home - Submenu -->
-											</li>
+												<a id="HomeMegaMenu" class="nav-link u-header__nav-link  text-sale"
+												   asp-controller="Home" asp-action="Index" aria-haspopup="true" aria-expanded="false" aria-labelledby="HomeSubMenu">
+													Trang chủ
+												</a>
+											</li> 
 											<!-- End Home -->
 											<!-- Featured Brands -->
 											<li class="nav-item u-header__nav-item">
@@ -702,7 +631,9 @@
 											 aria-controls="basicsCollapseOne">
 											<span class="pl-1 text-gray-90">Electronic</span>
 										</div>
-										<a href="#" class="d-block font-size-13 py-3 pr-4 font-weight-bold text-gray-90 ml-auto flex-shrink-0">Hiển thị toàn bộ</a>
+										<a asp-controller="Home" asp-action="Shop1" class="d-block font-size-13 py-3 pr-4 font-weight-bold text-gray-90 ml-auto flex-shrink-0">
+											Hiển thị toàn bộ
+										</a>
 									</div>
 									<div id="basicsCollapseOne" class="collapse show vertical-menu rounded-0"
 										 aria-labelledby="basicsHeadingOne"
@@ -714,413 +645,43 @@
 														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a href="#" class="nav-link u-header__nav-link font-weight-bold">Giá trị trong ngày</a>
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link font-weight-bold">Giá trị trong ngày</a>
 														</li>
 														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a href="#" class="nav-link u-header__nav-link font-weight-bold">100 ưu đãi hàng đầu</a>
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link font-weight-bold">100 ưu đãi hàng đầu</a>
 														</li>
 														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a href="#" class="nav-link u-header__nav-link font-weight-bold">Hàng mới về</a>
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link font-weight-bold">Hàng mới về</a>
 														</li>
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
-															data-event="hover"
-															data-animation-in="slideInUp"
-															data-animation-out="fadeOut"
-															data-position="left">
-															<a id="basicMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Máy tính & Phụ kiện</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img1.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Máy tính & Phụ kiện</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả máy tính & phụ kiện</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Máy tính xách tay, máy tính để bàn và màn hình</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Máy in & Mực in</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Thiết bị mạng & Internet</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phụ kiện máy tính</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phần mềm</a></li>
-																			<li>
-																				<a class="nav-link u-header__sub-menu-nav-link u-nav-divider border-top pt-2 flex-column align-items-start" href="#">
-																					<div class="">Tất cả các thiết bị điện tử</div>
-																					<div class="u-nav-subtext font-size-11 text-gray-30">Khám phá thêm sản phẩm</div>
-																				</a>
-																			</li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Văn phòng & Văn phòng phẩm</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả văn phòng & văn phòng phẩm</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
-														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
+														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a id="basicMegaMenu1" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Máy ảnh, âm thanh và video</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu1">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img4.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Máy ảnh & Nhiếp ảnh</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Ống kính</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phụ kiện máy ảnh</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">An ninh & Giám sát</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Ống nhòm và kính viễn vọng</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Máy quay phim</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phần mềm</a></li>
-																			<li>
-																				<a class="nav-link u-header__sub-menu-nav-link u-nav-divider border-top pt-2 flex-column align-items-start" href="#">
-																					<div class="">Tất cả các thiết bị điện tử</div>
-																					<div class="u-nav-subtext font-size-11 text-gray-30">Khám phá thêm sản phẩm</div>
-																				</a>
-																			</li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Âm thanh & Video</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả Âm thanh & Video</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tai nghe & loa</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link">Điện thoại</a>
 														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
+														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a id="basicMegaMenu2" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Điện thoại di động & máy tính bảng</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu vmm-bg-extended" aria-labelledby="basicMegaMenu2">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img3.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Điện thoại di động & máy tính bảng</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả điện thoại di động</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Điện thoại thông minh</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Điện thoại di động tân trang</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link border-top pt-2" href="#">Tất cả các phụ kiện di động</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Vỏ & Bìa</a></li>
-																			<li>
-																				<a class="nav-link u-header__sub-menu-nav-link u-nav-divider border-top pt-2 flex-column align-items-start" href="#">
-																					<div class="">Tất cả các thiết bị điện tử</div>
-																					<div class="u-nav-subtext font-size-11 text-gray-30">Khám phá thêm sản phẩm</div>
-																				</a>
-																			</li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả máy tính bảng</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phụ kiện máy tính bảng</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link">Laptop</a>
 														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
+														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a id="basicMegaMenu3" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Phim, Nhạc & Trò chơi điện tử</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu3">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img2.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Phim & Chương trình truyền hình</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All Movies & TV Shows</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All English</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link border-bottom pb-3" href="#">All Hindi</a></li>
-																		</ul>
-																		<span class="u-header__sub-menu-title">Trò chơi điện tử</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Trò chơi PC</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Consoles</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phụ kiện</a></li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Âm nhạc</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả âm nhạc</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Nhạc Việt</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Nhạc Anh</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link">Tablet</a>
 														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
+														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a id="basicMegaMenu4" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">TV & Âm thanh</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu4">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img5.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Âm thanh & Video</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả Âm thanh & Video</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tivi</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tai nghe</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Loa</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Phụ kiện</a></li>
-																			<li>
-																				<a class="nav-link u-header__sub-menu-nav-link u-nav-divider border-top pt-2 flex-column align-items-start" href="#">
-																					<div class="">Thiết bị gia dụng điện tử</div>
-																					<div class="u-nav-subtext font-size-11 text-gray-30">Có sẵn ở một số thành phố</div>
-																				</a>
-																			</li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Âm nhạc</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tivi></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tai nghe</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link">Máy tính</a>
 														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
+														<li class="nav-item u-header__nav-item"
 															data-event="hover"
 															data-position="left">
-															<a id="basicMegaMenu5" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Đồng hồ và kính mắt</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu5">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img6.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Đồng hồ</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả đồng hồ</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Đồng hồ nam</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Đồng hồ nữ</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Đồng hồ cao cấp</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Ưu đãi trên đồng hồ</a></li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Kính</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Kính râm nam</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
+															<a asp-controller="Home" asp-action="Shop1" class="nav-link u-header__nav-link">Tivi</a>
 														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
-															data-event="hover"
-															data-position="left">
-															<a id="basicMegaMenu3" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Ô tô, Xe máy & Công nghiệp</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu3">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img7.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Ô tô & Xe máy</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tất cả ô tô và xe đạp</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Chăm sóc xe hơi & xe đạp</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link border-bottom pb-3" href="#">Lubricants</a></li>
-																		</ul>
-																		<span class="u-header__sub-menu-title">Shop for Bike</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Helmets & Gloves</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Bike Parts</a></li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Industrial Supplies</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All Industrial Supplies</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Lab & Scientific</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
-														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
-															data-event="hover"
-															data-animation-in="slideInUp"
-															data-animation-out="fadeOut"
-															data-position="left">
-															<a id="basicMegaMenu9" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Gadgets</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu9">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img1.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Computers & Accessories</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All Computers & Accessories</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Laptops, Desktops & Monitors</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Printers & Ink</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Networking & Internet Devices</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Computer Accessories</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Software</a></li>
-																			<li>
-																				<a class="nav-link u-header__sub-menu-nav-link u-nav-divider border-top pt-2 flex-column align-items-start" href="#">
-																					<div class="">All Electronics</div>
-																					<div class="u-nav-subtext font-size-11 text-gray-30">Discover more products</div>
-																				</a>
-																			</li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Office & Stationery</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All Office & Stationery</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
-														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item MegaMenu -->
-														<li class="nav-item hs-has-mega-menu u-header__nav-item"
-															data-event="hover"
-															data-position="left">
-															<a id="basicMegaMenu5" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Printers & Inks</a>
-
-															<!-- Nav Item - Mega Menu -->
-															<div class="hs-mega-menu vmm-tfw u-header__sub-menu" aria-labelledby="basicMegaMenu5">
-																<div class="vmm-bg">
-																	<img class="img-fluid" src="../../assets/img/500X400/img2.png" alt="Image Description">
-																</div>
-																<div class="row u-header__mega-menu-wrapper">
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Movies & TV Shows</span>
-																		<ul class="u-header__sub-menu-nav-group mb-3">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All Movies & TV Shows</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All English</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link border-bottom pb-3" href="#">All Hindi</a></li>
-																		</ul>
-																		<span class="u-header__sub-menu-title">Video Games</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">PC Games</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Consoles</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Accessories</a></li>
-																		</ul>
-																	</div>
-
-																	<div class="col mb-3 mb-sm-0">
-																		<span class="u-header__sub-menu-title">Music</span>
-																		<ul class="u-header__sub-menu-nav-group">
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">All Music</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Indian Classical</a></li>
-																			<li><a class="nav-link u-header__sub-menu-nav-link" href="#">Musical Instruments</a></li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-															<!-- End Nav Item - Mega Menu -->
-														</li>
-														<!-- End Nav Item MegaMenu-->
-														<!-- Nav Item -->
-														<li class="nav-item hs-has-sub-menu u-header__nav-item"
-															data-event="click"
-															data-animation-in="slideInUp"
-															data-animation-out="fadeOut"
-															data-position="left">
-															<a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Accessories</a>
-
-															<!-- Home - Submenu -->
-															<ul id="homeSubMenu" class="hs-sub-menu u-header__sub-menu animated hs-position-left fadeOut" aria-labelledby="homeMegaMenu" style="min-width: 230px; display: none;">
-																<!-- Home-v1 -->
-																<li class="hs-has-sub-menu">
-																	<a class="nav-link u-header__sub-menu-nav-link " href="index.html">Home-v1</a>
-																</li>
-																<!-- End Home-v1 -->
-																<!-- Home-v2 -->
-																<li class="hs-has-sub-menu">
-																	<a class="nav-link u-header__sub-menu-nav-link " href="home-v2.html">Home-v2</a>
-																</li>
-																<!-- End Home-v2 -->
-																<!-- Home-v3 -->
-																<li class="hs-has-sub-menu">
-																	<a class="nav-link u-header__sub-menu-nav-link " href="home-v3.html">Home-v3</a>
-																</li>
-																<!-- End Home-v3 -->
-																<!-- Home-v4 -->
-																<li class="hs-has-sub-menu">
-																	<a class="nav-link u-header__sub-menu-nav-link " href="home-v4.html">Home-v4</a>
-																</li>
-																<!-- End Home-v4 -->
-															</ul>
-															<!-- End Home - Submenu -->
-														</li>
-														<!-- End Nav Item -->
 													</ul>
 												</div>
 											</nav>
@@ -1142,7 +703,7 @@
 									<div class="js-slick-carousel u-slick"
 										 data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-5 ml-3 ml-md-4 ml-lg-9 ml-xl-4 ml-wd-9">
 										<div class="js-slide">
-											<div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9">
+											<div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9" style="background-color: white">
 												<div class="row no-gutters">
 													<div class="col-xl-6 col-6 mt-md-5">
 														<h1 class="font-size-58-sm text-lh-57 font-weight-light"
@@ -1152,7 +713,7 @@
 														<h6 class="font-size-15-sm font-weight-bold mb-2 mb-md-3"
 															data-scs-animation-in="fadeInUp"
 															data-scs-animation-delay="200">
-															DƯỚI NHỮNG CHIẾC SMARTWATCH ƯU VIỆT
+															DƯỚI NHỮNG CHIẾC ĐIỆN THOẠI ƯU VIỆT
 														</h6>
 														<div class="mb-2 mb-md-4"
 															 data-scs-animation-in="fadeInUp"
@@ -1165,12 +726,12 @@
 													<div class="col-xl-6 col-6 d-flex align-items-center"
 														 data-scs-animation-in="zoomIn"
 														 data-scs-animation-delay="400">
-														<img class="img-fluid max-width-300-md" src="../../assets/img/416X420/img2.png" alt="Image Description">
+														<img class="img-fluid max-width-300-md" src="/images/Phone1.jpg" alt="Image Description">
 													</div>
 												</div>
 											</div>
 										</div>
-										<div class="js-slide">
+										<div class="js-slide" style="background-color: white">
 											<div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9">
 												<div class="row no-gutters">
 													<div class="col-xl-6 col-6 mt-md-5">
@@ -1181,7 +742,7 @@
 														<h6 class="font-size-15-sm font-weight-bold mb-2 mb-md-3"
 															data-scs-animation-in="fadeInUp"
 															data-scs-animation-delay="200">
-															DƯỚI NHỮNG CHIẾC SMARTWATCH ƯU VIỆT
+															DƯỚI NHỮNG CHIẾC LAPTOP ƯU VIỆT
 														</h6>
 														<div class="mb-2 mb-md-4"
 															 data-scs-animation-in="fadeInUp"
@@ -1194,13 +755,13 @@
 													<div class="col-xl-6 col-6 d-flex align-items-center"
 														 data-scs-animation-in="slideInRight"
 														 data-scs-animation-delay="400">
-														<img class="img-fluid max-width-300-md" src="../../assets/img/400X400/img3.png" alt="Image Description">
+														<img class="img-fluid max-width-300-md" src="/images/Laptop1.jpg" alt="Image Description">
 													</div>
 												</div>
 											</div>
 										</div>
 										<div class="js-slide">
-											<div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9">
+											<div class="py-6 py-md-4 px-3 px-md-4 px-lg-9 px-xl-4 px-wd-9" style="background-color: white">
 												<div class="row no-gutters">
 													<div class="col-xl-6 col-6 mt-md-5">
 														<h1 class="font-size-58-sm text-lh-57 font-weight-light"
@@ -1210,7 +771,7 @@
 														<h6 class="font-size-15-sm font-weight-bold mb-2 mb-md-3"
 															data-scs-animation-in="fadeInUp"
 															data-scs-animation-delay="200">
-															DƯỚI NHỮNG CHIẾC SMARTWATCH ƯU VIỆT
+															DƯỚI NHỮNG CHIẾC TV ƯU VIỆT
 														</h6>
 														<div class="mb-2 mb-md-4"
 															 data-scs-animation-in="fadeInUp"
@@ -1223,7 +784,7 @@
 													<div class="col-xl-6 col-6 d-flex align-items-center"
 														 data-scs-animation-in="zoomIn"
 														 data-scs-animation-delay="400">
-														<img class="img-fluid max-width-300-md" src="../../assets/img/400X400/img1.png" alt="Image Description">
+														<img class="img-fluid max-width-300-md" src="/images/tv1.jpg" alt="Image Description">
 													</div>
 												</div>
 											</div>
@@ -1236,14 +797,14 @@
 							<ul class="list-group list-group-horizontal-sm position-relative z-index-2 flex-row overflow-auto overflow-md-visble">
 								<li class="list-group-item py-2 px-3 px-xl-4 px-wd-5 flex-horizontal-center shadow-on-hover-1 rounded-0 border-top-0 border-bottom-0 flex-shrink-0 flex-md-shrink-1">
 									<a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html" class="d-block py-2 text-center">
-										<img class="img-fluid mb-1 max-width-100-sm" src="../../assets/img/300X300/img6.jpg" alt="Image Description">
-										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Linh kiện</h6>
+										<img class="img-fluid mb-1 max-width-100-sm" src="/images/Phone2.jpg">
+										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Điện thoại</h6>
 									</a>
 								</li>
 								<li class="list-group-item py-2 px-3 px-xl-4 px-wd-5 flex-horizontal-center shadow-on-hover-1 rounded-0 border-top-0 border-bottom-0 flex-shrink-0 flex-md-shrink-1">
 									<a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html" class="d-block py-2 text-center">
-										<img class="img-fluid mb-1 max-width-100-sm" src="../../assets/img/300X300/img8.jpg" alt="Image Description">
-										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Loa</h6>
+										<img class="img-fluid mb-1 max-width-100-sm" src="/images/Tablet1.jpg">
+										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Tablet</h6>
 									</a>
 								</li>
 								<li class="list-group-item py-2 px-3 px-xl-4 px-wd-5 flex-horizontal-center shadow-on-hover-1 rounded-0 border-top-0 border-bottom-0 flex-shrink-0 flex-md-shrink-1">
@@ -1254,14 +815,14 @@
 								</li>
 								<li class="list-group-item py-2 px-3 px-xl-4 px-wd-5 flex-horizontal-center shadow-on-hover-1 rounded-0 border-top-0 border-bottom-0 flex-shrink-0 flex-md-shrink-1">
 									<a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html" class="d-block py-2 text-center">
-										<img class="img-fluid mb-1 max-width-100-sm" src="../../assets/img/300X300/img4.jpg" alt="Image Description">
-										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Loa âm thanh</h6>
+										<img class="img-fluid mb-1 max-width-100-sm" src="/images/TV6.jpg">
+										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Tivi</h6>
 									</a>
 								</li>
 								<li class="list-group-item py-2 px-3 px-xl-4 px-wd-5 flex-horizontal-center shadow-on-hover-1 rounded-0 border-top-0 border-bottom-0 flex-shrink-0 flex-md-shrink-1 d-xl-none d-wd-block">
 									<a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html" class="d-block py-2 text-center">
-										<img class="img-fluid mb-1 max-width-100-sm" src="../../assets/img/300X300/img14.png" alt="Image Description">
-										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Camera</h6>
+										<img class="img-fluid mb-1 max-width-100-sm" src="/images/Laptop5.jpg" alt="Image Description">
+										<h6 class="font-size-14 mb-0 text-gray-90 font-weight-semi-bold">Laptop</h6>
 									</a>
 								</li>
 							</ul>
@@ -4369,8 +3930,6 @@
 					</div>
 				</div>
 				<!-- End Content -->
-
-
 			</div>
 		</div>
 		</div>
