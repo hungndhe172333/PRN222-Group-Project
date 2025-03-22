@@ -1,0 +1,13 @@
+﻿@using ElectronicShopTeam14.Extensions
+@{
+    var cart = Context.Session.GetObjectFromJson<List<Cart>>("Cart") ?? new List<Cart>();
+    var itemCount = cart.Sum(c => c.Quantity);
+    var total = cart.Sum(c => c.Total);
+}
+
+<a href="@Url.Action("Cart","Cart")" class="text-gray-90 position-relative d-flex" 
+   data-toggle="tooltip" data-placement="top" title="Cart">
+    <i class="font-size-22 ec ec-shopping-bag"></i>
+    <span class="width-22 height-22 bg-dark position-absolute flex-content-center text-white rounded-circle left-12 top-8 font-weight-bold font-size-12">@itemCount</span>
+    <span class="font-weight-bold font-size-16 text-gray-90 ml-3">@total.ToString("N0") đ</span>
+</a>

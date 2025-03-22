@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ElectronicShopTeam14.Models.Bill>
+
+@{
+    ViewData["Title"] = "Lịch sử đơn hàng";
+}
+
+<h2>Lịch sử đơn hàng</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã đơn hàng</th>
+            <th>Ngày đặt hàng</th>
+            <th>Tổng tiền</th>
+            <th>Phương thức thanh toán</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bill in Model)
+        {
+                <tr>
+                    <td>@bill.BillId</td>
+                    <td>@bill.Date.ToShortDateString()</td>
+                    <td>@bill.Total.ToString("C")</td>
+                    <td>@bill.Payment</td>
+                    <td>@bill.Address</td>
+                    <td>@bill.Phone</td>
+                </tr>
+        }
+    </tbody>
+</table>

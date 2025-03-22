@@ -1,0 +1,69 @@
+﻿@model ElectronicShopTeam14.Models.Bill
+
+<div class="container py-4">
+    <h2 class="mb-4">Chi tiết đơn hàng #@Model.BillId</h2>
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <h3>Thông tin đơn hàng</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Ngày đặt:</strong> @Model.Date.ToString("dd/MM/yyyy")</p>
+                    <p><strong>Phương thức thanh toán:</strong> @Model.Payment</p>
+                    <p><strong>Tổng tiền:</strong> @Model.Total.ToString("N0") đ</p>
+                </div>
+                <div class="col-md-6">
+                    <p><strong>Địa chỉ:</strong> @Model.Address</p>
+                    <p><strong>Số điện thoại:</strong> @Model.Phone</p>
+                    <p><strong>Trạng thái:</strong> 
+                        @if (Model.Shippings.Any())
+                        {
+                            @Model.Shippings.OrderByDescending(s => s.ShippingId).First().ShippingMethod
+                        }
+                        else
+                        {
+                                <span>Chờ xử lý</span>
+                        }
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Sản phẩm đã mua</h3>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Sản phẩm</th>
+                            <th>Màu sắc</th>
+                            <th>Kích thước</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.BillDetails)
+                        {
+                                <tr>
+                                    <td>@item.ProductId</td>
+                                    <td>@item.Color</td>
+                                    <td>@item.Size</td>
+                                    <td>@item.Price.ToString("N0") đ</td>
+                                    <td>@item.Quantity</td>
+                                    <td>@((item.Price * item.Quantity).ToString("N0")) đ</td>
+                                </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
