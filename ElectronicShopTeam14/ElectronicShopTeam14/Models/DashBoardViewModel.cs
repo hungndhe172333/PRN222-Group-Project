@@ -10,11 +10,9 @@
         public decimal ProductsLastMonthPercentage { get; set; }
         public decimal CustomersLastMonthPercentage { get; set; }
         public decimal MoneyLastMonthPercentage { get; set; }
-
         public List<CategoryChartData> CategoryData { get; set; }
-
         public List<BrandChartData> BrandData { get; set; }
-
-        public List<PaymentMethodChartData> PaymentMethodData { get; set; }
+		public List<MonthlyRevenueChartData> MonthlyRevenueData {  get; set; }
+		public List<PaymentMethodChartData> PaymentMethodData { get; set; }
     }
 }

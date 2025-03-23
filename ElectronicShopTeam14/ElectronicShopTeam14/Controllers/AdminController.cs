@@ -29,19 +29,14 @@ namespace ElectronicShopTeam14.Controllers
 
         //DASHBOARD//
 
-
         public IActionResult DashBoard()
         {
-
-
             var categories = _context.Categories.ToList();
             var totalProducts = _context.Products.Count();
-
             var categoryData = new List<CategoryChartData>();
 
+            //categories
             foreach (var category in categories)
-
-
             {
                 var productCount = _context.Products.Count(p => p.CategoryId == category.CategoryId);
                 var percentage = totalProducts > 0 ? (decimal)productCount / totalProducts * 100 : 0;
@@ -54,8 +49,8 @@ namespace ElectronicShopTeam14.Controllers
                 });
             }
 
+            //Brand
             var brands = _context.Brands.ToList();
-
 
             var brandData = new List<BrandChartData>();
             foreach (var brand in brands)
@@ -70,7 +65,36 @@ namespace ElectronicShopTeam14.Controllers
                     Percentage = Math.Round(percentage, 2)
                 });
             }
-            var allBills = _context.Bills.ToList();
+
+			//Revenue Month
+			var currentYear = DateTime.Now.Year;
+
+			var monthlyRevenue = _context.Bills
+				.Where(b => b.Date.Year == currentYear) // Lọc hóa đơn trong năm hiện tại
+				.GroupBy(b => b.Date.Month)
+				.Select(g => new
+				{
+					Month = g.Key,
+					TotalRevenue = g.Sum(b => b.Total),
+                    OrderCount = g.Count()
+				})
+				.OrderBy(g => g.Month)
+				.ToList();
+
+			var monthlyRevenueData = new List<MonthlyRevenueChartData>();
+			for (int i = 1; i <= 12; i++)
+			{
+				var data = monthlyRevenue.FirstOrDefault(m => m.Month == i);
+				monthlyRevenueData.Add(new MonthlyRevenueChartData
+				{
+					Month = i,
+					TotalRevenue = data != null ? data.TotalRevenue : 0,
+					OrderCount = data != null ? data.OrderCount : 0
+				});
+			}
+
+			//Payment
+			var allBills = _context.Bills.ToList();
             var totalBills = allBills.Count;
 
             var paymentMethodData = new List<PaymentMethodChartData>();
@@ -94,6 +118,7 @@ namespace ElectronicShopTeam14.Controllers
                 }
             }
 
+            //ViewModel
             var model = new DashBoardViewModel
             {
                 TotalOrders = _context.Bills.Count(),
@@ -108,7 +133,8 @@ namespace ElectronicShopTeam14.Controllers
 
                 CategoryData = categoryData,
                 BrandData = brandData,
-                PaymentMethodData = paymentMethodData
+				MonthlyRevenueData = monthlyRevenueData,
+				PaymentMethodData = paymentMethodData
             };
 
             return View("DashBoardManager/Dashboard", model);
