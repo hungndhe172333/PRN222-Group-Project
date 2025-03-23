@@ -214,15 +214,14 @@
 
                               <!-- App Search-->
                                <form asp-action="SearchProducts" asp-controller="Admin" method="get" class="d-flex">
-                                <div class="position-relative me-2">
-                                    <input type="text" name="searchTerm" class="form-control" placeholder="Search..." 
+                                    <div class="position-relative me-2">
+                                        <input type="text" name="searchTerm" class="form-control" placeholder="Search..." 
                                            value="@ViewBag.SearchTerm" autocomplete="off">
-                                    <button type="submit" class="btn btn-sm position-absolute end-0 top-0 mt-1 me-2">
-                                        <iconify-icon icon="solar:magnifer-linear" class="search-widget-icon"></iconify-icon>
-                                    </button>
-                                </div>
-                            </form>
-
+                                        <button type="submit" class="btn btn-sm position-absolute end-0 top-0 mt-1 me-2">
+                                            <iconify-icon icon="solar:magnifer-linear" class="search-widget-icon"></iconify-icon>
+                                        </button>
+                                    </div>
+                               </form>
                          </div>
                     </div>
                </div>

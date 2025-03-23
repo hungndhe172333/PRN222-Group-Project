@@ -217,10 +217,13 @@
 						</div>
 
 						<!-- App Search-->
-						<form class="app-search d-none d-md-block ms-2">
-							<div class="position-relative">
-								<input type="search" class="form-control" placeholder="Search..." autocomplete="off" value="">
-								<iconify-icon icon="solar:magnifer-linear" class="search-widget-icon"></iconify-icon>
+						<form asp-action="SearchProducts" asp-controller="Admin" method="get" class="d-flex">
+							<div class="position-relative me-2">
+								<input type="text" name="searchTerm" class="form-control" placeholder="Search..."
+									   value="@ViewBag.SearchTerm" autocomplete="off">
+								<button type="submit" class="btn btn-sm position-absolute end-0 top-0 mt-1 me-2">
+									<iconify-icon icon="solar:magnifer-linear" class="search-widget-icon"></iconify-icon>
+								</button>
 							</div>
 						</form>
 					</div>
@@ -494,11 +497,11 @@
 					<li class="menu-title">General</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="@Url.Action("Dashboard","Admin")">
+						<a class="nav-link" href="index.html">
 							<span class="nav-icon">
 								<iconify-icon icon="solar:widget-5-bold-duotone"></iconify-icon>
 							</span>
-							<span class="nav-text"> Bảng điều khiển </span>
+							<span class="nav-text"> Dashboard </span>
 						</a>
 					</li>
 
@@ -625,18 +628,18 @@
 							<span class="nav-icon">
 								<iconify-icon icon="solar:confetti-minimalistic-bold-duotone"></iconify-icon>
 							</span>
-							<span class="nav-text"> Thương hiệu </span>
+							<span class="nav-text"> Attributes </span>
 						</a>
 						<div class="collapse" id="sidebarAttributes">
 							<ul class="nav sub-navbar-nav">
 								<li class="sub-nav-item">
-									<a class="sub-nav-link" href="@Url.Action("ListBrand","Admin")">Danh sách thương hiệu</a>
+									<a class="sub-nav-link" href="attributes-list.html">List</a>
 								</li>
 								<li class="sub-nav-item">
-									<a class="sub-nav-link" href="@Url.Action("EditBrand","Admin")">Chỉnh sửa thương hiệu</a>
+									<a class="sub-nav-link" href="attributes-edit.html">Edit</a>
 								</li>
 								<li class="sub-nav-item">
-									<a class="sub-nav-link" href="@Url.Action("CreateBrand","Admin")">Tạo mới thương hiệu</a>
+									<a class="sub-nav-link" href="attributes-add.html">Create</a>
 								</li>
 							</ul>
 						</div>
@@ -647,12 +650,12 @@
 							<span class="nav-icon">
 								<iconify-icon icon="solar:bill-list-bold-duotone"></iconify-icon>
 							</span>
-							<span class="nav-text"> Đánh giá </span>
+							<span class="nav-text"> Invoices </span>
 						</a>
 						<div class="collapse" id="sidebarInvoice">
 							<ul class="nav sub-navbar-nav">
 								<li class="sub-nav-item">
-									<a class="sub-nav-link" href="@Url.Action("ListReview","Admin")">Danh sách đánh giá</a>
+									<a class="sub-nav-link" href="invoice-list.html">List</a>
 								</li>
 								<li class="sub-nav-item">
 									<a class="sub-nav-link" href="invoice-details.html">Details</a>
@@ -709,11 +712,11 @@
 					</li>
 
 					<li class="nav-item">
-						<a class="nav-link" href="pages-permissions.html">
+						<a class="nav-link" href="@Url.Action("Permission","Admin")">
 							<span class="nav-icon">
 								<iconify-icon icon="solar:checklist-minimalistic-bold-duotone"></iconify-icon>
 							</span>
-							<span class="nav-text"> Permissions </span>
+							<span class="nav-text"> Phân quyền </span>
 						</a>
 					</li>
 
@@ -722,16 +725,16 @@
 							<span class="nav-icon">
 								<iconify-icon icon="solar:users-group-two-rounded-bold-duotone"></iconify-icon>
 							</span>
-							<span class="nav-text"> Customers </span>
+							<span class="nav-text"> Khách hàng </span>
 						</a>
 						<div class="collapse" id="sidebarCustomers">
 							<ul class="nav sub-navbar-nav">
 
 								<li class="sub-nav-item">
-									<a class="sub-nav-link" href="customer-list.html">List</a>
+									<a class="sub-nav-link" href="@Url.Action("ListCustomer","Admin")">Danh sách khách hàng </a>
 								</li>
 								<li class="sub-nav-item">
-									<a class="sub-nav-link" href="customer-detail.html">Details</a>
+									<a class="sub-nav-link" href="@Url.Action("DetailCustomer","Admin")">Danh sách khách hàng chi tiết</a>
 								</li>
 							</ul>
 						</div>
