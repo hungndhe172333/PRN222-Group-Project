@@ -189,6 +189,7 @@ namespace ElectronicShopTeam14.Controllers
             if (previous == 0) return current > 0 ? 100 : 0;
             return ((current - previous) / previous) * 100;
         }
+
         //MANAGER USER//
         public IActionResult ListCustomer(int? page)
         {
@@ -344,8 +345,6 @@ namespace ElectronicShopTeam14.Controllers
             return await _context.Users.AnyAsync(e => e.UserId == id);
         }
 
-
-
         // POST: Admin/DeleteCustomer/5
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -382,7 +381,6 @@ namespace ElectronicShopTeam14.Controllers
         {
             return _context.Users.Any(e => e.UserId == id);
         }
-
 
         public IActionResult DetailCustomer()
         {
@@ -485,7 +483,6 @@ namespace ElectronicShopTeam14.Controllers
                     Img = p.Img
                 })
                 .ToList().ToPagedList(pageNumber, pageSize);
-
 
             ViewBag.SearchTerm = searchTerm;
 

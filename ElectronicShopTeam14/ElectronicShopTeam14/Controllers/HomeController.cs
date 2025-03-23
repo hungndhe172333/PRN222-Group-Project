@@ -55,8 +55,6 @@ namespace ElectronicShopTeam14.Controllers
         {
             return View();
         }
-
-
         public IActionResult Product_detail(string id)
         {
             var product = _context.Products
@@ -135,7 +133,7 @@ namespace ElectronicShopTeam14.Controllers
             return View();
         }
 
-        public IActionResult Shop1(int? page, int? categoryId, int[] brandId, string[] colorString, decimal? minPrice, decimal? maxPrice)
+		public IActionResult Shop1(int? page, int? categoryId, int[] brandId, string[] colorString, decimal? minPrice, decimal? maxPrice, string searchTerm)
         {
             int pageSize = 20;
             int pageNumber = (page ?? 1);
@@ -185,9 +183,17 @@ namespace ElectronicShopTeam14.Controllers
 
                 query = query.Where(p => productIdsWithSelectedColors.Contains(p.ProductId));
             }
+			if (!string.IsNullOrEmpty(searchTerm))
+			{
+				searchTerm = searchTerm.ToLower();
+				query = query.Where(p =>
+					p.ProductId.ToLower().Contains(searchTerm) ||
+					p.ProductName.ToLower().Contains(searchTerm)
+				);
+			}
 
-            // Lọc theo khoảng giá
-            query = query.Where(p => p.ProductPrice >= viewModel.MinPrice && p.ProductPrice <= viewModel.MaxPrice);
+			// Lọc theo khoảng giá
+			query = query.Where(p => p.ProductPrice >= viewModel.MinPrice && p.ProductPrice <= viewModel.MaxPrice);
 
             viewModel.AllProducts = query.OrderBy(p => p.ProductName).ToPagedList(pageNumber, pageSize);
 
@@ -211,7 +217,6 @@ namespace ElectronicShopTeam14.Controllers
             viewModel.RecommendedProducts = recommendedTvs;
             viewModel.TopSmartphones = topSmartphones;
             
-
             return View("Shop1", viewModel);
         }
 
