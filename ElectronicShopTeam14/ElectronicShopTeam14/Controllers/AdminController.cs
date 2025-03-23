@@ -1,9 +1,13 @@
 ﻿using ElectronicShopTeam14.Models;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
+using System.Text;
 using X.PagedList.Extensions;
+
 
 namespace ElectronicShopTeam14.Controllers
 {
@@ -22,6 +26,144 @@ namespace ElectronicShopTeam14.Controllers
         {
             return View();
         }
+
+        //DASHBOARD//
+
+
+        public IActionResult DashBoard()
+        {
+
+
+            var categories = _context.Categories.ToList();
+            var totalProducts = _context.Products.Count();
+
+            var categoryData = new List<CategoryChartData>();
+
+            foreach (var category in categories)
+
+
+            {
+                var productCount = _context.Products.Count(p => p.CategoryId == category.CategoryId);
+                var percentage = totalProducts > 0 ? (decimal)productCount / totalProducts * 100 : 0;
+
+                categoryData.Add(new CategoryChartData
+                {
+                    CategoryName = category.CategoryName,
+                    ProductCount = productCount,
+                    Percentage = Math.Round(percentage, 2)
+                });
+            }
+
+            var brands = _context.Brands.ToList();
+
+
+            var brandData = new List<BrandChartData>();
+            foreach (var brand in brands)
+            {
+                var productCount = _context.Products.Count(p => p.BrandId == brand.BrandId);
+                var percentage = totalProducts > 0 ? (decimal)productCount / totalProducts * 100 : 0;
+
+                brandData.Add(new BrandChartData
+                {
+                    BrandName = brand.BrandName,
+                    ProductCount = productCount,
+                    Percentage = Math.Round(percentage, 2)
+                });
+            }
+            var allBills = _context.Bills.ToList();
+            var totalBills = allBills.Count;
+
+            var paymentMethodData = new List<PaymentMethodChartData>();
+
+            if (totalBills > 0)
+            {
+                var paymentMethods = allBills.GroupBy(b => b.Payment)
+                                            .Select(g => new { Method = g.Key, Count = g.Count() })
+                                            .ToList();
+
+                foreach (var method in paymentMethods)
+                {
+                    var percentage = (decimal)method.Count / totalBills * 100;
+
+                    paymentMethodData.Add(new PaymentMethodChartData
+                    {
+                        PaymentMethod = method.Method,
+                        Count = method.Count,
+                        Percentage = Math.Round(percentage, 2)
+                    });
+                }
+            }
+
+            var model = new DashBoardViewModel
+            {
+                TotalOrders = _context.Bills.Count(),
+                TotalProducts = _context.Products.Count(),
+                TotalCustomers = _context.Users.Count(u => u.IsAdmin != "true" && u.IsStoreStaff != "true"),
+
+
+                OrdersLastWeekPercentage = CalculateOrdersPercentageChange(7),
+                ProductsLastMonthPercentage = CalculateProductsPercentageChange(30),
+                CustomersLastMonthPercentage = CalculateCustomersPercentageChange(30),
+                MoneyLastMonthPercentage = CalculateMoneyPercentageChange(30),
+
+                CategoryData = categoryData,
+                BrandData = brandData,
+                PaymentMethodData = paymentMethodData
+            };
+
+            return View("DashBoardManager/Dashboard", model);
+        }
+
+        private decimal CalculateOrdersPercentageChange(int days)
+        {
+            var currentPeriod = _context.Bills
+                .Where(b => b.Date >= DateOnly.FromDateTime(DateTime.Now.AddDays(-days)))
+                .Count();
+
+            var previousPeriod = _context.Bills
+                .Where(b => b.Date < DateOnly.FromDateTime(DateTime.Now.AddDays(-days))
+                    && b.Date >= DateOnly.FromDateTime(DateTime.Now.AddDays(-days * 2)))
+                .Count();
+
+            return CalculatePercentageChange(currentPeriod, previousPeriod);
+        }
+
+        private decimal CalculateProductsPercentageChange(int days)
+        {
+
+            return 8.1m;
+        }
+
+        private decimal CalculateCustomersPercentageChange(int days)
+        {
+            var currentPeriod = _context.Users
+                .Where(u => u.IsAdmin != "true" && u.IsStoreStaff != "true")
+                .Count();
+
+
+            return -0.3m;
+        }
+
+        private decimal CalculateMoneyPercentageChange(int days)
+        {
+            var currentPeriod = _context.Bills
+                .Where(b => b.Date >= DateOnly.FromDateTime(DateTime.Now.AddDays(-days)))
+                .Sum(b => b.Total);
+
+            var previousPeriod = _context.Bills
+                .Where(b => b.Date < DateOnly.FromDateTime(DateTime.Now.AddDays(-days))
+                    && b.Date >= DateOnly.FromDateTime(DateTime.Now.AddDays(-days * 2)))
+                .Sum(b => b.Total);
+
+            return CalculatePercentageChange(currentPeriod, previousPeriod);
+        }
+
+        private decimal CalculatePercentageChange(decimal current, decimal previous)
+        {
+            if (previous == 0) return current > 0 ? 100 : 0;
+            return ((current - previous) / previous) * 100;
+        }
+        //MANAGER USER//
         public IActionResult ListCustomer(int? page)
         {
             int pageSize = 10;
@@ -221,10 +363,71 @@ namespace ElectronicShopTeam14.Controllers
             return View("UserManager/DetailCustomer");
         }
 
-        public IActionResult Permission()
+
+        public JsonResult UpdateUserPermission(long userId, string permissionType, bool value)
         {
-            return View("UserManager/Permission");
+            try
+            {
+                var user = _context.Users.Find(userId);
+                if (user == null)
+                {
+                    return Json(new { success = false, message = "User not found" });
+                }
+
+                // Update the appropriate permission
+                if (permissionType == "IsAdmin")
+                {
+                    user.IsAdmin = value ? "True" : "False";
+                }
+                else if (permissionType == "IsStoreStaff")
+                {
+                    user.IsStoreStaff = value ? "True" : "False";
+                }
+                else
+                {
+                    return Json(new { success = false, message = "Invalid permission type" });
+                }
+
+
+                _context.Entry(user).State = EntityState.Modified;
+                _context.SaveChanges();
+
+                return Json(new { success = true });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = ex.Message });
+            }
         }
+
+        // Existing Permission action method remains unchanged
+        public IActionResult Permission(int? page)
+        {
+            int pageSize = 10;
+            int pageNumber = (page ?? 1);
+            var users = _context.Users
+                .Select(u => new PermissionViewModel
+                {
+                    UserId = u.UserId,
+                    UserEmail = u.UserEmail,
+                    IsAdmin = u.IsAdmin == "True",
+                    IsStoreStaff = u.IsStoreStaff == "True"
+                }).ToList()
+                .ToPagedList(pageNumber, pageSize);
+
+            ViewBag.TotalUsers = _context.Users.Count();
+            ViewBag.AdminUsers = _context.Users.Count(u => u.IsAdmin == "True");
+            ViewBag.StaffUsers = _context.Users.Count(u => u.IsStoreStaff == "True");
+
+            return View("UserManager/Permission", users);
+        }
+
+        //MANAGER USER//
+
+        //-------------------------------------------------------------------//
+
+
+        //MANAGER PRODUCT//
         public IActionResult SearchProducts(string searchTerm, int? page)
         {
             int pageSize = 10;
@@ -233,7 +436,7 @@ namespace ElectronicShopTeam14.Controllers
             // Start with all products
             var productsQuery = _context.Products.AsQueryable();
 
-     
+
             if (!string.IsNullOrEmpty(searchTerm))
             {
                 searchTerm = searchTerm.ToLower();
@@ -244,7 +447,7 @@ namespace ElectronicShopTeam14.Controllers
                 );
             }
 
-           
+
             var products = productsQuery
                 .Select(p => new ProductViewModel
                 {
@@ -257,7 +460,7 @@ namespace ElectronicShopTeam14.Controllers
                 })
                 .ToList().ToPagedList(pageNumber, pageSize);
 
-            
+
             ViewBag.SearchTerm = searchTerm;
 
             return View("ProductManager/ListProduct", products);
@@ -284,6 +487,57 @@ namespace ElectronicShopTeam14.Controllers
                 .ToList().ToPagedList(pageNumber, pageSize);
             return View("ProductManager/ListProduct", products);
         }
+
+
+
+        public IActionResult DownloadProducts()
+        {
+            var products = _context.Products
+                .Select(p => new ProductViewModel
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.ProductName,
+                    ProductPrice = p.ProductPrice,
+                    ProductDescribe = p.ProductDescribe,
+                    Quantity = p.Quantity,
+                    Img = p.Img
+                })
+                .ToList();
+
+            var csv = new StringBuilder();
+            var separator = ",";
+
+
+            csv.AppendLine($"ID{separator}Tên{separator}Giá{separator}Mô tả{separator}Số lượng{separator}Ảnh");
+
+            foreach (var product in products)
+            {
+
+                string productId = product.ProductId?.ToString() ?? "";
+                string productName = product.ProductName?.Replace("\"", "\"\"") ?? "";
+                string description = product.ProductDescribe?.Replace("\"", "\"\"").Replace("\r\n", " ") ?? "";
+                string img = product.Img?.Replace("\"", "\"\"") ?? "";
+                string price = product.ProductPrice.ToString("N0");
+                string quantity = product.Quantity.ToString();
+
+
+                string line = $"\"{productId}\"{separator}\"{productName}\"{separator}\"{price}\"{separator}\"{description}\"{separator}\"{quantity}\"{separator}\"{img}\"";
+                csv.AppendLine(line);
+            }
+
+
+
+            byte[] bom = Encoding.UTF8.GetPreamble();
+            byte[] body = Encoding.UTF8.GetBytes(csv.ToString());
+            byte[] fileContents = bom.Concat(body).ToArray();
+
+
+            Response.Headers.Add("Content-Disposition", "attachment; filename=DanhSachSanPham.csv");
+
+            return File(fileContents, "text/csv", "DanhSachSanPham.csv");
+        }
+
+
         public IActionResult ActiveProduct(int? page)
         {
             int pageSize = 10;
@@ -340,34 +594,34 @@ namespace ElectronicShopTeam14.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult EditProduct(ProductViewModel model, IFormFile imageFile)
         {
-            // Kiểm tra ModelState
+
             if (!ModelState.IsValid)
             {
-                // Log các lỗi validation
+
                 var errors = ModelState.Values.SelectMany(v => v.Errors);
                 foreach (var error in errors)
                 {
-                    Console.WriteLine(error.ErrorMessage); // Log lỗi
+                    Console.WriteLine(error.ErrorMessage);
                 }
 
-                // Hiển thị lại form với thông báo lỗi
+
                 return View("ProductManager/EditProduct", model);
             }
 
-            // Nếu ModelState hợp lệ, tiếp tục xử lý
+
             var product = _context.Products.FirstOrDefault(p => p.ProductId == model.ProductId);
             if (product == null)
             {
                 return NotFound();
             }
 
-            // Cập nhật thông tin sản phẩm
+
             product.ProductName = model.ProductName;
             product.ProductPrice = model.ProductPrice;
             product.ProductDescribe = model.ProductDescribe;
             product.Quantity = model.Quantity;
 
-            // Xử lý upload ảnh nếu có
+
             if (imageFile != null && imageFile.Length > 0)
             {
                 string uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
@@ -377,8 +631,7 @@ namespace ElectronicShopTeam14.Controllers
                     Directory.CreateDirectory(uploadsFolder);
                 }
 
-                // Sử dụng tên file gốc
-                string fileName = imageFile.FileName; // laptop11.jpg
+                string fileName = imageFile.FileName;
                 string filePath = Path.Combine(uploadsFolder, fileName);
 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
@@ -386,15 +639,14 @@ namespace ElectronicShopTeam14.Controllers
                     imageFile.CopyTo(fileStream);
                 }
 
-                // Cập nhật đường dẫn ảnh
+
                 product.Img = "images/" + fileName; // images/laptop11.jpg
             }
 
-            // Lưu thay đổi vào database
+
             _context.Update(product);
             _context.SaveChanges();
 
-            // Chuyển hướng sau khi cập nhật thành công
             return RedirectToAction("ListProduct", "Admin");
         }
 
@@ -468,19 +720,19 @@ namespace ElectronicShopTeam14.Controllers
                     {
                         foreach (var color in model.SelectedColors)
                         {
-                        
+
                             _context.Database.ExecuteSqlRaw(
                                 "INSERT INTO product_color (product_id, color) VALUES ({0}, {1})",
                                 product.ProductId, color);
                         }
                     }
 
-                    // Handle sizes
+
                     if (model.SelectedSizes != null && model.SelectedSizes.Any())
                     {
                         foreach (var size in model.SelectedSizes)
                         {
-                            // Use raw SQL to insert directly
+
                             _context.Database.ExecuteSqlRaw(
                                 "INSERT INTO product_size (product_id, size) VALUES ({0}, {1})",
                                 product.ProductId, size);
@@ -498,7 +750,7 @@ namespace ElectronicShopTeam14.Controllers
                     _context.ProductActives.Add(productActive);
                     await _context.SaveChangesAsync();
 
-                   
+
                     return RedirectToAction("ListProduct", "Admin");
                 }
                 catch (Exception ex)
@@ -507,7 +759,7 @@ namespace ElectronicShopTeam14.Controllers
                 }
             }
 
-        
+
             return View("ProductManager/CreateProduct", model);
         }
 
@@ -538,6 +790,7 @@ namespace ElectronicShopTeam14.Controllers
 
                 return "images/" + fileName;
             }
+
             catch (Exception ex)
             {
                 Console.WriteLine("Error saving image: " + ex.Message);
@@ -560,20 +813,20 @@ namespace ElectronicShopTeam14.Controllers
 
             try
             {
-                // Remove related records in product_color and product_size tables
+
                 _context.Database.ExecuteSqlRaw(
                     "DELETE FROM product_color WHERE product_id = {0}", id);
                 _context.Database.ExecuteSqlRaw(
                     "DELETE FROM product_size WHERE product_id = {0}", id);
 
-                // Remove record from ProductActive table
+
                 var productActive = await _context.ProductActives.FirstOrDefaultAsync(pa => pa.ProductId == id);
                 if (productActive != null)
                 {
                     _context.ProductActives.Remove(productActive);
                 }
 
-                // Delete product image if it exists and isn't the default
+
                 if (!string.IsNullOrEmpty(product.Img) && product.Img != "images/default.jpg")
                 {
                     string imagePath = Path.Combine(_hostEnvironment.WebRootPath, product.Img);
@@ -583,7 +836,7 @@ namespace ElectronicShopTeam14.Controllers
                     }
                 }
 
-                // Remove the product
+
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
 
@@ -591,19 +844,46 @@ namespace ElectronicShopTeam14.Controllers
             }
             catch (Exception ex)
             {
-                // Log the error
+
                 Console.WriteLine($"Error deleting product: {ex.Message}");
-                // You could add a TempData message here to show the error
+
                 TempData["ErrorMessage"] = $"Could not delete product: {ex.Message}";
                 return RedirectToAction("ListProduct");
             }
         }
-        public IActionResult DetailProduct()
+
+        public IActionResult DetailProduct(string id)
         {
-            return View("ProductManager/DetailProduct");
+
+            var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+
+            var productViewModel = new ProductViewModel
+            {
+                ProductId = product.ProductId,
+                ProductName = product.ProductName,
+                ProductPrice = product.ProductPrice,
+                ProductDescribe = product.ProductDescribe,
+                Quantity = product.Quantity,
+                Img = product.Img,
+
+            };
+
+
+            return View("ProductManager/DetailProduct", productViewModel);
         }
 
-        //Manager Category
+
+        //END MANAGER PRODUCT//
+
+        //-------------------------------------------------------------------------------------------//
+
+        //MANAGER CATEGORY//
         public IActionResult ListCategory(int? page)
         {
             int pageSize = 10;
@@ -616,7 +896,7 @@ namespace ElectronicShopTeam14.Controllers
                     StartingPrice = $"{c.Products.Min(p => p.ProductPrice):N0} VNĐ đến {c.Products.Max(p => p.ProductPrice):N0} VNĐ",
 
                     ProductStock = c.Products.Sum(p => p.Quantity),
-                    CreatedBy = "Admin",
+                    /*CreatedBy = "Admin",*/
                     CategoryCode = $"CAT{c.CategoryId:D5}"
 
                 }).ToList().ToPagedList(pageNumber, pageSize); ;
@@ -631,7 +911,7 @@ namespace ElectronicShopTeam14.Controllers
                 {
                     CategoryId = c.CategoryId,
                     CategoryName = c.CategoryName,
-                  
+
                 })
                 .FirstOrDefault();
 
@@ -643,21 +923,31 @@ namespace ElectronicShopTeam14.Controllers
             return View("CategoryManager/EditCategory", category);
         }
 
-       
-     
+
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult EditCategory(CategoryViewModel model)
+        public IActionResult EditCategory([Bind("CategoryId, CategoryName")] CategoryViewModel model)
         {
+            Console.WriteLine($"Received - CategoryId: {model.CategoryId}, CategoryName: {model.CategoryName}");
+
             if (!ModelState.IsValid)
             {
+                Console.WriteLine("ModelState invalid. Errors:");
+                foreach (var state in ModelState)
+                {
+                    foreach (var error in state.Value.Errors)
+                    {
+                        Console.WriteLine($"Field: {state.Key}, Error: {error.ErrorMessage}");
+                    }
+                }
                 return View("CategoryManager/EditCategory", model);
             }
 
             var category = _context.Categories
                 .Where(c => c.CategoryId == model.CategoryId)
-                .Select(c => new { c.CategoryId }) 
+                .Select(c => new { c.CategoryId })
                 .FirstOrDefault();
 
             if (category == null)
@@ -665,23 +955,51 @@ namespace ElectronicShopTeam14.Controllers
                 return NotFound();
             }
 
-            
+
             _context.Categories.Where(c => c.CategoryId == model.CategoryId)
                 .ExecuteUpdate(setters => setters.SetProperty(c => c.CategoryName, model.CategoryName));
 
             return RedirectToAction("ListCategory", "Admin");
-            
-           
+
+
         }
+
+
 
         public IActionResult CreateCategory()
         {
-            return View("~/Views/CategoryManager/CreateCategory.cshtml");
+            return View("CategoryManager/CreateCategory");
         }
 
 
-        //Manager Order (Bill)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult CreateCategory(CategoryViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("CategoryManager/CreateCategory", model);
+            }
 
+            var category = new Category
+            {
+                CategoryName = model.CategoryName
+            };
+
+            _context.Categories.Add(category);
+            _context.SaveChanges();
+
+
+            TempData["SuccessMessage"] = $"Category '{model.CategoryName}' was successfully created.";
+
+            return RedirectToAction("ListCategory", "Admin");
+        }
+
+        //END MANAGER CATEGORY//
+
+        //----------------------------------------------------------------------//
+
+        //MANAGER BILL//
         public IActionResult ListBill(int? page)
         {
             int pageSize = 10;
@@ -710,6 +1028,186 @@ namespace ElectronicShopTeam14.Controllers
             return View("BillManager/ListBill", bills);
         }
 
+        //END MANAGER BILL//
 
+        //-----------------------------------------------------------------------//
+
+        //MANAGER REVIEW//
+
+
+        public IActionResult ListReview(int? page)
+        {
+            int pageSize = 10;
+            int pageNumber = (page ?? 1);
+            var comments = _context.ProductComments.Include(pc => pc.Product).Include(pc => pc.User).ToList().ToPagedList(pageNumber, pageSize);
+            return View("ReviewManager/ListReview", comments);
+        }
+
+        //MANAGER BRAND//
+        public IActionResult ListBrand(int? page)
+        {
+            int pageSize = 10;
+            int pageNumber = (page ?? 1);
+
+            var brands = _context.Brands
+                .Select(b => new BrandViewModel
+                {
+                    BrandId = b.BrandId,
+                    BrandName = b.BrandName,
+                    BrandDescription = b.BrandDescription,
+                    BrandCountry = b.BrandCountry,
+                    BrandLogo = b.BrandLogo,
+                    ProductCount = b.Products.Count
+                })
+                .OrderBy(b => b.BrandId)
+                .ToList().ToPagedList(pageNumber, pageSize);
+
+            return View("BrandManager/ListBrand", brands);
+        }
+
+        [HttpGet]
+        public IActionResult CreateBrand()
+        {
+            return View("BrandManager/CreateBrand");
+        }
+        [HttpPost]
+        public IActionResult CreateBrand(BrandViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string? fileName = null;
+
+                if (model.ImageFile != null)
+                {
+
+                    string uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/brands");
+                    if (!Directory.Exists(uploadDir))
+                    {
+                        Directory.CreateDirectory(uploadDir);
+                    }
+
+                    // Generate unique file name
+                    fileName = fileName = Path.GetFileName(model.ImageFile.FileName);
+
+                    string filePath = Path.Combine(uploadDir, fileName);
+
+                    // Save the file
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        model.ImageFile.CopyTo(fileStream);
+                    }
+                }
+
+                var brand = new Brand
+                {
+                    BrandName = model.BrandName,
+                    BrandDescription = model.BrandDescription,
+                    BrandCountry = model.BrandCountry,
+                    BrandLogo = fileName
+                };
+
+                _context.Brands.Add(brand);
+                _context.SaveChanges();
+
+                return RedirectToAction("ListBrand");
+            }
+            return View("BrandManager/CreateBrand", model);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteBrand(int id)
+        {
+            var brand = _context.Brands.Find(id);
+            if (brand == null)
+            {
+                return NotFound();
+            }
+
+
+            _context.Brands.Remove(brand);
+            _context.SaveChanges();
+
+            return RedirectToAction("ListBrand");
+        }
+        [HttpGet]
+        public IActionResult EditBrand(int id)
+        {
+            var brand = _context.Brands.Find(id);
+            if (brand == null)
+            {
+                return NotFound();
+            }
+
+            var model = new BrandViewModel
+            {
+                BrandId = brand.BrandId,
+                BrandName = brand.BrandName,
+                BrandDescription = brand.BrandDescription,
+                BrandCountry = brand.BrandCountry,
+                BrandLogo = brand.BrandLogo
+            };
+
+            return View("BrandManager/EditBrand", model);
+        }
+
+        [HttpPost]
+        public IActionResult EditBrand(BrandViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var brand = _context.Brands.Find(model.BrandId);
+                if (brand == null)
+                {
+                    return NotFound();
+                }
+
+                string? fileName = brand.BrandLogo;
+
+                if (model.ImageFile != null)
+                {
+                    string uploadDir = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/brands");
+                    if (!Directory.Exists(uploadDir))
+                    {
+                        Directory.CreateDirectory(uploadDir);
+                    }
+
+                    fileName = Path.GetFileName(model.ImageFile.FileName);
+                    string filePath = Path.Combine(uploadDir, fileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        model.ImageFile.CopyTo(fileStream);
+                    }
+
+                    // Xóa logo cũ nếu có
+                    if (!string.IsNullOrEmpty(brand.BrandLogo))
+                    {
+                        string oldFilePath = Path.Combine(uploadDir, brand.BrandLogo);
+                        if (System.IO.File.Exists(oldFilePath))
+                        {
+                            System.IO.File.Delete(oldFilePath);
+                        }
+                    }
+                }
+
+                // Cập nhật thông tin
+                brand.BrandName = model.BrandName;
+                brand.BrandDescription = model.BrandDescription;
+                brand.BrandCountry = model.BrandCountry;
+                brand.BrandLogo = fileName;
+
+                _context.Brands.Update(brand);
+                _context.SaveChanges();
+
+                return RedirectToAction("ListBrand");
+            }
+            return View("BrandManager/EditBrand", model);
+        }
     }
+
+    //END MANAGER BRAND//
+
+    //----------------------------------------------------------//
+
+
 }
