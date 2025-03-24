@@ -698,7 +698,6 @@
                                                     name="brandId"
                                                     value="@brand.BrandId"
                                                     @(Model.SelectedBrandId.Contains(brand.BrandId) ? "checked" : "")>
-
                                                 <label class="custom-control-label" for="brand_@brand.BrandId">
                                                     @brand.BrandName
                                                     <span class="text-gray-25 font-size-12 font-weight-normal">(@brand.Products.Count)</span>
@@ -1117,21 +1116,18 @@
     </div>
 </div>
 <div class="d-flex justify-content-center">
-                            @Html.PagedListPager(Model.AllProducts, page => Url.Action("Shop1", new { page, categoryId = Context.Request.Query["categoryId"] }),
-    new PagedListRenderOptions
-    {
-        LiElementClasses = new string[] { "page-item" },
-        PageClasses = new string[] { "page-link" },
-        DisplayLinkToFirstPage = PagedListDisplayMode.Always,
-        DisplayLinkToLastPage = PagedListDisplayMode.Always,
-        DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
-        DisplayLinkToNextPage = PagedListDisplayMode.Always,
-        MaximumPageNumbersToDisplay = 5
-    })
-</div>
-                           
-                            
-                               
+    @Html.PagedListPager(Model.AllProducts, page => Url.Action("Shop1", new { page, categoryId = Context.Request.Query["categoryId"] }),
+        new PagedListRenderOptions
+        {
+            LiElementClasses = new string[] { "page-item" },
+            PageClasses = new string[] { "page-link" },
+            DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+            DisplayLinkToLastPage = PagedListDisplayMode.Always,
+            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+            DisplayLinkToNextPage = PagedListDisplayMode.Always,
+            MaximumPageNumbersToDisplay = 5
+        })
+</div>     
                         <!-- End Tab Content -->
                         <!-- End Shop Body -->
                         <!-- Shop Pagination -->

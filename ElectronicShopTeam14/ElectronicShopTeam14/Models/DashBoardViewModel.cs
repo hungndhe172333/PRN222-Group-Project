@@ -1,4 +1,6 @@
-﻿namespace ElectronicShopTeam14.Models
+﻿using X.PagedList;
+
+namespace ElectronicShopTeam14.Models
 {
     public class DashBoardViewModel
     {
@@ -14,5 +16,6 @@
         public List<BrandChartData> BrandData { get; set; }
 		public List<MonthlyRevenueChartData> MonthlyRevenueData {  get; set; }
 		public List<PaymentMethodChartData> PaymentMethodData { get; set; }
+        public IPagedList<Bill> Bills { get; set; }
     }
 }

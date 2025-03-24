@@ -1253,10 +1253,8 @@
           <!-- Start right Content here -->
           <!-- ==================================================== -->
           <div class="page-content">
-
                <!-- Start Container Fluid -->
                <div class="container-fluid">
-
                     <div class="row">
                          <div class="col-xl-12">
                               <div class="card">
@@ -1285,113 +1283,108 @@
                                         </div>
                                    </div>
                                    <div>
-                                         <div class="table-responsive">
-        <table class="table align-middle mb-0 table-hover table-centered">
-            <thead class="bg-light-subtle">
-                <tr>
-                    <th>Ảnh</th>
-                    <th>ID</th>
-                    <th>Tên</th>
-                    <th>Giá</th>
-                    <th>Mô tả</th>
-                    <th>Số lượng</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                                            @foreach (var item in Model)
-                                            {
-                            <tr>
-                                <td>
-                                    <div class="rounded bg-light avatar-md d-flex align-items-center justify-content-center">
-                                                   <img src="/@item.Img" alt="@item.ProductName" class="avatar-md">
-
-
-                                    </div>
-                                </td>
-                                <td>@item.ProductId</td>
-                                <td>
-                                    <a href="#!" class="text-dark fw-medium fs-15">@item.ProductName</a>
-                                </td>
-                                <td>@item.ProductPrice.ToString("C")</td>
-                              <td>
-        <p class="text-muted mb-0">
-                                                            @Html.Raw(item.ProductDescribe)
-        </p>
-    </td>
-                                <td>
-                                    <p class="mb-1 text-muted"><span class="text-dark fw-medium">@item.Quantity </span> </p>
-                                </td>
-                                <td>
-                                    <div class="d-flex gap-2">
-                                        <a href="@Url.Action("DetailProduct", "Admin", new { id = item.ProductId })" class="btn btn-light btn-sm">
-                                            <i class="bx bx-show align-middle"></i>
-                                        </a>
-                                        <a href="@Url.Action("EditProduct", "Admin", new { id = item.ProductId })" class="btn btn-soft-primary btn-sm">
-                                            <i class="bx bx-edit align-middle"></i>
-                                        </a>
-                                            <a href="javascript:void(0)" onclick="showDeleteModal('@item.ProductId', '@item.ProductName')" class="btn btn-soft-danger btn-sm">
-            <i class="bx bx-trash align-middle"></i>
-        </a>
-                                    </div>
-                                </td>
-                            </tr>
-                                            }
-            </tbody>
-        </table>
-    </div> the
+                                        <div class="table-responsive">
+                                            <table class="table align-middle mb-0 table-hover table-centered">
+                                            <thead class="bg-light-subtle">
+                                                <tr>
+                                                    <th>Ảnh</th>
+                                                    <th>ID</th>
+                                                    <th>Tên</th>
+                                                    <th>Giá</th>
+                                                    <th>Mô tả</th>
+                                                    <th>Số lượng</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @foreach (var item in Model)
+                                                {
+                                                    <tr>
+                                                        <td>
+                                                            <div class="rounded bg-light avatar-md d-flex align-items-center justify-content-center">
+                                                                <img src="/@item.Img" alt="@item.ProductName" class="avatar-md">
+                                                            </div>
+                                                        </td>
+                                                        <td>@item.ProductId</td>
+                                                        <td>
+                                                            <a href="#!" class="text-dark fw-medium fs-15">@item.ProductName</a>
+                                                        </td>
+                                                        <td>@item.ProductPrice.ToString("C")</td>
+                                                        <td>
+                                                            <p class="text-muted mb-0">
+                                                                @Html.Raw(item.ProductDescribe)
+                                                            </p>
+                                                        </td>
+                                                        <td>
+                                                            <p class="mb-1 text-muted"><span class="text-dark fw-medium">@item.Quantity </span> </p>
+                                                        </td>
+                                                        <td>
+                                                            <div class="d-flex gap-2">
+                                                                <a href="@Url.Action("DetailProduct", "Admin", new { id = item.ProductId })" class="btn btn-light btn-sm">
+                                                                    <i class="bx bx-show align-middle"></i>
+                                                                </a>
+                                                                <a href="@Url.Action("EditProduct", "Admin", new { id = item.ProductId })" class="btn btn-soft-primary btn-sm">
+                                                                    <i class="bx bx-edit align-middle"></i>
+                                                                </a>
+                                                                <a href="javascript:void(0)" onclick="showDeleteModal('@item.ProductId', '@item.ProductName')" class="btn btn-soft-danger btn-sm">
+                                                                    <i class="bx bx-trash align-middle"></i>
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                            </table>
+                                        </div>
                                         <!-- end table-responsive -->
                                    </div>
-                                  <div class="d-flex justify-content-end mt-3">
-                                @Html.PagedListPager(Model, page => Url.Action("ListProduct", new { page }),
-                                                              new PagedListRenderOptions
-                                                     {
-                                                         LiElementClasses = new string[] { "page-item" },
-                                                         PageClasses = new string[] { "page-link" }
-                                                     })
-</div>
+                                   <div class="d-flex justify-content-end mt-3">
+                                        @Html.PagedListPager(Model, page => Url.Action("ListProduct", new { page }), new PagedListRenderOptions
+                                            {
+                                                LiElementClasses = new string[] { "page-item" },
+                                                PageClasses = new string[] { "page-link" }
+                                            })
+                                   </div>
                               </div>
                          </div>
-
                     </div>
-
                </div>
                <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Are you sure you want to delete the product "<span id="productNameToDelete"></span>"?
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                <a href="#" id="confirmDeleteBtn" class="btn btn-danger">Delete</a>
-            </div>
-        </div>
-    </div>
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="deleteModalLabel">Confirm Delete</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to delete the product "<span id="productNameToDelete"></span>"?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <a href="#" id="confirmDeleteBtn" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
+                </div>
 </div>
 
 <!-- Add this script to handle the modal -->
 <script>
-    function showDeleteModal(id, productName) {
-        document.getElementById('productNameToDelete').textContent = productName;
-        document.getElementById('confirmDeleteBtn').href = '@Url.Action("DeleteProduct", "Admin")/' + id;
-        var deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
-        deleteModal.show();
-    }
+     function showDeleteModal(id, productName) {
+          document.getElementById('productNameToDelete').textContent = productName;
+          document.getElementById('confirmDeleteBtn').href = '@Url.Action("DeleteProduct", "Admin")/' + id;
+          var deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+          deleteModal.show();
+     }
 </script>
 
                <!-- End Container Fluid -->
 
                <!-- ========== Footer Start ========== -->
-               <footer class="footer">
-                   <div class="container-fluid">
-                       <div class="row">
-                           <div class="col-12 text-center">
-                               <script>document.write(new Date().getFullYear())</script> &copy; ElectronicShop. created by <iconify-icon icon="iconamoon:heart-duotone" class="fs-18 align-middle text-danger"></iconify-icon> <a
+<footer class="footer">
+     <div class="container-fluid">
+          <div class="row">
+                <div class="col-12 text-center">
+                <script>document.write(new Date().getFullYear())</script> &copy; ElectronicShop. created by <iconify-icon icon="iconamoon:heart-duotone" class="fs-18 align-middle text-danger"></iconify-icon> <a
                                 href="https://1.envato.market/techzaa" class="fw-bold footer-text" target="_blank">Team14_PRN222</a>
                            </div>
                        </div>
@@ -1414,7 +1407,5 @@
      <script src="assets/js/app.js"></script>
 
 </body>
-
-
 <!-- Mirrored from techzaa.in/larkon/admin/product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 12:43:16 GMT -->
 </html>

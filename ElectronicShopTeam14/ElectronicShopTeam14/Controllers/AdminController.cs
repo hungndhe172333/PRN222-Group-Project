@@ -29,7 +29,7 @@ namespace ElectronicShopTeam14.Controllers
 
         //DASHBOARD//
 
-        public IActionResult DashBoard()
+        public IActionResult DashBoard(int? page)
         {
             var categories = _context.Categories.ToList();
             var totalProducts = _context.Products.Count();
@@ -118,6 +118,13 @@ namespace ElectronicShopTeam14.Controllers
                 }
             }
 
+			//Recent order
+			int pageSize = 5;
+			int pageNumber = (page ?? 1);
+
+			var bills = _context.Bills.Include(b => b.User).ToList();
+            
+
             //ViewModel
             var model = new DashBoardViewModel
             {
@@ -137,7 +144,9 @@ namespace ElectronicShopTeam14.Controllers
 				PaymentMethodData = paymentMethodData
             };
 
-            return View("DashBoardManager/Dashboard", model);
+            model.Bills = bills.ToPagedList(pageNumber, pageSize);
+
+			return View("DashBoardManager/Dashboard", model);
         }
 
         private decimal CalculateOrdersPercentageChange(int days)
