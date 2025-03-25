@@ -1,3 +1,4 @@
+﻿using ElectronicShopTeam14.Hubs;
 using ElectronicShopTeam14.Models;
 
 using ElectronicShopTeam14.Services;
@@ -20,6 +21,11 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
         options.SlidingExpiration = true;
     });
+
+// Thêm Razor Pages
+builder.Services.AddRazorPages();
+//SignalR
+builder.Services.AddSignalR();
 
 
 builder.Services.AddScoped<IEmailService, EmailService>();
@@ -51,6 +57,11 @@ app.UseRouting();
 // Important: UseAuthentication must come before UseAuthorization
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Định tuyến cho Razor Pages
+app.MapRazorPages();
+
+app.MapHub<NotificationHub>("/notificationHub");
 
 app.MapControllerRoute(
     name: "default",

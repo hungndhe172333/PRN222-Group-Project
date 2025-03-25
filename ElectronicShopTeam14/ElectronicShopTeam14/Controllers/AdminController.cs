@@ -28,7 +28,6 @@ namespace ElectronicShopTeam14.Controllers
         }
 
         //DASHBOARD//
-
         public IActionResult DashBoard(int? page)
         {
             var categories = _context.Categories.ToList();
@@ -165,7 +164,6 @@ namespace ElectronicShopTeam14.Controllers
 
         private decimal CalculateProductsPercentageChange(int days)
         {
-
             return 8.1m;
         }
 
@@ -396,7 +394,6 @@ namespace ElectronicShopTeam14.Controllers
             return View("UserManager/DetailCustomer");
         }
 
-
         public JsonResult UpdateUserPermission(long userId, string permissionType, bool value)
         {
             try
@@ -520,8 +517,6 @@ namespace ElectronicShopTeam14.Controllers
             return View("ProductManager/ListProduct", products);
         }
 
-
-
         public IActionResult DownloadProducts()
         {
             var products = _context.Products
@@ -568,7 +563,6 @@ namespace ElectronicShopTeam14.Controllers
 
             return File(fileContents, "text/csv", "DanhSachSanPham.csv");
         }
-
 
         public IActionResult ActiveProduct(int? page)
         {
@@ -681,7 +675,6 @@ namespace ElectronicShopTeam14.Controllers
 
             return RedirectToAction("ListProduct", "Admin");
         }
-
 
         // GET: Product/Create
         public IActionResult CreateProduct()
@@ -955,9 +948,6 @@ namespace ElectronicShopTeam14.Controllers
             return View("CategoryManager/EditCategory", category);
         }
 
-
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult EditCategory([Bind("CategoryId, CategoryName")] CategoryViewModel model)
@@ -996,13 +986,10 @@ namespace ElectronicShopTeam14.Controllers
 
         }
 
-
-
         public IActionResult CreateCategory()
         {
             return View("CategoryManager/CreateCategory");
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -1235,11 +1222,18 @@ namespace ElectronicShopTeam14.Controllers
             }
             return View("BrandManager/EditBrand", model);
         }
+
+        //END MANAGER BRAND//
+
+        //----------------------------------------------------------//
+
+        // MANAGER NOTIFICATION//
+        [HttpGet]
+        public IActionResult Notification()
+        {
+            return View("NotificationManager/Notification");
+        }
+        //END MANAGER NOTIFICATION//
     }
-
-    //END MANAGER BRAND//
-
-    //----------------------------------------------------------//
-
 
 }
