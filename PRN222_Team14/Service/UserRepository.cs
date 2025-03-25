@@ -6,11 +6,11 @@ namespace ElectronicShopTeam14.Services
 {
     public class UserRepository : IUserRepository
     {
-        private readonly ElectronicShopContext _context;
+        private readonly ElectronicShopTeam14Context _context;
         private readonly Dictionary<string, (string token, DateTime expiry)> _passwordResetTokens;
 
 
-        public UserRepository(ElectronicShopContext context)
+        public UserRepository(ElectronicShopTeam14Context context)
         {
             _context = context;
             _passwordResetTokens = new Dictionary<string, (string, DateTime)>();

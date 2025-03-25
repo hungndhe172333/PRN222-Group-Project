@@ -1,31 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ElectronicShopTeam14.Models;
 
 public partial class Product
 {
-    public string ProductId { get; set; } = null!;
+    [Column("product_id")] // Map đúng tên cột trong SQL
+    public int ProductId { get; set; }
 
+    [Column("category_id")]
     public int CategoryId { get; set; }
 
-    public string ProductName { get; set; } = null!;
+    [Column("product_name")]
+    public string ProductName { get; set; } = string.Empty;
 
+    [Column("product_price")]
     public decimal ProductPrice { get; set; }
 
-    public string ProductDescribe { get; set; } = null!;
+    [Column("product_describe")]
+    public string? ProductDescribe { get; set; }
 
+    [Column("quantity")]
     public int Quantity { get; set; }
 
-    public string Img { get; set; } = null!;
+    [Column("img")]
+    public string? Img { get; set; }
 
+    [Column("brand_id")]
     public int? BrandId { get; set; }
 
+    [Column("warranty_months")]
     public int? WarrantyMonths { get; set; }
 
+    [Column("technical_specs")]
     public string? TechnicalSpecs { get; set; }
 
+    [Column("model_number")]
     public string? ModelNumber { get; set; }
+
+
 
     public virtual ICollection<BillDetail> BillDetails { get; set; } = new List<BillDetail>();
 
