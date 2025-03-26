@@ -1065,56 +1065,55 @@
                         <!-- Shop Body -->
                         <!-- Tab Content -->
                     <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade pt-2 show active" id="pills-one-example1" role="tabpanel">
-        <ul class="row list-unstyled products-group no-gutters">
-                                    @foreach (var product in Model.AllProducts)
-                                    {
-                    <li class="col-6 col-md-3 col-wd-2gdot4 product-item remove-divider">
-                        <div class="product-item__outer h-100">
-                            <div class="product-item__inner px-xl-4 p-3">
-                                <div class="product-item__body pb-xl-2">
-                                    <div class="mb-2">
-                                        <a href="#" class="font-size-12 text-gray-5">@product.Category.CategoryName</a>
-                                    </div>
-                                    <h5 class="mb-1 product-item__title">
-                                        <a href="/Product_detail/@product.ProductId" class="text-blue font-weight-bold">
-                                                                @product.ProductName
-                                        </a>
-                                    </h5>
-                                    <div class="mb-2">
-                                        <a href="/Product_detail/@product.ProductId" class="d-block text-center">
-                                            <img class="img-fluid" src="/@product.Img" alt="@product.ProductName">
-                                        </a>
-                                    </div>
-                                    <div class="flex-center-between mb-1">
-                                           <div class="prodcut-price">
-        <div class="text-gray-100">@product.ProductPrice.ToString("N0") đ</div>
-    </div>
-
-                                        <div class="d-none d-xl-block prodcut-add-cart">
-                                               <a href="@Url.Action("Product_detail", "Home", new { id = product.ProductId })" class="btn-add-cart btn-primary transition-3d-hover">
-        <i class="ec ec-add-to-cart"></i>
-    </a>
+                        <div class="tab-pane fade pt-2 show active" id="pills-one-example1" role="tabpanel">
+                            <ul class="row list-unstyled products-group no-gutters">
+                                @foreach (var product in Model.AllProducts)
+                                {
+                                    <li class="col-6 col-md-3 col-wd-2gdot4 product-item remove-divider">
+                                        <div class="product-item__outer h-100">
+                                            <div class="product-item__inner px-xl-4 p-3">
+                                                <div class="product-item__body pb-xl-2">
+                                                    <div class="mb-2">
+                                                        <a href="#" class="font-size-12 text-gray-5">@product.Category.CategoryName</a>
+                                                    </div>
+                                                    <h5 class="mb-1 product-item__title">
+                                                        <a href="@Url.Action("Product_detail", "Home", new { id = product.ProductId })" class="text-blue font-weight-bold">
+                                                            @product.ProductName
+                                                        </a>
+                                                    </h5>
+                                                    <div class="mb-2">
+                                                        <a href="@Url.Action("Product_detail", "Home", new { id = product.ProductId })" class="d-block text-center">
+                                                            <img class="img-fluid" src="/@product.Img" alt="@product.ProductName">
+                                                        </a>
+                                                    </div>
+                                                    <div class="flex-center-between mb-1">
+                                                        <div class="prodcut-price">
+                                                            <div class="text-gray-100">@product.ProductPrice.ToString("N0") đ</div>
+                                                        </div>
+                                                        <div class="d-none d-xl-block prodcut-add-cart">
+                                                            <a href="@Url.Action("Product_detail", "Home", new { id = product.ProductId })" class="btn-add-cart btn-primary transition-3d-hover">
+                                                                <i class="ec ec-add-to-cart"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="product-item__footer">
+                                                    <div class="border-top pt-2 flex-center-between flex-wrap">
+                                                        <a href="/Compare/Add/@product.ProductId" class="text-gray-6 font-size-13">
+                                                            <i class="ec ec-compare mr-1 font-size-15"></i> Compare
+                                                        </a>
+                                                        <a href="/Wishlist/Add/@product.ProductId" class="text-gray-6 font-size-13">
+                                                            <i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="product-item__footer">
-                                    <div class="border-top pt-2 flex-center-between flex-wrap">
-                                        <a href="/Compare/Add/@product.ProductId" class="text-gray-6 font-size-13">
-                                            <i class="ec ec-compare mr-1 font-size-15"></i> Compare
-                                        </a>
-                                        <a href="/Wishlist/Add/@product.ProductId" class="text-gray-6 font-size-13">
-                                            <i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                                    </li>
+                                }
+                            </ul>
                         </div>
-                    </li>
-                                    }
-        </ul>
-    </div>
-</div>
+                    </div>
 <div class="d-flex justify-content-center">
     @Html.PagedListPager(Model.AllProducts, page => Url.Action("Shop1", new { page, categoryId = Context.Request.Query["categoryId"] }),
         new PagedListRenderOptions

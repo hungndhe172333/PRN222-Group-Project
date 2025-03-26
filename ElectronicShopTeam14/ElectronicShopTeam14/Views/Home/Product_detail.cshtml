@@ -1,4 +1,8 @@
 ﻿@model ElectronicShopTeam14.Models.Product
+@using System.Security.Claims
+@{
+    var userName = User.Identity.IsAuthenticated ? User.FindFirstValue(ClaimTypes.Name) : "";
+}
 @{
     Layout = null;
 }
@@ -1491,10 +1495,11 @@
                                 <a class="nav-link" id="Jpills-three-example1-tab" data-toggle="pill" href="#Jpills-three-example1" role="tab" aria-controls="Jpills-three-example1" aria-selected="false">Specification</a>
                             </li>
                             <li class="nav-item">
-    <a class="nav-link" id="reviews-tab-tab" data-toggle="pill" href="#reviews-tab" role="tab" aria-controls="reviews-tab" aria-selected="false">
-        Reviews
-    </a>
-</li>
+                                <a class="nav-link" id="reviews-tab-tab" data-toggle="pill" href="#reviews-tab"
+                                role="tab" aria-controls="reviews-tab" aria-selected="false" data-username="@userName">
+                                    Reviews
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <!-- Tab Content -->
@@ -1814,13 +1819,13 @@
                     </div>
                     <div class="col-md-8 col-lg-9">
                         <div class="rating-stars">
-                                                @for (int i = 5; i >= 1; i--)
-                                                {
-                                    <input type="radio" name="Rating" value="@i" id="rating-@i" />
-                                    <label for="rating-@i" class="star-rating-label">
-                                        <i class="far fa-star text-muted rating-star"></i>
-                                    </label>
-                                                }
+                            @for (int i = 5; i >= 1; i--)
+                            {
+                                <input type="radio" name="Rating" value="@i" id="rating-@i" />
+                                <label for="rating-@i" class="star-rating-label">
+                                    <i class="far fa-star text-muted rating-star"></i>
+                                </label>
+                            }
                         </div>
                     </div>
                 </div>
@@ -1832,7 +1837,7 @@
                         <textarea class="form-control" rows="3" id="Comment" name="Comment" required></textarea>
                     </div>
                 </div>
-
+                
                 <div class="form-group mb-3 row">
                     <div class="col-md-4 col-lg-3">
                         <label for="UserName" class="form-label">Name <span class="text-danger">*</span></label>
@@ -2803,6 +2808,21 @@
         <script src="../../assets/js/components/hs.scroll-nav.js"></script>
         <script src="../../assets/js/components/hs.go-to.js"></script>
         <script src="../../assets/js/components/hs.selectpicker.js"></script>
+
+        <!-- Lấy tên người dùng tại Reviews -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("reviews-tab-tab").addEventListener("click", function () {
+                var userName = this.getAttribute("data-username");
+                var userNameInput = document.getElementById("UserName"); 
+
+                if (userName && userNameInput) {
+                    userNameInput.value = userName;
+                    userNameInput.readOnly = false;
+                }
+            });
+        });
+    </script>
 
         <!-- JS Plugins Init. -->
         <script>

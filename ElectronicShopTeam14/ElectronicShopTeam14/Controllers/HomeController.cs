@@ -110,7 +110,6 @@ namespace ElectronicShopTeam14.Controllers
                 
                 if (User.Identity.IsAuthenticated)
                 {
-                   
                     comment.UserId = long.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
                 }
 
