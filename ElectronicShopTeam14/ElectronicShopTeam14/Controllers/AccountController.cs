@@ -123,24 +123,26 @@ namespace ElectronicShopTeam14.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            if (ModelState.IsValid)
+			if (ModelState.IsValid)
             {
                 var user = _userRepository.GetUserByEmail(model.Email);
 
-                if (user != null && _userRepository.ValidatePassword(model.Password, user.UserPass))
+				
+
+				if (user != null && _userRepository.ValidatePassword(model.Password, user.UserPass))
                 {
                     if (user.Banned == true)
                     {
-                        ModelState.AddModelError("", $"Tài khoản của bạn đã bị khóa. Lý do: {user.AdminReason}");
-                        return View(model);
+                        TempData["ErrorMessage"] = $"Tài khoản của bạn đã bị khóa. Lý do: {user.AdminReason}";
+                        return RedirectToAction("Index", "Home");
                     }
 
                     var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.UserName ?? user.UserEmail),
-                        new Claim(ClaimTypes.Email, user.UserEmail),
-                        new Claim("UserId", user.UserId.ToString())
-                    };
+            {
+                new Claim(ClaimTypes.Name, user.UserName ?? user.UserEmail),
+                new Claim(ClaimTypes.Email, user.UserEmail),
+                new Claim("UserId", user.UserId.ToString())
+            };
 
                     if (user.IsAdmin == "True")
                         claims.Add(new Claim(ClaimTypes.Role, "Admin"));
@@ -161,77 +163,98 @@ namespace ElectronicShopTeam14.Controllers
                     return RedirectToAction("Index", "Home");
                 }
 
-                ModelState.AddModelError("", "Tài khoản hoặc mật khẩu sai");
+                TempData["ErrorMessage"] = "Tài khoản hoặc mật khẩu sai";
+                return RedirectToAction("Index", "Home");
             }
 
             return View(model);
         }
 
-        [HttpGet]
-        public IActionResult Register()
-        {
-            return View();
-        }
 
         [HttpPost]
-        public async Task<IActionResult> Register(RegisterViewModel model)
-        {
-            if (ModelState.IsValid)
-            {
-                // Check if email already exists
-                var existingUser = _userRepository.GetUserByEmail(model.Email);
-                if (existingUser != null)
-                {
-                    ModelState.AddModelError("", "Email đã được sử dụng");
-                    return View(model);
-                }
+		public async Task<IActionResult> Register(RegisterViewModel model)
+		{
 
-                // Create new user
-                var user = new User
-                {
-                    UserEmail = model.Email,
-                    UserPass = _userRepository.HashPassword(model.Password), // Assume you have a password hashing method
-                    UserName = model.UserName,
-                    PhoneNumber = model.PhoneNumber,
-                    Address = model.Address,
-                    DateOfBirth = model.DateOfBirth,
-                    IsAdmin = "False",
-                    IsStoreStaff = "False",
-                    Banned = false
-                };
+			
 
-                try
-                {
-                    _userRepository.AddUser(user);
+			if (ModelState.IsValid)
+			{
+				// Kiểm tra độ mạnh của mật khẩu
+				if (model.Password.Length >= 8 && model.Password.Any(char.IsUpper))
+				{
+					TempData["ErrorMessage"] = "Yêu cầu mật khẩu có ít nhất 8 ký tự và 1 chữ hoa.";
+					return RedirectToAction("Index", "Home");
+				}
 
-                    // Automatically log in the user after registration
-                    var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.UserName ?? user.UserEmail),
-                new Claim(ClaimTypes.Email, user.UserEmail),
-                new Claim("UserId", user.UserId.ToString())
-            };
+				if (!model.PhoneNumber.StartsWith("0") && model.PhoneNumber.Length != 10)
+				{
+					TempData["ErrorMessage"] = "Số điện thoại phải bắt đầu bằng số 0 và có 10 số";
+					return RedirectToAction("Index", "Home");
+				}
 
-                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    var authProperties = new AuthenticationProperties();
+				if (!model.Password.Equals(model.ConfirmPassword))
+				{
+					TempData["ErrorMessage"] = "Mật khẩu xác nhận không đúng";
+					return RedirectToAction("Index", "Home");
+				}
 
-                    await HttpContext.SignInAsync(
-                        CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(claimsIdentity),
-                        authProperties);
+				// Kiểm tra email đã tồn tại chưa
+				var existingUser = _userRepository.GetUserByEmail(model.Email);
+				if (existingUser != null)
+				{
+					TempData["ErrorMessage"] = "Email đã được sử dụng";
+					return RedirectToAction("Index", "Home");
+				}
 
-                    return RedirectToAction("Index", "Home");
-                }
-                catch (Exception)
-                {
-                    ModelState.AddModelError("", "Đã xảy ra lỗi khi đăng ký. Vui lòng thử lại sau.");
-                }
-            }
+				// Tạo người dùng mới
+				var user = new User
+				{
+					UserEmail = model.Email,
+					UserPass = _userRepository.HashPassword(model.Password),
+					UserName = model.UserName,
+					PhoneNumber = model.PhoneNumber,
+					Address = model.Address,
+					DateOfBirth = model.DateOfBirth,
+					IsAdmin = "False",
+					IsStoreStaff = "False",
+					Banned = false
+				};
 
-            return View(model);
-        }
+				try
+				{
+					_userRepository.AddUser(user);
 
-        [HttpPost]
+					// Đăng nhập tự động sau khi đăng ký
+					var claims = new List<Claim>
+			{
+				new Claim(ClaimTypes.Name, user.UserName ?? user.UserEmail),
+				new Claim(ClaimTypes.Email, user.UserEmail),
+				new Claim("UserId", user.UserId.ToString())
+			};
+
+					var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+					var authProperties = new AuthenticationProperties();
+
+					await HttpContext.SignInAsync(
+						CookieAuthenticationDefaults.AuthenticationScheme,
+						new ClaimsPrincipal(claimsIdentity),
+						authProperties);
+
+					return RedirectToAction("Index", "Home");
+				}
+				catch (Exception)
+				{
+					TempData["ErrorMessage"] = "Đã xảy ra lỗi khi đăng ký. Vui lòng thử lại sau.";
+				}
+			}
+
+			return RedirectToAction("Index", "Home");
+		}
+
+
+
+
+		[HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
