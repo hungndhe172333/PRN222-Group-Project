@@ -100,27 +100,31 @@ namespace ElectronicShopTeam14.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddComment(ProductComment comment)
+        public IActionResult AddComment(string ProductId, string Comment, int Rating, string UserName)
         {
+            ProductComment productComment = new ProductComment();
             if (ModelState.IsValid)
             {
-                
-                comment.CreatedAt = DateTime.Now;
+                productComment.CreatedAt = DateTime.Now;
+                productComment.Comment = Comment;
+                productComment.Rating = Rating;
+                productComment.UserName = UserName;
+                productComment.ProductId = ProductId;
 
-                
                 if (User.Identity.IsAuthenticated)
                 {
-                    comment.UserId = long.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                    productComment.UserId = long.Parse(User.FindFirstValue("UserId"));
                 }
 
-                _context.ProductComments.Add(comment);
+                _context.ProductComments.Add(productComment);
                 _context.SaveChanges();
 
-                return RedirectToAction("Product_detail", new { id = comment.ProductId });
+                // Lưu thông báo vào TempData
+                TempData["SuccessMessage"] = "Bạn đã bình luận thành công!";
+                return RedirectToAction("Product_detail", new { id = ProductId });
             }
 
-            
-            return RedirectToAction("Product_detail", new { id = comment.ProductId });
+            return RedirectToAction("Product_detail", new { id = ProductId });
         }
         public IActionResult Cart()
         {
