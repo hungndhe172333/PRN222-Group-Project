@@ -1,0 +1,38 @@
+﻿@model ElectronicShopTeam14.Models.Bill
+
+<h2>Xác nhận đơn hàng</h2>
+<p>Cảm ơn bạn đã đặt hàng! Dưới đây là thông tin đơn hàng của bạn:</p>
+
+<div>
+    <p><strong>Mã đơn hàng:</strong> @Model.BillId</p>
+    <p><strong>Tổng tiền:</strong> @Model.Total.ToString("N0") đ</p>
+    <p><strong>Phương thức thanh toán:</strong> @Model.Payment</p>
+    <p><strong>Địa chỉ giao hàng:</strong> @Model.Address</p>
+    <p><strong>Ngày đặt hàng:</strong> @Model.Date.ToString("dd/MM/yyyy")</p>
+    <p><strong>Số điện thoại:</strong> @Model.Phone</p>
+</div>
+
+<h3>Chi tiết đơn hàng</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Số lượng</th>
+            <th>Giá</th>
+            <th>Kích thước</th>
+            <th>Màu sắc</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detail in Model.BillDetails)
+        {
+            <tr>
+                <td>@detail.ProductId</td>
+                <td>@detail.Quantity</td>
+                <td>@detail.Price.ToString("N0") đ</td>
+                <td>@detail.Size</td>
+                <td>@detail.Color</td>
+            </tr>
+        }
+    </tbody>
+</table>
