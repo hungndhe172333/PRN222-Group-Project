@@ -42,31 +42,29 @@ namespace ElectronicShopTeam14.Services
         public bool ValidatePassword(string inputPassword, string storedPassword)
         {
             // Hash the input password and compare with stored hash
-            string hashedInput = HashPassword(inputPassword);
-            return hashedInput == storedPassword;
+            return inputPassword == storedPassword;
         }
 
-        public string HashPassword(string password)
-        {
-            using (var sha256 = SHA256.Create())
-            {
-                // Convert the password string to a byte array
-                byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
+        //public string HashPassword(string password)
+        //{
+        //    using (var sha256 = SHA256.Create())
+        //    {
+        //        // Convert the password string to a byte array
+        //        byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
 
-                // Compute the hash
-                byte[] hashBytes = sha256.ComputeHash(passwordBytes);
+        //        // Compute the hash
+        //        byte[] hashBytes = sha256.ComputeHash(passwordBytes);
 
-                // Convert the hash bytes to a string
-                StringBuilder builder = new StringBuilder();
-                for (int i = 0; i < hashBytes.Length; i++)
-                {
-                    builder.Append(hashBytes[i].ToString("x2")); // Convert to hexadecimal
-                }
+        //        // Convert the hash bytes to a string
+        //        StringBuilder builder = new StringBuilder();
+        //        for (int i = 0; i < hashBytes.Length; i++)
+        //        {
+        //            builder.Append(hashBytes[i].ToString("x2")); // Convert to hexadecimal
+        //        }
 
-                return builder.ToString();
-            }
-        }
-
+        //        return builder.ToString();
+        //    }
+        //}
 
         public void UpdatePassword(string email, string newPassword)
         {

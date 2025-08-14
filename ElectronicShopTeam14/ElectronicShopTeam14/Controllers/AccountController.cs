@@ -15,15 +15,11 @@ namespace ElectronicShopTeam14.Controllers
         private readonly IUserRepository _userRepository;
         private readonly IEmailService _emailService;
 
-
         public AccountController(IUserRepository userRepository, IEmailService emailService)
-
         {
             _userRepository = userRepository;
             _emailService = emailService;
-
         }
-
 
         [HttpGet]
         public IActionResult Login()
@@ -106,21 +102,16 @@ namespace ElectronicShopTeam14.Controllers
         [HttpGet]
         public async Task<IActionResult> GoogleResponse()
         {
-            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            //var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var result = await HttpContext.AuthenticateAsync(GoogleDefaults.AuthenticationScheme);
 
             if (!result.Succeeded)
                 return RedirectToAction("Login");
 
-            var claims = result.Principal.Identities.FirstOrDefault()?.Claims.Select(c => new
-            {
-                c.Type,
-                c.Value
-            });
+            var email = result.Principal.FindFirstValue(ClaimTypes.Email);
+            var fullName = result.Principal.FindFirstValue(ClaimTypes.Name);
 
-            string email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
-            string fullName = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
-
-            if (email == null)
+            if (string.IsNullOrEmpty(email))
             {
                 ViewBag.Error = "Không thể xác thực tài khoản Google!";
                 return View("Login");
@@ -145,10 +136,17 @@ namespace ElectronicShopTeam14.Controllers
 
             // Đăng nhập user vào hệ thống
             var userClaims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Email, user.UserEmail),
-            new Claim("FullName", user.UserName),
-        };
+            {
+                new Claim(ClaimTypes.Email, user.UserEmail),
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim("FullName", user.UserName),
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString())
+            };
+
+            if (user.IsAdmin == "True")
+                userClaims.Add(new Claim(ClaimTypes.Role, "Admin"));
+            if (user.IsStoreStaff == "True")
+                userClaims.Add(new Claim(ClaimTypes.Role, "StoreStaff"));
 
             var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
             var authProperties = new AuthenticationProperties { IsPersistent = true };
@@ -169,19 +167,14 @@ namespace ElectronicShopTeam14.Controllers
         [HttpGet]
         public async Task<IActionResult> FacebookResponse()
         {
-            var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            var result = await HttpContext.AuthenticateAsync(FacebookDefaults.AuthenticationScheme);
 
             if (!result.Succeeded)
                 return RedirectToAction("Login");
 
-            var claims = result.Principal.Identities.FirstOrDefault()?.Claims.Select(c => new
-            {
-                c.Type,
-                c.Value
-            });
+            var email = result.Principal.FindFirstValue(ClaimTypes.Email);
+            var fullName = result.Principal.FindFirstValue(ClaimTypes.Name);
 
-            string email = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value;
-            string fullName = claims?.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
             // Kiểm tra email có trong DB không?
             var user = _userRepository.GetUserByEmail(email);
             if (user == null)
@@ -200,10 +193,17 @@ namespace ElectronicShopTeam14.Controllers
 
             // Đăng nhập user vào hệ thống
             var userClaims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Email, user.UserEmail),
-            new Claim("FullName", user.UserName),
-        };
+            {
+                new Claim(ClaimTypes.Email, user.UserEmail),
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim("FullName", user.UserName),
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString())
+            };
+
+            if (user.IsAdmin == "True")
+                userClaims.Add(new Claim(ClaimTypes.Role, "Admin"));
+            if (user.IsStoreStaff == "True")
+                userClaims.Add(new Claim(ClaimTypes.Role, "StoreStaff"));
 
             var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
             var authProperties = new AuthenticationProperties { IsPersistent = true };
@@ -212,7 +212,6 @@ namespace ElectronicShopTeam14.Controllers
 
             return RedirectToAction("Index", "Home");
         }
-
 
         [HttpGet]
         public IActionResult Register()
@@ -238,7 +237,7 @@ namespace ElectronicShopTeam14.Controllers
                 var user = new User
                 {
                     UserEmail = model.Email,
-                    UserPass = _userRepository.HashPassword(model.Password),
+                    UserPass = model.Password,
                     UserName = model.UserName,
                     PhoneNumber = model.PhoneNumber,
                     Address = model.Address,
@@ -279,9 +278,6 @@ namespace ElectronicShopTeam14.Controllers
             return View(model);
         }
 
-
-
-        [HttpPost]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
@@ -422,7 +418,7 @@ namespace ElectronicShopTeam14.Controllers
             try
             {
                 // Update password
-                user.UserPass = _userRepository.HashPassword(model.NewPassword);
+                user.UserPass = model.NewPassword;
                 _userRepository.UpdateUser(user);
 
                 TempData["SuccessMessage"] = "Đổi mật khẩu thành công!";

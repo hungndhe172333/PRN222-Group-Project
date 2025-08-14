@@ -32,7 +32,6 @@
         animation: slideRight 10s linear infinite;
     }
 </style>
-
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 
@@ -68,8 +67,6 @@
                   chat-title="chatAI-Doanh"
                   agent-id="ec189088-7e7b-40b7-a464-fec9d527a03f"
                   language-code="en"></df-messenger>
-
-
 
     <!-- CSS Electro Template -->
     <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -113,8 +110,6 @@
                                         <i class="ec ec-shopping-bag" style="color: #000;"></i> Sản phẩm
                                     </a>
                                 </li>
-
-
 
                                 <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                     @if (User.Identity.IsAuthenticated)
@@ -248,10 +243,6 @@
                                 }
                                 </div>
                                 *@
-
-
-
-
                             </ul>
                         </div>
                     </div>
@@ -607,20 +598,11 @@
                         <!-- End Logo-offcanvas-menu -->
                         <!-- Search Bar -->
                         <div class="col pl-0 d-none d-xl-block">
-                            <form class="js-focus-state">
+                            <form asp-action="Shop1" asp-controller="Home" method="get" class="js-focus-state">
                                 <label class="sr-only" for="searchproduct">Search</label>
                                 <div class="input-group">
-                                    <input type="email" class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary" name="email" id="searchproduct-item" placeholder="Search for products" aria-label="Search for products" aria-describedby="searchProduct1" required>
+                                    <input name="searchTerm" class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary" id="searchproduct-item" placeholder="Search for products" aria-label="Search for products" aria-describedby="searchProduct1" required>
                                     <div class="input-group-append">
-                                        <!-- Select -->
-                                        <select class="js-select selectpicker dropdown-select custom-search-categories-select"
-                                                data-style="btn height-40 text-gray-60 font-weight-normal border-top border-bottom border-left-0 rounded-0 border-primary border-width-2 pl-0 pr-5 py-2">
-                                            <option value="one" selected>All Categories</option>
-                                            <option value="two">Two</option>
-                                            <option value="three">Three</option>
-                                            <option value="four">Four</option>
-                                        </select>
-                                        <!-- End Select -->
                                         <button class="btn btn-primary height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
                                             <span class="ec ec-search font-size-24"></span>
                                         </button>
@@ -655,8 +637,6 @@
                                                     <i class="fas fa-info-circle"></i> Thông tin cửa hàng
                                                 </a>
                                             </li>
-
-
                                             
                                             <li class="nav-item u-header__nav-item">
                                                 <a class="nav-link u-header__nav-link" href="@Url.Action("FAQ","Home")" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">
@@ -708,8 +688,6 @@
                                         <!-- End Input -->
                                     </li>
                                     <!-- End Search -->
-                                    <li class="col d-none d-xl-block"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
-                                    <li class="col d-none d-xl-block"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
                                     <li class="col d-xl-none px-2 px-sm-3"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
                                     <li class="col pr-0">
                                         <div id="cartSummaryContainer">
@@ -4866,6 +4844,5 @@
     </script>
     <script src="~/js/site.js"></script>
 </body>
-
 
 </html>

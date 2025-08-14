@@ -24,7 +24,6 @@ namespace ElectronicShopTeam14.Controllers
             return View();
         }
 
-
         public IActionResult Privacy()
         {
             return View();
@@ -55,7 +54,6 @@ namespace ElectronicShopTeam14.Controllers
         {
             return View();
         }
-
 
         public IActionResult Product_detail(string id)
         {
@@ -108,7 +106,6 @@ namespace ElectronicShopTeam14.Controllers
         }
 
 
-
         [HttpPost]
         public IActionResult AddComment(string ProductId, string Comment, int Rating, string UserName)
         {
@@ -155,8 +152,6 @@ namespace ElectronicShopTeam14.Controllers
             return PartialView("_CartSummary");
         }
 
-
-
         [HttpGet]
         public IActionResult Shop1(int? page, int? categoryId, int[] brandId, string[] colorString, decimal? minPrice, decimal? maxPrice, string searchTerm)
         {
@@ -184,7 +179,6 @@ namespace ElectronicShopTeam14.Controllers
                 MaxPrice = maxPrice ?? 99999999,
                 SearchTerm = searchTerm
             };
-
 
             var query = _context.Products.AsQueryable();
 

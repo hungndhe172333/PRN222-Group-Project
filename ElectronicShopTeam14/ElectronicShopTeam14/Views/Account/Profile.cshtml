@@ -120,7 +120,6 @@
                                     <a title="Shop" href="@Url.Action("Shop1","Home")"><i class="ec ec-shopping-bag"></i>Sản phẩm</a>
                                 </li>
 
-
                                 <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                     @if (User.Identity.IsAuthenticated)
                                     {
@@ -147,11 +146,11 @@
                                                     </li>
                                                 @if (User.IsInRole("Admin"))
                                                 {
-                                                            <li>
-                                                                <a class="dropdown-item" href="@Url.Action("Index", "Admin")">
+                                                    <li>
+                                                         <a class="dropdown-item" href="@Url.Action("Index", "Admin")">
                                                                     <i class="fa-solid fa-gear"></i> Quản lý Admin
-                                                                </a>
-                                                            </li>
+                                                         </a>
+                                                    </li>
                                                 }
                                                     <li><hr class="dropdown-divider"></li>
                                                     <li>
@@ -185,12 +184,6 @@
                                     }
                                     <!-- End Account Sidebar Toggle Button -->
                                 </li>
-
-
-
-
-
-
                             </ul>
                         </div>
                     </div>

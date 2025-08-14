@@ -8,7 +8,7 @@ namespace ElectronicShopTeam14.Services
 
         bool ValidatePassword(string inputPassword, string storedPassword);
         void AddUser(User user);
-        string HashPassword(string password);
+        //string HashPassword(string password);
         void UpdatePassword(string email, string newPassword);
         string GeneratePasswordResetToken(string email);
         bool ValidatePasswordResetToken(string email, string token);
