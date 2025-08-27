@@ -1,8 +1,9 @@
-﻿using ElectronicShopTeam14.Models;
-
+﻿using ElectronicShopTeam14.Hubs;
+using ElectronicShopTeam14.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
 using X.PagedList.Extensions;
@@ -15,11 +16,13 @@ namespace ElectronicShopTeam14.Controllers
     {
         private readonly ElectronicShopTeam14Context _context;
         private readonly IWebHostEnvironment _hostEnvironment;
+		private readonly IHubContext<ProductHub> _hubContext;
 
-        public AdminController(ElectronicShopTeam14Context context, IWebHostEnvironment hostEnvironment)
+		public AdminController(ElectronicShopTeam14Context context, IWebHostEnvironment hostEnvironment, IHubContext<ProductHub> hubContext)
         {
             _context = context;
             _hostEnvironment = hostEnvironment;
+            _hubContext = hubContext;
         }
         public IActionResult Index()
         {
@@ -363,7 +366,6 @@ namespace ElectronicShopTeam14.Controllers
         }
 
 
-
         // POST: Admin/DeleteCustomer/5
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -533,8 +535,6 @@ namespace ElectronicShopTeam14.Controllers
             return View("ProductManager/ListProduct", products);
         }
 
-
-
         public IActionResult DownloadProducts()
         {
             var products = _context.Products
@@ -581,7 +581,6 @@ namespace ElectronicShopTeam14.Controllers
 
             return File(fileContents, "text/csv", "DanhSachSanPham.csv");
         }
-
 
         public IActionResult ActiveProduct(int? page)
         {
@@ -641,7 +640,7 @@ namespace ElectronicShopTeam14.Controllers
         public IActionResult EditProduct(ProductViewModel model, IFormFile imageFile, int? page)
         {
 
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
 
                 var errors = ModelState.Values.SelectMany(v => v.Errors);
@@ -661,12 +660,10 @@ namespace ElectronicShopTeam14.Controllers
                 return NotFound();
             }
 
-
             product.ProductName = model.ProductName;
             product.ProductPrice = model.ProductPrice;
             product.ProductDescribe = model.ProductDescribe;
             product.Quantity = model.Quantity;
-
 
             if (imageFile != null && imageFile.Length > 0)
             {
@@ -689,13 +686,13 @@ namespace ElectronicShopTeam14.Controllers
                 product.Img = "images/" + fileName; // images/laptop11.jpg
             }
 
-
             _context.Update(product);
             _context.SaveChanges();
 
-            return RedirectToAction("ListProduct", "Admin", new { page = page ?? 1 });
-        }
+			_hubContext.Clients.All.SendAsync("ReceiveProductUpdate", "Update", product);
 
+			return RedirectToAction("ListProduct", "Admin", new { page = page ?? 1 });
+        }
 
         // GET: Product/Create
         public IActionResult CreateProduct()
@@ -711,7 +708,7 @@ namespace ElectronicShopTeam14.Controllers
             ViewBag.Colors = new List<string> { "Black", "White", "Red", "Blue", "Green", "Yellow", "Gray" };
             ViewBag.Sizes = new List<string> { "40 inch", "43 inch", "50 inch", "55 inch", "60 inch", "6.5 inch", "5.5 inch" };
 
-            return View("ProductManager/CreateProduct");
+            return View("ProductManager/CreateProduct", model);
         }
 
         // POST: Product/Create
@@ -719,17 +716,15 @@ namespace ElectronicShopTeam14.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateProduct(ProductCreateViewModel model)
         {
-
             ViewBag.Categories = new SelectList(_context.Categories, "CategoryId", "CategoryName");
             ViewBag.Brands = new SelectList(_context.Brands, "BrandId", "BrandName");
             ViewBag.Colors = new List<string> { "Black", "White", "Red", "Blue", "Green", "Yellow", "Gray" };
             ViewBag.Sizes = new List<string> { "40 inch", "43 inch", "50 inch", "55 inch", "60 inch", "6.5 inch", "5.5 inch" };
 
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 try
                 {
-
                     if (model.BrandId == null && !string.IsNullOrEmpty(model.BrandName))
                     {
                         var newBrand = new Brand { BrandName = model.BrandName };
@@ -738,9 +733,7 @@ namespace ElectronicShopTeam14.Controllers
                         model.BrandId = newBrand.BrandId;
                     }
 
-
-                    string imageFileName = await SaveImage(model.ImageFile);
-
+                    string imageFileName = null;
 
                     var product = new Product
                     {
@@ -750,35 +743,30 @@ namespace ElectronicShopTeam14.Controllers
                         ProductPrice = model.ProductPrice,
                         ProductDescribe = model.ProductDescribe,
                         Quantity = model.Quantity,
-                        Img = imageFileName ?? "images/default.jpg",
+                        Img = "images/headphone 33.jpg",
                         BrandId = model.BrandId,
                         WarrantyMonths = model.WarrantyMonths,
                         TechnicalSpecs = model.TechnicalSpecs,
-                        ModelNumber = model.ModelNumber,
-
+                        ModelNumber = model.ModelNumber
                     };
 
                     _context.Products.Add(product);
                     await _context.SaveChangesAsync();
 
-
                     if (model.SelectedColors != null && model.SelectedColors.Any())
                     {
                         foreach (var color in model.SelectedColors)
                         {
-
                             _context.Database.ExecuteSqlRaw(
                                 "INSERT INTO product_color (product_id, color) VALUES ({0}, {1})",
                                 product.ProductId, color);
                         }
                     }
 
-
                     if (model.SelectedSizes != null && model.SelectedSizes.Any())
                     {
                         foreach (var size in model.SelectedSizes)
                         {
-
                             _context.Database.ExecuteSqlRaw(
                                 "INSERT INTO product_size (product_id, size) VALUES ({0}, {1})",
                                 product.ProductId, size);
@@ -796,16 +784,25 @@ namespace ElectronicShopTeam14.Controllers
                     _context.ProductActives.Add(productActive);
                     await _context.SaveChangesAsync();
 
+                // Gửi thông báo real-time tới client
+                await _hubContext.Clients.All.SendAsync("ReceiveProductUpdate", "Create", new
+                {
+                    productId = product.ProductId,
+                    productName = product.ProductName,
+                    img = product.Img,
+                    productPrice = product.ProductPrice,
+                    categoryId = product.CategoryId,
+                    categoryName = product.Category?.CategoryName
+                });
 
-                    return RedirectToAction("ListProduct", "Admin");
+
+                return RedirectToAction("ListProduct", "Admin");
                 }
                 catch (Exception ex)
                 {
                     ModelState.AddModelError("", "Error creating product: " + ex.Message);
                 }
-            }
-
-
+            //}
             return View("ProductManager/CreateProduct", model);
         }
 
@@ -815,10 +812,8 @@ namespace ElectronicShopTeam14.Controllers
             {
                 return null;
             }
-
             try
             {
-
                 string fileName = imageFile.FileName;
                 string uploadsFolder = Path.Combine(_hostEnvironment.WebRootPath, "images");
                 string filePath = Path.Combine(uploadsFolder, fileName);
@@ -827,7 +822,6 @@ namespace ElectronicShopTeam14.Controllers
                 {
                     Directory.CreateDirectory(uploadsFolder);
                 }
-
 
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
@@ -859,19 +853,16 @@ namespace ElectronicShopTeam14.Controllers
 
             try
             {
-
                 _context.Database.ExecuteSqlRaw(
                     "DELETE FROM product_color WHERE product_id = {0}", id);
                 _context.Database.ExecuteSqlRaw(
                     "DELETE FROM product_size WHERE product_id = {0}", id);
-
 
                 var productActive = await _context.ProductActives.FirstOrDefaultAsync(pa => pa.ProductId == id);
                 if (productActive != null)
                 {
                     _context.ProductActives.Remove(productActive);
                 }
-
 
                 if (!string.IsNullOrEmpty(product.Img) && product.Img != "images/default.jpg")
                 {
@@ -882,15 +873,15 @@ namespace ElectronicShopTeam14.Controllers
                     }
                 }
 
-
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
 
-                return RedirectToAction("ListProduct");
+				_hubContext.Clients.All.SendAsync("ReceiveProductUpdate", "Delete", new { ProductId = id });
+
+				return RedirectToAction("ListProduct");
             }
             catch (Exception ex)
             {
-
                 Console.WriteLine($"Error deleting product: {ex.Message}");
 
                 TempData["ErrorMessage"] = $"Could not delete product: {ex.Message}";
@@ -900,14 +891,12 @@ namespace ElectronicShopTeam14.Controllers
 
         public IActionResult DetailProduct(string id)
         {
-
             var product = _context.Products.FirstOrDefault(p => p.ProductId == id);
 
             if (product == null)
             {
                 return NotFound();
             }
-
 
             var productViewModel = new ProductViewModel
             {
@@ -919,7 +908,6 @@ namespace ElectronicShopTeam14.Controllers
                 Img = product.Img,
 
             };
-
 
             return View("ProductManager/DetailProduct", productViewModel);
         }
@@ -970,27 +958,11 @@ namespace ElectronicShopTeam14.Controllers
             return View("CategoryManager/EditCategory", category);
         }
 
-
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult EditCategory([Bind("CategoryId, CategoryName")] CategoryViewModel model)
         {
             Console.WriteLine($"Received - CategoryId: {model.CategoryId}, CategoryName: {model.CategoryName}");
-
-            if (!ModelState.IsValid)
-            {
-                Console.WriteLine("ModelState invalid. Errors:");
-                foreach (var state in ModelState)
-                {
-                    foreach (var error in state.Value.Errors)
-                    {
-                        Console.WriteLine($"Field: {state.Key}, Error: {error.ErrorMessage}");
-                    }
-                }
-                return View("CategoryManager/EditCategory", model);
-            }
 
             var category = _context.Categories
                 .Where(c => c.CategoryId == model.CategoryId)
@@ -1007,26 +979,17 @@ namespace ElectronicShopTeam14.Controllers
                 .ExecuteUpdate(setters => setters.SetProperty(c => c.CategoryName, model.CategoryName));
 
             return RedirectToAction("ListCategory", "Admin");
-
-
         }
-
-
 
         public IActionResult CreateCategory()
         {
             return View("CategoryManager/CreateCategory");
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult CreateCategory(CategoryViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View("CategoryManager/CreateCategory", model);
-            }
 
             var category = new Category
             {
@@ -1081,7 +1044,6 @@ namespace ElectronicShopTeam14.Controllers
 
         //MANAGER REVIEW//
 
-
         public IActionResult ListReview(int? page)
         {
             int pageSize = 10;
@@ -1117,11 +1079,10 @@ namespace ElectronicShopTeam14.Controllers
         {
             return View("BrandManager/CreateBrand");
         }
+
         [HttpPost]
         public IActionResult CreateBrand(BrandViewModel model)
         {
-            if (ModelState.IsValid)
-            {
                 string? fileName = null;
 
                 if (model.ImageFile != null)
@@ -1157,8 +1118,6 @@ namespace ElectronicShopTeam14.Controllers
                 _context.SaveChanges();
 
                 return RedirectToAction("ListBrand");
-            }
-            return View("BrandManager/CreateBrand", model);
         }
 
         [HttpPost]
@@ -1170,12 +1129,12 @@ namespace ElectronicShopTeam14.Controllers
                 return NotFound();
             }
 
-
             _context.Brands.Remove(brand);
             _context.SaveChanges();
 
             return RedirectToAction("ListBrand");
         }
+
         [HttpGet]
         public IActionResult EditBrand(int id)
         {
@@ -1200,8 +1159,6 @@ namespace ElectronicShopTeam14.Controllers
         [HttpPost]
         public IActionResult EditBrand(BrandViewModel model)
         {
-            if (ModelState.IsValid)
-            {
                 var brand = _context.Brands.Find(model.BrandId);
                 if (brand == null)
                 {
@@ -1247,14 +1204,9 @@ namespace ElectronicShopTeam14.Controllers
                 _context.SaveChanges();
 
                 return RedirectToAction("ListBrand");
-            }
-            return View("BrandManager/EditBrand", model);
         }
     }
 
     //END MANAGER BRAND//
-
     //----------------------------------------------------------//
-
-
 }

@@ -652,8 +652,6 @@
                                                 <th>Ảnh</th>
                                                 <th>Tên</th>
                                                 <th>Trạng thái</th>
-
-
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -725,6 +723,7 @@
 
                             // Update the label text dynamically
                             label.text(isChecked ? "Active" : "Inactive");
+                            var checkbox = $(this);
 
                             // Send AJAX request to update status
                             $.ajax({
@@ -736,14 +735,14 @@
                                         toastr.success("Product status updated successfully");
                                     } else {
                                         // If failed, revert the checkbox
-                                        $(this).prop('checked', !isChecked);
+                                        checkbox.prop('checked', !isChecked);
                                         label.text(!isChecked ? "Active" : "Inactive");
                                         toastr.error("Failed to update product status");
                                     }
                                 },
                                 error: function () {
                                     // If error, revert the checkbox
-                                    $(this).prop('checked', !isChecked);
+                                    checkbox.prop('checked', !isChecked);
                                     label.text(!isChecked ? "Active" : "Inactive");
                                     toastr.error("An error occurred while updating product status");
                                 }
@@ -779,7 +778,4 @@
     <script src="assets/js/app.js"></script>
 
 </body>
-
-
-<!-- Mirrored from techzaa.in/larkon/admin/product-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 12:43:16 GMT -->
 </html>

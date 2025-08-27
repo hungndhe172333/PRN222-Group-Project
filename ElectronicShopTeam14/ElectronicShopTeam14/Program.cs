@@ -57,7 +57,6 @@ builder.Services.AddControllersWithViews()
 
 builder.Services.AddScoped<IEmailService, EmailService>();
 
-
 // Add authorization
 builder.Services.AddAuthorization();
 
@@ -79,6 +78,8 @@ if (!app.Environment.IsDevelopment())
 app.MapRazorPages();
 
 app.MapHub<NotificationHub>("/notificationHub");
+app.MapHub<ProductHub>("/productHub");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseSession();

@@ -1085,10 +1085,10 @@
                         <!-- Tab Content -->
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade pt-2 show active" id="pills-one-example1" role="tabpanel">
-                                <ul class="row list-unstyled products-group no-gutters">
+                                <ul class="row list-unstyled products-group no-gutters" id="productList">
                                     @foreach (var product in Model.AllProducts)
                                     {
-                                        <li class="col-6 col-md-3 col-wd-2gdot4 product-item remove-divider">
+                                        <li class="col-6 col-md-3 col-wd-2gdot4 product-item remove-divider" id="product-@product.ProductId">
                                             <div class="product-item__outer h-100">
                                                 <div class="product-item__inner px-xl-4 p-3">
                                                     <div class="product-item__body pb-xl-2">
@@ -2370,8 +2370,69 @@
             });
         });
     </script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script>
 
-<!-- Mirrored from transvelo.github.io/electro-html/2.0/html/shop/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Mar 2025 09:06:06 GMT -->
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/productHub")
+            .configureLogging(signalR.LogLevel.Information) // bật log để debug
+            .build();
+
+
+        connection.on("ReceiveProductUpdate", function (action, product) {
+            console.log("ReceiveProductUpdate >>>", action, product);
+            if (action === "Create") {
+                let newItem = `
+                <li id="product-${product.productId}" class="col-6 col-md-3 col-wd-2gdot4 product-item remove-divider">
+                    <div class="product-item__outer h-100">
+                        <div class="product-item__inner px-xl-4 p-3">
+                            <div class="product-item__body pb-xl-2">
+                                <div class="mb-2">
+                                    <a href="#" class="font-size-12 text-gray-5">Category #${product.categoryId}</a>
+                                </div>
+                                <h5 class="mb-1 product-item__title">
+                                    <a href="/Home/Product_detail/${product.productId}" class="text-blue font-weight-bold">
+                                        ${product.productName}
+                                    </a>
+                                </h5>
+                                <div class="mb-2">
+                                    <a href="/Home/Product_detail/${product.productId}" class="d-block text-center">
+                                        <img class="img-fluid" src="/${product.img}" alt="${product.productName}">
+                                    </a>
+                                </div>
+                                <div class="flex-center-between mb-1">
+                                    <div class="prodcut-price">
+                                        <div class="text-gray-100">${product.productPrice.toLocaleString()} đ</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>`;
+                document.querySelector("#productList").insertAdjacentHTML('beforeend', newItem);
+            }
+
+            if (action === "Update") {
+                let li = document.getElementById("product-" + product.productId);
+                if (li) {
+                    li.querySelector(".product-item__title a").innerText = product.productName;
+                    li.querySelector("img").src = "/" + product.img;
+                    li.querySelector(".text-gray-100").innerText = product.productPrice.toLocaleString() + " đ";
+                    li.querySelector(".font-size-12").innerText = "Category #" + product.categoryId;
+                }
+            }
+
+            if (action === "Delete") {
+                let li = document.getElementById("product-" + product.productId);
+                if (li) li.remove();
+            }
+
+        });
+
+        connection.start()
+        .then(() => console.log("SignalR connected!"))
+        .catch(err => console.error("SignalR connection error: ", err));
+	</script>
+</body>
 </html>
 
